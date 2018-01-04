@@ -1,0 +1,1800 @@
+[ 2017-12-06T09:43:35+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T09:43:35+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T09:46:06+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Link/editLink/id/2.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-12-06T09:46:24+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Link/editLink/id/2.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-12-06T09:47:05+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Link/editLink/id/2.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-12-06T09:48:04+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Link/editLink/id/2.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-12-06T09:48:29+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Link/editLink/id/2.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-12-06T09:55:31+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/admins.html
+ERR: Call to a member function getLastSql() on string
+
+[ 2017-12-06T09:58:21+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/ress.html
+ERR: Call to undefined method Common\Server\CommonServer::requestdata()
+
+[ 2017-12-06T10:01:44+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/ress.html
+ERR: Class 'Common\Server\UploadFile' not found
+
+[ 2017-12-06T10:02:15+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/ress.html
+ERR: Call to undefined method Common\Server\CommonServer::error()
+
+[ 2017-12-06T10:03:06+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/ress.html
+ERR: Call to undefined method Think\Upload::getErrorMsg()
+
+[ 2017-12-06T10:07:51+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/ress.html
+ERR: Call to undefined method Common\Server\CommonServer::addPic()
+
+[ 2017-12-06T10:22:58+08:00 ] 192.168.35.229 /shop2/index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-12-06T10:30:00+08:00 ] 192.168.35.87 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T10:30:00+08:00 ] 192.168.35.87 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T10:30:23+08:00 ] 192.168.35.87 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T10:30:23+08:00 ] 192.168.35.87 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T10:33:04+08:00 ] 192.168.35.87 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T10:33:04+08:00 ] 192.168.35.87 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T10:56:06+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Link/doEditLink/id/2.html
+ERR: Call to undefined method Common\Server\CommonServer::upload()
+
+[ 2017-12-06T10:58:04+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Link/doEditLink/id/2.html
+ERR: Call to undefined method Common\Server\CommonServer::upload()
+
+[ 2017-12-06T10:58:32+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Link/doEditLink/id/2.html
+ERR: Call to undefined method Common\Server\CommonServer::upload()
+
+[ 2017-12-06T11:08:28+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/ress.html
+ERR: Call to undefined method Common\Server\CommonServer::addPic()
+
+[ 2017-12-06T11:10:52+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/delAdminData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0005s ]
+SQL: DELETE FROM `think_admin` WHERE `id` IN ('15') [ RunTime:0.0750s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0679s ]
+SQL: SELECT * FROM `think_auth_group_access` WHERE `uid` IN ('15')  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 511 行.
+SQL: DELETE FROM `think_auth_group_access` WHERE `uid` IN ('15') [ RunTime:0.0005s ]
+
+[ 2017-12-06T11:31:20+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0004s ]
+SQL: UPDATE `think_admin` SET `status`='2' WHERE ( id=16 ) [ RunTime:0.0613s ]
+
+[ 2017-12-06T11:33:21+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0004s ]
+SQL: UPDATE `think_admin` SET `status`='1' WHERE ( id=16 ) [ RunTime:0.1934s ]
+
+[ 2017-12-06T11:34:09+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0006s ]
+SQL: UPDATE `think_admin` SET `status`='2' WHERE ( id=16 ) [ RunTime:0.0879s ]
+
+[ 2017-12-06T11:40:26+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+
+[ 2017-12-06T11:40:30+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-12-06T11:40:53+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+
+[ 2017-12-06T11:40:54+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017830s ]
+
+[ 2017-12-06T11:40:57+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0010s ]
+SQL: UPDATE `think_admin` SET `status`='2' WHERE ( id=14 ) [ RunTime:0.0075s ]
+
+[ 2017-12-06T11:41:02+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.061621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.062121s ]
+
+[ 2017-12-06T11:42:47+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-12-06T11:43:37+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/ress.html
+ERR: Think\Controller:beginTransaction方法不存在！
+
+[ 2017-12-06T11:45:10+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/ress.html
+ERR: Think\Model:beginTransaction方法不存在！
+
+[ 2017-12-06T11:47:34+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/ress.html
+ERR: Think\Model:beginTransaction方法不存在！
+
+[ 2017-12-06T11:52:39+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/ress.html
+ERR: Think\Controller:beginTransaction方法不存在！
+
+[ 2017-12-06T11:53:23+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/ress.html
+ERR: Think\Controller:rollBack方法不存在！
+
+[ 2017-12-06T13:34:56+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/updateStatus.html?id=14&status=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003939s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods` SET `status`='1' WHERE ( id=14 ) [ RunTime:0.0422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2017-12-06T14:06:32+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Brand/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 8 [ RunTime:0.1219s ]
+
+[ 2017-12-06T14:10:05+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-12-06T14:10:10+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-12-06T14:11:49+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0006s ]
+SQL: UPDATE `think_admin` SET `status`='1' WHERE ( id=16 ) [ RunTime:0.0592s ]
+
+[ 2017-12-06T14:11:56+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0003s ]
+SQL: UPDATE `think_admin` SET `status`='2' WHERE ( id=16 ) [ RunTime:0.0601s ]
+
+[ 2017-12-06T14:12:07+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0003s ]
+SQL: UPDATE `think_admin` SET `status`='1' WHERE ( id=16 ) [ RunTime:0.0038s ]
+
+[ 2017-12-06T14:12:10+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0003s ]
+SQL: UPDATE `think_admin` SET `status`='1' WHERE ( id=14 ) [ RunTime:0.1011s ]
+
+[ 2017-12-06T14:12:32+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminStatus.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0005s ]
+SQL: UPDATE `think_admin` SET `status`='2' WHERE ( id=16 ) [ RunTime:0.0572s ]
+
+[ 2017-12-06T14:18:11+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2017-12-06T14:20:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2017-12-06T14:21:02+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T14:21:02+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T14:24:22+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/index.html
+ERR: syntax error, unexpected ','
+
+[ 2017-12-06T14:24:24+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/index.html
+ERR: syntax error, unexpected ','
+
+[ 2017-12-06T14:26:54+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0009s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: INSERT INTO `think_goods` (`name`,`tid`,`price`,`pic`,`status`) VALUES ('连衣裙','1','123.00','2017-12-06/5a278dae51e32.jpg','1') [ RunTime:0.0523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2017-12-06T14:30:26+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: INSERT INTO `think_goods` (`name`,`tid`,`price`,`pic`,`status`) VALUES ('红裙子','1','123.00','2017-12-06/5a278e8299c14.jpg','1') [ RunTime:0.0341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2017-12-06T14:32:42+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0012s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: INSERT INTO `think_goods` (`name`,`tid`,`price`,`pic`,`status`) VALUES ('红鞋子','1','123.00','2017-12-06/5a278f0adb5c3.jpg','1') [ RunTime:0.0534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2017-12-06T14:33:26+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: INSERT INTO `think_goods` (`name`,`tid`,`price`,`pic`,`status`) VALUES ('红裤子','2','123.00','2017-12-06/5a278f361c902.jpg','1') [ RunTime:0.0897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-12-06T15:04:41+08:00 ] 192.168.35.209 /shop2/index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-12-06T15:04:45+08:00 ] 192.168.35.209 /shop2/index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-12-06T15:04:46+08:00 ] 192.168.35.209 /shop2/index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-12-06T15:04:46+08:00 ] 192.168.35.209 /shop2/index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-12-06T15:04:53+08:00 ] 192.168.35.209 /shop2/index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-12-06T15:05:02+08:00 ] 192.168.35.209 /shop2/index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-12-06T15:10:36+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/updateStatus.html?id=19&status=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0472s ]
+SQL: UPDATE `think_goods` SET `status`='2' WHERE ( id=19 ) [ RunTime:0.0761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2017-12-06T15:10:45+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/updateStatus.html?id=18&status=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: UPDATE `think_goods` SET `status`='2' WHERE ( id=18 ) [ RunTime:0.0390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2017-12-06T15:10:50+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/updateStatus.html?id=19&status=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods` SET `status`='1' WHERE ( id=19 ) [ RunTime:0.0627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-12-06T15:10:51+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/updateStatus.html?id=18&status=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods` SET `status`='1' WHERE ( id=18 ) [ RunTime:0.0276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-12-06T15:14:23+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/delAdminData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0006s ]
+SQL: DELETE FROM `think_admin` WHERE `id` IN ('1') [ RunTime:0.0413s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `think_auth_group_access` WHERE `uid` IN ('1')  [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 511 行.
+SQL: DELETE FROM `think_auth_group_access` WHERE `uid` IN ('1') [ RunTime:0.0003s ]
+
+[ 2017-12-06T15:14:30+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/checkAdminExist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `think_admin` WHERE `name` = 'admin'  [ RunTime:0.0004s ]
+
+[ 2017-12-06T15:18:00+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/checkAdminExist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`name` FROM `think_admin` WHERE `name` = '泽钦'  [ RunTime:0.0002s ]
+
+[ 2017-12-06T15:18:24+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/delAdminData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0004s ]
+SQL: DELETE FROM `think_admin` WHERE `id` IN ('16') [ RunTime:0.0962s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0881s ]
+SQL: SELECT * FROM `think_auth_group_access` WHERE `uid` IN ('16')  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 511 行.
+SQL: DELETE FROM `think_auth_group_access` WHERE `uid` IN ('16') [ RunTime:0.0004s ]
+
+[ 2017-12-06T15:18:56+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/delAdminData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0004s ]
+SQL: DELETE FROM `think_admin` WHERE `id` IN ('12') [ RunTime:0.0302s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `think_auth_group_access` WHERE `uid` IN ('12')  [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 511 行.
+SQL: DELETE FROM `think_auth_group_access` WHERE `uid` IN ('12') [ RunTime:0.0004s ]
+
+[ 2017-12-06T15:19:02+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/checkAdminExist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `think_admin` WHERE `name` = '欧阳学'  [ RunTime:0.0003s ]
+
+[ 2017-12-06T15:19:27+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/checkAdminExist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `think_admin` WHERE `name` = '李丰'  [ RunTime:0.0001s ]
+
+[ 2017-12-06T15:23:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Public/index.html
+ERR: 非法操作:index
+
+[ 2017-12-06T15:24:08+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Public/index.html
+ERR: 非法操作:index
+
+[ 2017-12-06T15:24:28+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Public/index.html
+ERR: 非法操作:index
+
+[ 2017-12-06T15:27:10+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Public/index.html
+ERR: 非法操作:index
+
+[ 2017-12-06T15:27:24+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Public/index.html
+ERR: 非法操作:index
+
+[ 2017-12-06T15:28:22+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Public/index.html
+ERR: 非法操作:index
+
+[ 2017-12-06T15:29:55+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Public/index.html
+ERR: 非法操作:index
+
+[ 2017-12-06T15:31:06+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Public/index.html
+ERR: 非法操作:index
+
+[ 2017-12-06T15:34:04+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Public/index.html
+ERR: 非法操作:index
+
+[ 2017-12-06T15:46:02+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/18.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:46:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/18.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:46:15+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/18.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:46:15+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/18.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:46:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/18.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:48:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/19.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:49:50+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/19.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:49:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/19.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:49:52+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/19.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:51:58+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/19.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:51:59+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/19.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:51:59+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/19.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:52:12+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/index.html
+ERR: Function name must be a string
+
+[ 2017-12-06T15:52:57+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/19.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:52:57+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/19.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:53:22+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/index.html
+ERR: Function name must be a string
+
+[ 2017-12-06T15:53:47+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/index.html
+ERR: Function name must be a string
+
+[ 2017-12-06T15:53:48+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/index.html
+ERR: Function name must be a string
+
+[ 2017-12-06T15:53:48+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/index.html
+ERR: Function name must be a string
+
+[ 2017-12-06T15:53:48+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/index.html
+ERR: Function name must be a string
+
+[ 2017-12-06T15:53:48+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/index.html
+ERR: Function name must be a string
+
+[ 2017-12-06T15:53:49+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/index.html
+ERR: Function name must be a string
+
+[ 2017-12-06T15:53:49+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/index.html
+ERR: Function name must be a string
+
+[ 2017-12-06T15:55:07+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/19.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:55:08+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/19.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:55:21+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/index.html
+ERR: Function name must be a string
+
+[ 2017-12-06T15:55:31+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/19.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:55:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/index.html
+ERR: syntax error, unexpected '$name' (T_VARIABLE), expecting function (T_FUNCTION)
+
+[ 2017-12-06T15:56:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoods/id/19.html
+ERR: syntax error, unexpected '<'
+
+[ 2017-12-06T15:57:51+08:00 ] 192.168.35.209 /shop2/index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-12-06T15:58:05+08:00 ] 192.168.35.209 /shop2/index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-12-06T15:58:10+08:00 ] 192.168.35.209 /shop2/index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-12-06T15:58:26+08:00 ] 192.168.35.209 /shop2/index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-12-06T15:58:49+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/checkAdminExist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`name` FROM `think_admin` WHERE `name` = '晓耿'  [ RunTime:0.0002s ]
+
+[ 2017-12-06T16:00:03+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2017-12-06T16:00:12+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2017-12-06T16:00:13+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2017-12-06T16:00:13+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2017-12-06T16:00:13+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2017-12-06T16:00:13+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2017-12-06T16:00:42+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T16:00:42+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T16:00:49+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2017-12-06T16:00:51+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T16:00:51+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T16:04:18+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/checkAdminExist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `think_admin` WHERE `name` = 'admin'  [ RunTime:0.0002s ]
+
+[ 2017-12-06T16:30:17+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+NOTIC: [2] finfo_file(): Empty filename or path /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-12-06T16:30:20+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+NOTIC: [2] finfo_file(): Empty filename or path /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-12-06T16:30:50+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoodsDo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+
+[ 2017-12-06T16:31:11+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoodsDo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+
+[ 2017-12-06T16:33:07+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/editgoodsDo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0018s ]
+NOTIC: [2] finfo_file(): Empty filename or path /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+SQL: UPDATE `think_goods` SET `name`='红裙子1',`tid`='1',`bid`='1',`price`='123.00' WHERE ( id=17 ) [ RunTime:0.0416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-12-06T16:33:57+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T16:33:58+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T16:34:38+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T16:34:38+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T16:34:58+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T17:16:37+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/index.html
+ERR: syntax error, unexpected 'use' (T_USE)
+
+[ 2017-12-06T17:16:58+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/index.html
+ERR: Class 'think\Request' not found
+
+[ 2017-12-06T17:18:07+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T17:18:07+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T17:18:59+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/advertising.html
+ERR: 非法操作:advertising
+
+[ 2017-12-06T17:19:00+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/Sort_ads.html
+ERR: 非法操作:Sort_ads
+
+[ 2017-12-06T17:19:01+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/advertising.html
+ERR: 非法操作:advertising
+
+[ 2017-12-06T17:19:01+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/Sort_ads.html
+ERR: 非法操作:Sort_ads
+
+[ 2017-12-06T17:19:05+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T17:19:05+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T17:21:38+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/tesst.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-12-06T17:22:04+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/tesst.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-12-06T17:22:09+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/index.html
+ERR: Call to a member function getlocation() on string
+
+[ 2017-12-06T17:23:16+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Brand/tesst.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-12-06T17:24:01+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/tesst.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-12-06T17:27:47+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/updateStatus.html?id=19&status=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: UPDATE `think_goods` SET `status`='2' WHERE ( id=19 ) [ RunTime:0.3176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-12-06T17:27:50+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/updateStatus.html?id=19&status=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0009s ]
+SQL: UPDATE `think_goods` SET `status`='1' WHERE ( id=19 ) [ RunTime:0.3110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2017-12-06T17:28:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: INSERT INTO `think_goods` (`name`,`tid`,`bid`,`price`,`pic`,`status`) VALUES ('公共','1','1','11.00','2017-12-06/5a27b8333a9d6.jpg','1') [ RunTime:0.0629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-12-06T17:30:20+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Brand/tesst.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2017-12-06T17:30:30+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/advertising.html
+ERR: 非法操作:advertising
+
+[ 2017-12-06T17:30:34+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/transaction.html
+ERR: 非法操作:transaction
+
+[ 2017-12-06T17:30:35+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/Orderform.html
+ERR: 非法操作:Orderform
+
+[ 2017-12-06T17:30:36+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/Amounts.html
+ERR: 非法操作:Amounts
+
+[ 2017-12-06T17:30:37+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/Order_handling.html
+ERR: 非法操作:Order_handling
+
+[ 2017-12-06T17:30:37+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/Order_handling.html
+ERR: 非法操作:Order_handling
+
+[ 2017-12-06T17:32:45+08:00 ] 192.168.35.229 /shop2/index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-12-06T18:20:59+08:00 ] 192.168.35.229 /shop2/index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-12-06T18:21:09+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Brand
+ERR: 非法操作:index
+
+[ 2017-12-06T18:46:28+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0003s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=7 ) [ RunTime:0.0616s ]
+
+[ 2017-12-06T19:10:39+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T19:10:39+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T19:10:42+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T19:10:42+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T19:10:43+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T19:10:43+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T19:10:43+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T19:10:50+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T19:10:50+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T19:10:52+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T19:10:56+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T19:10:56+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T19:11:25+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T19:11:25+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T19:18:30+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/handlerAddAlsoShowAddView.html
+ERR: Call to a member function create() on null
+
+[ 2017-12-06T19:20:04+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/handlerAddAlsoShowAddView.html
+ERR: 1048:Column 'logo' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_goods_brand` (`name`,`desc`,`status`,`logo`) VALUES ('13123','的说法打算防守打法都是范德萨发打发','1',NULL)
+
+[ 2017-12-06T19:27:37+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0020s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 17 [ RunTime:0.0989s ]
+
+[ 2017-12-06T19:28:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Brand/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 18 [ RunTime:0.1109s ]
+
+[ 2017-12-06T19:30:19+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/index.html
+ERR: syntax error, unexpected '}'
+
+[ 2017-12-06T19:31:13+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminData.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_admin` SET `name`='',`sex`='0',`id`='21',`phone`='18814383162' WHERE ( id= )
+
+[ 2017-12-06T19:35:00+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminData.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_admin` SET `name`='',`sex`='0',`id`='21',`phone`='' WHERE ( id= )
+
+[ 2017-12-06T19:35:34+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdminData.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `think_admin` SET `name`='',`sex`='0',`id`='21',`phone`='' WHERE ( id= )
+
+[ 2017-12-06T20:13:53+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+ERR: Call to undefined method Common\Server\CommonServer::upload()
+
+[ 2017-12-06T20:13:58+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.1419s ]
+ERR: Call to undefined method Common\Server\CommonServer::upload()
+
+[ 2017-12-06T20:15:22+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0006s ]
+ERR: Call to undefined method Common\Server\CommonServer::upload()
+
+[ 2017-12-06T20:16:42+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+ERR: Call to undefined method Common\Server\CommonServer::upload()
+
+[ 2017-12-06T20:16:53+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003382s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+ERR: Call to undefined method Common\Server\CommonServer::upload()
+
+[ 2017-12-06T20:17:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0011s ]
+
+[ 2017-12-06T20:17:18+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0006s ]
+
+[ 2017-12-06T20:18:41+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+ERR: Call to undefined method Common\Server\CommonServer::upload()
+
+[ 2017-12-06T20:19:18+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/shop2/Application/Common/Server/CommonServer.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-12-06T20:19:32+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/shop2/Application/Common/Server/CommonServer.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-12-06T20:19:35+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0361s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/shop2/Application/Common/Server/CommonServer.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-12-06T20:19:38+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/shop2/Application/Common/Server/CommonServer.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2017-12-06T20:19:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/shop2/Application/Common/Server/CommonServer.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-12-06T20:21:44+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/shop2/Application/Common/Server/CommonServer.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-12-06T20:22:28+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/shop2/Application/Common/Server/CommonServer.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-12-06T20:22:42+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0009s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/shop2/Application/Common/Server/CommonServer.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-12-06T20:25:47+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0006s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/shop2/Application/Common/Server/CommonServer.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-12-06T20:30:07+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/shop2/Application/Common/Server/CommonServer.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-12-06T20:30:20+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/shop2/Application/Common/Server/CommonServer.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-12-06T20:30:52+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/shop2/Application/Common/Server/CommonServer.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2017-12-06T20:33:45+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+
+[ 2017-12-06T20:35:53+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/shop2/Application/Common/Server/CommonServer.class.php 第 29 行.
+
+[ 2017-12-06T20:40:42+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Brand
+ERR: 非法操作:index
+
+[ 2017-12-06T20:41:35+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Brand/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0610s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 19 [ RunTime:0.3378s ]
+
+[ 2017-12-06T20:45:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0009s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/shop2/Application/Common/Server/CommonServer.class.php 第 29 行.
+
+[ 2017-12-06T20:49:30+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/local/apache2/htdocs/shop2/Application/Common/Server/CommonServer.class.php 第 29 行.
+
+[ 2017-12-06T20:54:32+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: msg /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 57 行.
+
+[ 2017-12-06T20:56:21+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0006s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: msg /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 57 行.
+
+[ 2017-12-06T20:57:17+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2017-12-06T20:59:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2017-12-06T21:02:20+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: msg /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 57 行.
+
+[ 2017-12-06T21:03:57+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+
+[ 2017-12-06T21:06:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+
+[ 2017-12-06T21:07:06+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+
+[ 2017-12-06T21:10:13+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2017-12-06T21:10:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2017-12-06T21:12:52+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2017-12-06T21:13:52+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: code /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 55 行.
+SQL: INSERT INTO `think_goods` (`name`,`tid`,`bid`,`price`,`pic`,`status`) VALUES ('123','22','1','11.00','2017-12-06/5a27ed109c236.jpg','1') [ RunTime:0.0838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-12-06T21:36:28+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T21:38:22+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T21:45:53+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/advertising.html
+ERR: 非法操作:advertising
+
+[ 2017-12-06T21:45:58+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/Sort_ads.html
+ERR: 非法操作:Sort_ads
+
+[ 2017-12-06T21:46:00+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/transaction.html
+ERR: 非法操作:transaction
+
+[ 2017-12-06T21:46:00+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/Orderform.html
+ERR: 非法操作:Orderform
+
+[ 2017-12-06T21:59:49+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/editgoodsDo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+ERR: Call to undefined method Common\Server\CommonServer::upload()
+
+[ 2017-12-06T21:59:57+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/editgoodsDo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+ERR: Call to undefined method Common\Server\CommonServer::upload()
+
+[ 2017-12-06T22:08:48+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:48+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:48+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/css/codemirror.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:48+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/css/style.css
+ERR: 非法操作:css
+
+[ 2017-12-06T22:08:48+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:08:48+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/font/css/font-awesome.min.css
+ERR: 非法操作:font
+
+[ 2017-12-06T22:08:48+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.bootstrap.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:48+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:48+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:48+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:48+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:48+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:48+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:48+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.bootstrap.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:48+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:48+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:08:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/css/codemirror.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/css/style.css
+ERR: 非法操作:css
+
+[ 2017-12-06T22:08:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/font/css/font-awesome.min.css
+ERR: 非法操作:font
+
+[ 2017-12-06T22:08:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.bootstrap.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.bootstrap.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:53+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:53+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/css/style.css
+ERR: 非法操作:css
+
+[ 2017-12-06T22:08:53+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/font/css/font-awesome.min.css
+ERR: 非法操作:font
+
+[ 2017-12-06T22:08:53+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:08:53+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:53+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/css/codemirror.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.bootstrap.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.bootstrap.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/css/codemirror.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/css/style.css
+ERR: 非法操作:css
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/font/css/font-awesome.min.css
+ERR: 非法操作:font
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.bootstrap.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.bootstrap.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:08:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:18+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/font/css/font-awesome.min.css
+ERR: 非法操作:font
+
+[ 2017-12-06T22:12:18+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:18+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:12:18+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:18+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/css/style.css
+ERR: 非法操作:css
+
+[ 2017-12-06T22:12:18+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/css/codemirror.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:18+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:18+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:18+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:18+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.bootstrap.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:18+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:18+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:18+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:18+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:18+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.bootstrap.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:18+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:18+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:42+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:12:42+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:12:53+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:12:53+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/css/style.css
+ERR: 非法操作:css
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/css/ace.min.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/font/css/font-awesome.min.css
+ERR: 非法操作:font
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/css/codemirror.css
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.bootstrap.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.min.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/js/jquery.dataTables.bootstrap.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-12-06T22:12:55+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:12:55+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:19:56+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:19:56+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:20:40+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T22:20:41+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T22:20:50+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T22:21:47+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T22:23:09+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T22:23:10+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T22:23:10+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T22:23:10+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:23:11+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:23:12+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:23:12+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:23:12+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T22:27:19+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/Systems.html
+ERR: 非法操作:Systems
+
+[ 2017-12-06T22:31:30+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T22:31:30+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T22:31:30+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T22:31:31+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T22:31:31+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T22:31:31+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T22:31:31+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T22:31:31+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T22:31:32+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Index/integration.html
+ERR: 非法操作:integration
+
+[ 2017-12-06T22:32:08+08:00 ] 192.168.35.197 /shop2/Admin/Index/Orderform.html
+ERR: 非法操作:Orderform
+
+[ 2017-12-06T22:32:09+08:00 ] 192.168.35.197 /shop2/Admin/Index/transaction.html
+ERR: 非法操作:transaction
+
+[ 2017-12-06T22:32:23+08:00 ] 192.168.35.197 /shop2/Admin/Index/transaction.html
+ERR: 非法操作:transaction
+
+[ 2017-12-06T22:35:19+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:35:19+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T22:59:31+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/index.html
+ERR: 模板不存在:./Application/Admin/View/Rbac/index.html
+
+[ 2017-12-06T23:11:45+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:11:47+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:11:47+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T23:11:47+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T23:11:49+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:12:07+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:12:08+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T23:12:08+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:12:15+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:13:34+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:13:35+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:13:35+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:13:35+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:13:35+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T23:13:36+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:14:47+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T23:14:48+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T23:14:48+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T23:14:51+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:14:53+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:14:53+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:14:53+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:14:53+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:14:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:14:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:14:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:14:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:14:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:14:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:16:55+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:16:56+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:16:57+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T23:16:57+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-12-06T23:17:01+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: Think\Model:getCount方法不存在！
+
+[ 2017-12-06T23:18:33+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: 1054:Unknown column 'account' in 'field list'
+ [ SQL语句 ] : SELECT `role`,`account` FROM `think_user_discount` 
+
+[ 2017-12-06T23:19:03+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:19:04+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:19:04+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:19:04+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:23:05+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:23:06+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:23:06+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:23:06+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:23:07+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showGradingView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:23:08+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:23:08+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showGradingView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:23:09+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showDiscountView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:23:10+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:23:11+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showGradingView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:29:52+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showGradingView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:35:10+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showGradingView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:35:11+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:35:11+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showGradingView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:35:12+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:35:12+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showGradingView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:35:13+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:35:13+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showGradingView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:35:13+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:37:17+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:37:17+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showGradingView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:38:13+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/showGradingView.html
+ERR: syntax error, unexpected end of file
+
+[ 2017-12-06T23:44:03+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/index.html
+ERR: 模板不存在:./Application/Admin/View/Rbac/index.html
+
+[ 2017-12-06T23:44:09+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/index.html
+ERR: 模板不存在:./Application/Admin/View/Rbac/index.html
+
+[ 2017-12-06T23:47:54+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/editDiscount/role/1.html
+ERR: Think\Controller:assgin方法不存在！
+

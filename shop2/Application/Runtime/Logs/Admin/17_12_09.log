@@ -1,0 +1,805 @@
+[ 2017-12-09T10:32:06+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0253s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1   [ RunTime:0.2213s ]
+SQL: SELECT `id`,`tid`,`bid`,`name`,`price`,`pic`,`buynum`,`clicknum`,`status`,`sorce`,`addtime` FROM `think_goods` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.999784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.999873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-12-09T10:32:13+08:00 ] 192.168.35.209 /shop2/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='21' and g.status='1' )  [ RunTime:0.9590s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('1','10','33','34','40','41','42','45','11','35','36','43','44','9','23','24','32','37','38','46','39','2','12','27','28','29','13','6','17','57','58','59','60','61','62','18','53','54','55','56','19','63','64','8','20') AND `type` = 1 AND `status` = 1  [ RunTime:0.0431s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-12-09T10:32:13+08:00 ] 192.168.35.209 /shop2/index.php/Admin/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+ERR: 无法加载控制器:Home
+
+[ 2017-12-09T10:32:35+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2017-12-09T10:32:37+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Public/makeCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2017-12-09T10:32:45+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Public/handlerLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.5666s ]
+SQL: SHOW COLUMNS FROM `think_login_data` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `think_login_data` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `think_login_data` SET `logintime`='2017-12-09 10:32:44' WHERE `name` = 'admin' AND `uid` = 1 [ RunTime:1.1653s ]
+SQL: UPDATE `think_login_data` SET `number`=number+1 WHERE `name` = 'admin' AND `uid` = 1 [ RunTime:0.5027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002271s ]
+
+[ 2017-12-09T10:32:47+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2017-12-09T10:32:47+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-12-09T10:32:50+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/admins.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0003s ]
+SQL: SELECT u.id,u.name,u.phone,u.addtime,u.sex,u.status,group_concat(g.title) title FROM think_admin u left join think_auth_group_access a on a.uid = u.id left join think_auth_group g on g.id = a.group_id  GROUP BY u.id ORDER BY u.id  [ RunTime:0.6097s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0003s ]
+SQL: SELECT g.id,g.title,count(a.uid) num FROM think_auth_group g left join think_auth_group_access a  on a.group_id = g.id  GROUP BY g.id  [ RunTime:0.0159s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT count(distinct uid) nums FROM `think_auth_group_access`  [ RunTime:0.2115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008499s ]
+
+[ 2017-12-09T10:33:06+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editAdmin/id/21/name/%E6%99%93%E8%80%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0005s ]
+SQL: SELECT `desc`,`title`,`rules`,`id` FROM `think_auth_group` WHERE ( status=1 ) ORDER BY id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='21' and g.status='1' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-12-09T10:33:11+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/admins.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0003s ]
+SQL: SELECT u.id,u.name,u.phone,u.addtime,u.sex,u.status,group_concat(g.title) title FROM think_admin u left join think_auth_group_access a on a.uid = u.id left join think_auth_group g on g.id = a.group_id  GROUP BY u.id ORDER BY u.id  [ RunTime:0.0670s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0003s ]
+SQL: SELECT g.id,g.title,count(a.uid) num FROM think_auth_group g left join think_auth_group_access a  on a.group_id = g.id  GROUP BY g.id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0002s ]
+SQL: SELECT count(distinct uid) nums FROM `think_auth_group_access`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-12-09T10:33:13+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/addAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0006s ]
+SQL: SELECT `desc`,`title`,`rules`,`id` FROM `think_auth_group` WHERE ( status=1 ) ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: id /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/d3a32e1e0ef07f8f04a61fcbe9b05c4f.php 第 35 行.
+NOTIC: [8] Undefined variable: groupData /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/d3a32e1e0ef07f8f04a61fcbe9b05c4f.php 第 37 行.
+NOTIC: [8] Undefined variable: groupData /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/d3a32e1e0ef07f8f04a61fcbe9b05c4f.php 第 40 行.
+NOTIC: [8] Undefined variable: groupData /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/d3a32e1e0ef07f8f04a61fcbe9b05c4f.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-12-09T10:33:19+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/admins.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0005s ]
+SQL: SELECT u.id,u.name,u.phone,u.addtime,u.sex,u.status,group_concat(g.title) title FROM think_admin u left join think_auth_group_access a on a.uid = u.id left join think_auth_group g on g.id = a.group_id  GROUP BY u.id ORDER BY u.id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0002s ]
+SQL: SELECT g.id,g.title,count(a.uid) num FROM think_auth_group g left join think_auth_group_access a  on a.group_id = g.id  GROUP BY g.id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0003s ]
+SQL: SELECT count(distinct uid) nums FROM `think_auth_group_access`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-12-09T10:34:31+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0004s ]
+SQL: SELECT `desc`,`title`,`rules`,`id` FROM `think_auth_group` WHERE ( status=1 ) ORDER BY id  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001743s ]
+
+[ 2017-12-09T10:34:34+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `think_admin` WHERE ( status=1 ) ORDER BY id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_auth_rule` WHERE ( pid=0 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_auth_rule` WHERE ( pid!=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_auth_rule` WHERE ( pid=0 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2017-12-09T10:34:42+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0004s ]
+SQL: SELECT `desc`,`title`,`rules`,`id` FROM `think_auth_group` WHERE ( status=1 ) ORDER BY id  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-12-09T10:34:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editRoleData/rules/2%2C12%2C27%2C28%2C29%2C13%2C32%2C37%2C38%2C46%2C39/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_auth_rule` ORDER BY concat(path,id),id  [ RunTime:0.2550s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `think_auth_group` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-12-09T10:34:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editRoleData/rules/2%2C12%2C27%2C28%2C29%2C13%2C32%2C37%2C38%2C46%2C39/id/assets/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_auth_rule` ORDER BY concat(path,id),id  [ RunTime:0.1670s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_auth_group` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-12-09T10:34:49+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0185s ]
+SQL: SELECT `desc`,`title`,`rules`,`id` FROM `think_auth_group` WHERE ( status=1 ) ORDER BY id  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2017-12-09T10:34:58+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editRoleData/rules/1%2C10%2C33%2C34%2C11%2C35%2C36%2C9%2C23%2C24%2C2%2C12%2C27%2C28%2C29%2C13%2C3%2C14%2C30%2C31%2C15%2C32%2C4%2C16%2C5%2C21%2C6%2C17%2C18%2C19%2C7%2C22%2C8%2C20%2C37%2C38%2C39/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_auth_rule` ORDER BY concat(path,id),id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_auth_group` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004042s ]
+
+[ 2017-12-09T10:34:59+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editRoleData/rules/1%2C10%2C33%2C34%2C11%2C35%2C36%2C9%2C23%2C24%2C2%2C12%2C27%2C28%2C29%2C13%2C3%2C14%2C30%2C31%2C15%2C32%2C4%2C16%2C5%2C21%2C6%2C17%2C18%2C19%2C7%2C22%2C8%2C20%2C37%2C38%2C39/id/assets/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_auth_rule` ORDER BY concat(path,id),id  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_auth_group` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-12-09T10:35:07+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0004s ]
+SQL: SELECT `desc`,`title`,`rules`,`id` FROM `think_auth_group` WHERE ( status=1 ) ORDER BY id  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-12-09T10:35:17+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`sex`,`addtime`,`phone` FROM `think_admin` WHERE `name` = 'admin'  [ RunTime:0.0324s ]
+SQL: SHOW COLUMNS FROM `think_login_data` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`name`,`phone`,`ip`,`logintime`,`number` FROM `think_login_data` ORDER BY logintime desc  [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-12-09T10:35:39+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0004s ]
+SQL: SELECT `desc`,`title`,`rules`,`id` FROM `think_auth_group` WHERE ( status=1 ) ORDER BY id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-12-09T10:35:40+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editRoleData/rules/1%2C10%2C33%2C34%2C11%2C35%2C36%2C9%2C23%2C24%2C2%2C12%2C27%2C28%2C29%2C13%2C3%2C14%2C30%2C31%2C15%2C32%2C4%2C16%2C5%2C21%2C6%2C17%2C18%2C19%2C7%2C22%2C8%2C20%2C37%2C38%2C39/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_auth_rule` ORDER BY concat(path,id),id  [ RunTime:0.2085s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_auth_group` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-12-09T10:35:40+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/editRoleData/rules/1%2C10%2C33%2C34%2C11%2C35%2C36%2C9%2C23%2C24%2C2%2C12%2C27%2C28%2C29%2C13%2C3%2C14%2C30%2C31%2C15%2C32%2C4%2C16%2C5%2C21%2C6%2C17%2C18%2C19%2C7%2C22%2C8%2C20%2C37%2C38%2C39/id/assets/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_auth_rule` ORDER BY concat(path,id),id  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_auth_group` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2017-12-09T10:35:46+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0005s ]
+SQL: SELECT `desc`,`title`,`rules`,`id` FROM `think_auth_group` WHERE ( status=1 ) ORDER BY id  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.047501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.047604s ]
+
+[ 2017-12-09T10:35:49+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/admins.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0002s ]
+SQL: SELECT u.id,u.name,u.phone,u.addtime,u.sex,u.status,group_concat(g.title) title FROM think_admin u left join think_auth_group_access a on a.uid = u.id left join think_auth_group g on g.id = a.group_id  GROUP BY u.id ORDER BY u.id  [ RunTime:0.0448s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0003s ]
+SQL: SELECT g.id,g.title,count(a.uid) num FROM think_auth_group g left join think_auth_group_access a  on a.group_id = g.id  GROUP BY g.id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0002s ]
+SQL: SELECT count(distinct uid) nums FROM `think_auth_group_access`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2017-12-09T15:28:31+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0195s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`tid`,`bid`,`name`,`price`,`pic`,`buynum`,`clicknum`,`status`,`sorce`,`addtime` FROM `think_goods` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-12-09T15:28:38+08:00 ] 192.168.35.209 /shop2/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2017-12-09T15:28:38+08:00 ] 192.168.35.209 /shop2/index.php/Admin/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+ERR: 无法加载控制器:Home
+
+[ 2017-12-09T15:28:47+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-12-09T15:28:47+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-12-09T15:28:52+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/advertising.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+ERR: 非法操作:advertising
+
+[ 2017-12-09T15:28:53+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/Sort_ads.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+ERR: 非法操作:Sort_ads
+
+[ 2017-12-09T15:33:24+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/advertising.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+ERR: 非法操作:advertising
+
+[ 2017-12-09T17:43:00+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/advertising.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+ERR: 非法操作:advertising
+
+[ 2017-12-09T17:43:28+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.647874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.647931s ]
+

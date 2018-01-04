@@ -1,0 +1,60 @@
+[ 2017-12-09T10:32:35+08:00 ] 192.168.35.209 /shop2/Public/css/jquery.mCustomScrollbar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-09T10:32:35+08:00 ] 192.168.35.209 /shop2/Public/css/font/adminthemes-webfont.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-09T10:32:36+08:00 ] 192.168.35.209 /shop2/Public/css/font/adminthemes-webfont.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-09T10:32:36+08:00 ] 192.168.35.209 /shop2/Public/css/font/adminthemes-webfont.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-09T20:46:17+08:00 ] 192.168.35.209 /shop2/phpmyadmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003163s ]
+ERR: 无法加载模块:Phpmyadmin
+
+[ 2017-12-09T20:52:47+08:00 ] 192.168.35.209 /shop2/phpmyadmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008625s ]
+ERR: 无法加载模块:Phpmyadmin
+
+[ 2017-12-09T21:09:15+08:00 ] 192.168.35.197 /shop2/Application/Home/showDetailView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+ERR: 无法加载模块:Application
+
+[ 2017-12-09T21:56:24+08:00 ] 192.168.35.209 /shop2/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+ERR: 无法加载模块:List
+
+[ 2017-12-09T21:56:50+08:00 ] 192.168.35.209 /shop2/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载模块:List
+
+[ 2017-12-09T23:16:26+08:00 ] 192.168.35.209 /shop2/newbags.html?nierr11?mt=12.12555.r133915.19023&acm=1.mce.2.12555.0.0.19023_133915
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+ERR: 无法加载模块:Newbags
+

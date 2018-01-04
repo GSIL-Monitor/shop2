@@ -1,0 +1,204 @@
+[ 2017-12-13T01:07:07+08:00 ] 192.168.35.87 /shop2/Public/Home///www.mogujie.com/img/pay/right.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T01:25:30+08:00 ] 192.168.35.209 /shop2/Public/Home/theme/img/ad/a1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T01:25:42+08:00 ] 192.168.35.209 /shop2/Public/Home/theme/img/ad/a1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T19:36:56+08:00 ] 192.168.35.197 /shop2/Public/css/jquery.mCustomScrollbar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T19:36:56+08:00 ] 192.168.35.197 /shop2/Public/css/font/adminthemes-webfont.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T19:36:56+08:00 ] 192.168.35.197 /shop2/Public/css/font/adminthemes-webfont.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T19:36:56+08:00 ] 192.168.35.197 /shop2/Public/css/font/adminthemes-webfont.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T19:55:33+08:00 ] 192.168.35.87 /shop2/Public/Home/myjs/js/jquery-1.12.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T19:55:56+08:00 ] 192.168.35.87 /shop2/Public/Home/myjs/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T19:56:17+08:00 ] 192.168.35.87 /shop2/Public/Home/myjs/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T20:38:35+08:00 ] 192.168.35.229 /shop2/Public/Home/pc/~page/pcenter/common/navbar+page/account/common/calender+page/account/setPersonal/setPersonal+page/account/common/area+page/account/common/job+base?1607171729.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T20:38:35+08:00 ] 192.168.35.229 /shop2/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T20:38:35+08:00 ] 192.168.35.229 /shop2/Public/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T20:38:35+08:00 ] 192.168.35.229 /shop2/Public/Home/pc/~page/pcenter/common/navbar+page/account/common/calender+page/account/setPersonal/setPersonal+page/account/common/area+page/account/common/job+base?1607171729.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T20:38:36+08:00 ] 192.168.35.229 /shop2/Public/Home/pc/jsmin/page/account/common/area.js?1607171729.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T20:38:36+08:00 ] 192.168.35.229 /shop2/Public/Home/pc/jsmin/page/account/common/job.js?1607171729.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T20:38:36+08:00 ] 192.168.35.229 /shop2/Public/Home/pc/jsmin/page/account/setPersonal/setPersonal.js?1607171729.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T20:38:36+08:00 ] 192.168.35.229 /shop2/Public/Home/pc/jsmin/base.js?1607171729.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T20:38:36+08:00 ] 192.168.35.229 /shop2/Public/Home/pc/jsmin/page/pcenter/common/navbar.js?1607171729.25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T21:44:24+08:00 ] 192.168.35.87 /shop2/Public/myjs/images/peraddress.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048562s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T21:44:24+08:00 ] 192.168.35.87 /shop2/Public/myjs/images/peraddressbg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T21:44:24+08:00 ] 192.168.35.87 /shop2/Public/myjs/images/kuaidi.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T21:44:24+08:00 ] 192.168.35.87 /shop2/Public/myjs/images/peraddbg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T21:46:36+08:00 ] 192.168.35.87 /shop2/Public/myjs/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T21:46:36+08:00 ] 192.168.35.87 /shop2/Public/myjs/images/logobig.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T21:46:36+08:00 ] 192.168.35.87 /shop2/Public/myjs/images/wangyin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T21:46:36+08:00 ] 192.168.35.87 /shop2/Public/myjs/images/peraddress.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T21:46:36+08:00 ] 192.168.35.87 /shop2/Public/myjs/images/kouhong.jpg_80x80.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T21:46:36+08:00 ] 192.168.35.87 /shop2/Public/myjs/images/peraddressbg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T21:46:36+08:00 ] 192.168.35.87 /shop2/Public/myjs/images/zhifubao.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T21:46:36+08:00 ] 192.168.35.87 /shop2/Public/myjs/images/weizhifu.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T21:46:36+08:00 ] 192.168.35.87 /shop2/Public/myjs/images/kuaidi.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T21:46:36+08:00 ] 192.168.35.87 /shop2/Public/myjs/images/peraddbg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+ERR: 无法加载模块:Public
+
+[ 2017-12-13T21:46:41+08:00 ] 192.168.35.87 /shop2/Public/myjs/images/sys_item_selected.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+ERR: 无法加载模块:Public
+

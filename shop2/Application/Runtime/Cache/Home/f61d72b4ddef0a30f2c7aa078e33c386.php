@@ -1,0 +1,402 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>注册 － 美丽说</title>
+    <meta name="description" content="来美丽说开启属于你的发现之旅，感受全新的购买体验吧！这里有百万粉丝的时尚大咖、热爱发现美物的生活家、一边旅行一边挖掘好货的higo海淘达人...而他们都将成为你的专属挑款师！还等什么？加入我们，发现流行，占有世界！" />
+    <meta name="keywords" content="美丽说,higo,衣服,鞋子,包包,配饰,家居,美妆,搭配,团购,美丽说higo" />
+   
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1" />
+    <meta property="qc:admins" content="173137167465514130576375" />
+    <meta name="chinaz-site-verification" content="500e4417-e595-40ac-98da-dec66c97a9e5" />
+    <link rel="stylesheet" type="text/css" href="/shop2/Public/css/base.css?1607162038.1471376099" />
+    <!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="css/ie6.css?1607162038.1471376099" />
+    <![endif]-->
+    <link rel="apple-touch-icon-precomposed" href="/shop2/Public/css/images/custom_icon_precomposed.png" />
+    <link rel="icon" href="/shop2/Public/css/images/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="/shop2/Public/css/register_new.css" />
+    <script type="text/javascript" src="/shop2/Public/~fml"></script>
+    <!--  -->
+    <script src="/shop2/Public/js/jquery-1.9.1.min.js"></script>
+    <script src="/shop2/Public/assets/layer/layer.js" type="text/javascript" ></script>
+    <script src="/shop2/Public/assets/laydate/laydate.js" type="text/javascript"></script>
+</head>
+</head>
+
+<body>
+<div class="wrap">
+    <div class="reg_wrap">
+        <div class="head">
+            <a href="/shop2" class="reg_logo"></a>
+            <a href="/shop2" class="welcome_txt"></a>
+        </div>
+        <div class="main">
+            <div class="ad_wrap">
+                <img src="/shop2/Public/css/images/register/ad_img.jpg" width="370" height="353" /></div>
+            <div class="reg_form" id="mob_reg">
+                <form id="registerForm" method="post">
+                <!-- <?php echo U('Register/checkRegister');?> -->
+                    <h3>
+                        <a href="/shop2/Home/Login">登录</a>注册美丽说</h3>
+                    <div class="reg_list">
+                        <p class="reg_box">
+                            <input class="reg_txt" id="mobile" name="email" type="text" placeholder="邮箱" autocomplete="off" maxlength="40"/>
+                            <span></span>
+                            <span class="tel_icon"></span>
+                        </p>
+                        <!-- <p class="mlsUserEor red_f"></p> --></div>
+                    <div class="reg_list">
+                        <p class="reg_box">
+                            <input class="reg_txt" id="nickname" name="account" type="text" placeholder="用户名" autocomplete="off" maxlength="16"/>
+                            <span></span>
+                            <span class="user_icon"></span>
+                        </p>
+                        <!-- <p class="mlsUserEor red_f"></p> --></div>
+                    <div class="reg_list">
+                        <p class="reg_box">
+                            <input class="reg_txt" id="password" name="password" type="password" placeholder="密码" autocomplete="off" maxlength="20" />
+                            <span></span>
+                            <span class="pwd_icon"></span>
+                        </p>
+                        <div class="pw_safe none_f">
+                            <span class="txt">安全程度</span>
+                            <div class="pw_strength pw_weak pw_medium pw_strong">
+                                <div class="pw_bar"></div>
+                                <div class="pw_letter">
+                                    <span class="strength_l">弱</span>
+                                    <span class="strength_m">中</span>
+                                    <span class="strength_h">强</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reg_list confpass">
+                        <p class="reg_box">
+                            <input class="reg_txt" id="conf_password" name="conf_password" type="password" placeholder="确认密码" autocomplete="off" maxlength="20" />
+                            <span></span>
+                            <span class="pwd_icon"></span>
+                        </p>
+                    </div>
+                    <div class="reg_list">
+                        <p class="reg_box">
+                            <input id="code" name="code" class="enter_code reg_txt" type="text" placeholder="邮箱验证码" maxlength="6" />
+                            <input id="get_code" class="get_code" value="获取邮箱验证码" />
+                            <span></span>
+                        </p>
+                    </div>
+                    <div class="regErrorMessage none_f"></div>
+                    <div class="reg_btn_wrap">
+                        <input type="button" class="reg_btn" value="立即注册" onclick="submitRgister()" /></div>
+                    <div class="agree_reg">
+                        <input type="checkbox" checked="checked" id="agreement" name="agreement" />同意
+                        <a href="newbags.html?wap/1003" target="_blank">《美丽说注册条款》</a></div>
+                </form>
+                <div class="fast_login">
+                    <h3>无需注册，即可登录</h3>
+                    <div class="fast_way">
+                        <a href="javascript:;" class="qq_way"></a>
+                        <a href="javascript:;" class="sina_way"></a>
+                        <a href="javascript:;" class="weixin_way"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+
+    $('#password,#mobile,#nickname,#conf_password').focusout(getFocus);
+
+    var hint = "请填写注册资料";
+    var boolPhone = false;
+    var booleAccount = false;
+    var boolPwd = false;
+    var boolCPwd = false;
+    var boolv = false;
+    /** 失去焦点事件处理函数 */
+    function getFocus(id){
+        var value = id.target.value;
+        var obj;
+        switch (id.target.name){
+            case 'email':
+                obj = $('#mobile');
+                hint = "请输入邮箱";
+                break;
+            case 'account':
+                obj = $('#nickname');
+                hint = "你还没用写昵称哦";
+                break;
+            case 'password':
+                obj = $('#password');
+                hint = "你还没填写密码哦";
+                break;
+            case 'conf_password':
+                obj = $('#conf_password');
+                hint = "你还没填写确认密码哦";
+                break;
+            }
+        if (value == "") {
+            modifyPrompt(obj);
+        }else{
+            obj.next().attr('class','msg_ok');
+            obj.next().next().next().remove();
+            boolPhone = true;booleAccount = true;boolPwd = true;
+            boolCPwd = true;boolv = true;
+            if (id.target.name == 'email') {
+                if (!checkphoneNum(obj.val())) {
+                    hint = "请输入正确的邮箱";
+                    modifyPrompt(obj);
+                    boolPhone = false;
+                }else{
+                    checkPhoneExist(obj,obj.val());
+                }
+            }else if(id.target.name == 'password'){
+                if (!checkPwdnum(obj.val())) {
+                    hint = "请输入6到20位之间的密码";
+                    modifyPrompt(obj);
+                    boolPwd = false;
+                }
+            }else if(id.target.name == 'conf_password'){
+                if (obj.val() != $('#password').val()) {
+                    hint = "两次密码不一致,请重新输入";
+                    modifyPrompt(obj);
+                    boolCPwd = false;
+                };
+            }else if(id.target.name == 'account'){
+                if (!checkAccount(obj.val())) {
+                    hint = "用户名必须字母开头,且不能有特殊符号,4~12位";
+                    modifyPrompt(obj);
+                    booleAccount = false;
+                }else{
+                    checkAccountExist(obj,obj.val());
+                }
+            }
+        }
+    }
+
+    function invokeSettime(obj){
+        var countdown=60;
+        settime(obj);
+        function settime(obj) {
+            if (countdown == 0) {
+                $(obj).attr("disabled",false);
+                $(obj).val("邮箱验证码");
+                countdown = 60;
+                return false;
+            } else {
+                $(obj).attr("disabled",true);
+                $(obj).val("(" + countdown + ") s 重新发送");
+                countdown--;
+            }
+            setTimeout(function() {
+                        settime(obj) }
+                    ,1000);
+        }
+    }
+
+    var isVerify = false;
+    //给邮箱发送验证码
+    $('#get_code').click(function(){
+        var obj = $(this);
+        getVerify(obj);
+        if (isVerify) {
+            invokeSettime(obj);
+        };
+        
+        
+    });
+
+    var boolCode = false;
+    //验证码检测
+    $('#code').focusout(function(){
+        var obj = $(this);
+        if (obj.val().length < 4) {
+            hint = '验证码不完整';
+            obj.next().next().attr('class','msg_err');
+            obj.next().next().next().remove();
+            obj.next().next().after("<div class='msg_error'><span></span>"+hint+"</div>");
+            boolCode = false;
+        }else{
+            obj.next().next().attr('class','msg_ok');
+            obj.next().next().next().remove();
+            boolCode = true;
+        }
+    });
+
+    //修改提示
+    function modifyPrompt(obj){
+        obj.next().attr('class','msg_err');
+        obj.next().next().next().remove();
+        obj.next().next().after("<div class='msg_error'><span></span>"+hint+"</div>");
+        booleAccount = false;
+    }
+
+
+    $('#password').focus(function (){
+        $('.confpass').attr('style','display:block;');
+    });
+    
+    var strongPwd = false;//密码强度
+    //密码强度验证
+    $('#password').keyup(function(){
+        var num = $(this).val();
+        if (num.length >= 6) {
+            var strongRegex = new RegExp("^(?=.{8,})(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*\\W).*$", "g");//密码八位以上必须包含大小写特殊符号
+            var mediumRegex = new RegExp("^(?=.{7,})(((?=.*[A-Z])(?=.*[a-z]))|((?=.*[A-Z])(?=.*[0-9]))|((?=.*[a-z])(?=.*[0-9]))).*$", "g");//字母数字混合
+            var enoughRegex = new RegExp("(?=.{6,}).*", "g");
+            $('.pw_safe').attr('style','display:block;');
+            if (enoughRegex.test(num)) {
+                $('.strength_l').addClass('pw_strength_color');
+                strongPwd = false;
+            }
+            if (mediumRegex.test(num)) {
+                $('.strength_m').addClass('pw_strength_color');
+                strongPwd = true;
+            }else{
+                $('.strength_m').removeClass('pw_strength_color');
+            }
+            if(strongRegex.test(num)){
+                $('.strength_m').addClass('pw_strength_color');
+                $('.strength_h').addClass('pw_strength_color');
+                strongPwd = true;
+            }else{
+                $('.strength_h').removeClass('pw_strength_color');
+            }
+        }else{
+            $('.pw_safe').attr('style','display:none;');
+            strongPwd = false;
+        }
+    });
+
+    /**
+     * 正则验证邮箱
+     */
+    function checkphoneNum(phoneNum){
+         var reg = /^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
+
+         return reg.test(phoneNum);
+    }
+    /** 验证密码位数 */
+    function checkPwdnum(pwd){
+        var reg = /^[\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F,\w]{6,20}$/;
+        
+        return reg.test(pwd);
+            
+    }
+    /** 验证用户位数是否数字开头 */
+    function checkAccount(account){
+        var reg = /^[a-z|A-Z]\w{3,12}$/;
+        
+        return reg.test(account);
+    }
+
+    var checkExist = '请填写注册资料';
+    //检查用户名是否存在
+    function checkAccountExist(obj,account){
+        $.ajax({
+            type:'get',
+            url:"<?php echo U('Register/checkaccount');?>",
+            data:"account="+account,
+            success:function(msg){
+                if (msg['code'] == 1404) {
+                    checkExist = msg['msg'];
+                    obj.next().attr('class','msg_err');
+                    obj.next().next().next().remove();
+                    obj.next().next().after("<div class='msg_error'><span></span>"+checkExist+"</div>");
+                    booleAccount = false;
+                };
+            },
+            dataType:'json'
+        });
+    }
+    //检查邮箱是否存在
+    function checkPhoneExist(obj,email){
+        $.ajax({
+            type:'get',
+            url:"<?php echo U('Register/checkphoneNum');?>",
+            data:"email="+email,
+            success:function(msg){
+                if (msg['code'] == 1404) {
+                    checkExist = msg['msg'];
+                    obj.next().attr('class','msg_err');
+                    obj.next().next().next().remove();
+                    obj.next().next().after("<div class='msg_error'><span></span>"+checkExist+"</div>");
+                    boolPhone = false;
+                };
+            },
+            dataType:'json'
+        });
+    }
+
+    //获取验证码
+    function getVerify(obj){
+        if (!boolPhone) {
+            layer.msg('请填写正确邮箱',{icon:2,time:800});
+            isVerify = false;
+            return false;
+        };
+        isVerify = true;
+        $.ajax({
+            type:'post',
+            url:"<?php echo U('Register/getVerify');?>",
+            data:'email='+$('#mobile').val(),
+            success:function(msg){
+                console.log(msg);
+                if (msg['code'] == 1200) {
+
+                }else{
+                    layer.confirm(msg['msg']);
+                }
+            },
+            error:function(msg){
+                layer.confirm('访问服务器失败.');
+            },
+            dataType:'json'
+        });
+    }
+
+    //开始注册
+    function submitRgister(){
+        if (!(boolPhone&& booleAccount && boolCPwd && boolPwd && boolCode)) {
+            layer.msg(hint,{icon:2,time:800});
+            return false;
+        };
+        if (!strongPwd) {
+            layer.msg('密码强度太弱',{icon:2,time:800});
+            return false;
+        };
+        var verify =  $('#code').val();
+        if (verify == "") {
+            layer.msg('请填写验证码',{icon:2,time:800});
+            return false;
+        };
+        
+        $.ajax({
+            type:'post',
+            url:"<?php echo U('Register/checkRegister');?>",
+            data:$('#registerForm').serialize(),
+            success:function(msg){
+                console.log(msg);
+                if (msg['code'] == 1200) {
+                    layer.confirm('注册成功',{btn:['前往登录','取消']},
+                        function(){
+                            $(location).attr('href', '/shop2/Home/Login');
+                        });
+                }else{
+                    layer.confirm(msg['msg']);
+                    console.log(msg);
+                }
+            },
+            error:function(msg){
+                layer.confirm('访问服务器失败.');
+            },
+            dataType:'json'
+        });
+    }
+
+
+</script>

@@ -1,0 +1,3305 @@
+[ 2017-11-22T00:09:46+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/member-add.html
+ERR: 非法操作:member-add
+
+[ 2017-11-22T00:15:12+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/member-add.html
+ERR: 非法操作:member-add
+
+[ 2017-11-22T00:23:07+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/member-add.html
+ERR: 非法操作:member-add
+
+[ 2017-11-22T00:28:53+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: syntax error, unexpected '=', expecting ']'
+
+[ 2017-11-22T00:28:55+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: syntax error, unexpected '=', expecting ']'
+
+[ 2017-11-22T01:50:23+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/%7BHTTP:REFERER%7D
+ERR: 非法操作:{HTTP:REFERER}
+
+[ 2017-11-22T01:51:05+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/%7B'index'%7D
+ERR: 非法操作:{'index'}
+
+[ 2017-11-22T01:51:25+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/%7B'Rbac/index'%7D
+ERR: 非法操作:{'Rbac
+
+[ 2017-11-22T01:51:46+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/%7B'Rbac/index'%7D
+ERR: 非法操作:{'Rbac
+
+[ 2017-11-22T01:52:01+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/%7BRbac/index%7D
+ERR: 非法操作:{Rbac
+
+[ 2017-11-22T02:08:11+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2017-11-22T03:32:38+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: syntax error, unexpected '}', expecting ';'
+
+[ 2017-11-22T03:33:03+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: syntax error, unexpected ',', expecting ';'
+
+[ 2017-11-22T03:35:18+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: Call to a member function getField() on string
+
+[ 2017-11-22T03:36:00+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: Call to a member function count() on array
+
+[ 2017-11-22T03:46:41+08:00 ] 192.168.35.127 //shop2/index.php/Admin/Types/types.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-11-22T03:47:02+08:00 ] 192.168.35.127 //shop2/index.php/Admin/Types/types.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-11-22T03:47:02+08:00 ] 192.168.35.127 //shop2/index.php/Admin/Types/types.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-11-22T03:47:03+08:00 ] 192.168.35.127 //shop2/index.php/Admin/Types/types.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-11-22T03:57:17+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: Call to undefined method Common\Server\CommonServer::where()
+
+[ 2017-11-22T04:03:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/brand.html
+ERR: 无法加载控制器:Goods
+
+[ 2017-11-22T04:03:21+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: 1146:Table 'shop2.think_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_common`
+
+[ 2017-11-22T04:03:29+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/brand.html
+ERR: 1146:Table 'shop2.think_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_common`
+
+[ 2017-11-22T04:06:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/brand.html
+ERR: 1146:Table 'shop2.think_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_common`
+
+[ 2017-11-22T04:07:01+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/brand.html
+ERR: 1146:Table 'shop2.think_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_common`
+
+[ 2017-11-22T04:08:02+08:00 ] 192.168.35.127 /shop2/index.php/Admin/types/goodsTypesAdd.html
+ERR: 模板不存在:./Application/Admin/View/goods/goods_types_add.html
+
+[ 2017-11-22T04:08:31+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: 1146:Table 'shop2.think_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_common`
+
+[ 2017-11-22T04:15:09+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T04:15:09+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T04:15:09+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/funnel.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T04:15:09+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/pie.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T04:19:32+08:00 ] 192.168.35.127 //shop2/index.php/Admin/Types/undefined.html
+ERR: 非法操作:undefined
+
+[ 2017-11-22T04:21:21+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/editUser.html
+ERR: XML标签语法错误
+
+[ 2017-11-22T04:25:44+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: Class 'Common\Model\CommonModel' not found
+
+[ 2017-11-22T04:28:42+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: Class 'Admin\Common\ModelCommon' not found
+
+[ 2017-11-22T04:43:27+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: Call to a member function handlerPage() on null
+
+[ 2017-11-22T04:44:01+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: Call to a member function where() on null
+
+[ 2017-11-22T04:44:32+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: 1054:Unknown column 'create_time' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `think_goods_brand` WHERE ( status=1 ) ORDER BY create_time LIMIT 0,5  
+
+[ 2017-11-22T05:02:16+08:00 ] 192.168.35.127 /shop2/index.php/Admin/Types/goodsTypesAdd/id/3.html
+ERR: Class 'Admin\Controller\M' not found
+
+[ 2017-11-22T05:10:28+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: syntax error, unexpected '=', expecting ']'
+
+[ 2017-11-22T05:31:52+08:00 ] 192.168.35.127 /shop2/index.php/Admin/Types/goodsTypesDel/id/11.html
+ERR: Think\Model:del方法不存在！
+
+[ 2017-11-22T05:36:59+08:00 ] 192.168.35.127 //shop2/index.php/Admin/Types/types.html
+ERR: Call to a member function assign() on null
+
+[ 2017-11-22T05:37:16+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/edit/id/2.html
+ERR: XML标签语法错误 : name="brandData" item="vo" /
+
+[ 2017-11-22T05:41:31+08:00 ] 192.168.35.127 /shop2/index.php/Admin/Types/goods_types_add.html
+ERR: 非法操作:goods_types_add
+
+[ 2017-11-22T05:47:14+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerBrand.html
+ERR: Think\Model:handlerInsertBrand方法不存在！
+
+[ 2017-11-22T05:52:51+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-11-22T05:52:53+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: syntax error, unexpected '{'
+
+[ 2017-11-22T05:59:02+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T05:59:02+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T05:59:02+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/funnel.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T05:59:02+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/pie.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T05:59:50+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T05:59:50+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/pie.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T05:59:50+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/funnel.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T05:59:55+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T05:59:55+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/funnel.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T05:59:55+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/pie.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T06:00:58+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T06:00:58+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T06:00:58+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/pie.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T06:00:58+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/funnel.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T06:01:04+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T06:01:04+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/pie.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T06:01:04+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/funnel.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T06:23:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-11-22T06:23:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T06:23:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T06:23:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T06:23:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T06:23:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T06:23:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T06:23:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T06:23:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T06:23:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T06:23:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T06:23:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T06:23:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T06:23:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T06:23:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T06:23:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T06:23:43+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T06:23:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T06:23:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T06:23:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T06:23:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T06:23:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T06:23:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T06:23:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T06:23:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T06:23:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T06:23:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T06:23:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T06:23:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T06:23:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T06:24:25+08:00 ] 192.168.35.87 /shop2/index.php/Admin//shop2/index.php/Admin/Types/types.html
+ERR: 无法加载控制器:Shop2
+
+[ 2017-11-22T06:24:28+08:00 ] 192.168.35.209 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T06:24:29+08:00 ] 192.168.35.209 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T06:24:29+08:00 ] 192.168.35.209 /shop2/index.php/Admin/User/assets/dist/chart/funnel.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T06:24:29+08:00 ] 192.168.35.209 /shop2/index.php/Admin/User/assets/dist/chart/pie.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T06:29:22+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/edit.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`name`,`logo`,`desc`,`status` FROM `think_goods_brand` WHERE ( id= ) 
+
+[ 2017-11-22T06:43:10+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: syntax error, unexpected ')'
+
+[ 2017-11-22T06:43:18+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: syntax error, unexpected ')'
+
+[ 2017-11-22T07:55:01+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/index.html
+ERR: syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+
+[ 2017-11-22T07:55:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/index.html
+ERR: syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+
+[ 2017-11-22T07:56:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/index.html
+ERR: syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+
+[ 2017-11-22T07:58:00+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/index.html
+ERR: syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+
+[ 2017-11-22T08:30:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:30:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:30:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:30:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:30:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:30:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:30:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:30:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:30:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:30:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:30:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:30:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:30:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:30:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:30:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:30:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:30:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:30:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:30:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:30:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:30:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:30:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:30:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:30:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:30:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:30:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:30:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:30:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:30:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:30:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:34:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:34:17+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:34:17+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:34:17+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:34:17+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:34:17+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:35:53+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/Brand_detailed.html?=561
+ERR: 非法操作:Brand_detailed
+
+[ 2017-11-22T08:36:50+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/href='javascript:void()
+ERR: 非法操作:href='javascript:void()
+
+[ 2017-11-22T08:44:01+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:44:01+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:44:01+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/pie.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:44:01+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/funnel.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:44:01+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:44:01+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:44:01+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:44:01+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:44:01+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:44:01+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:44:02+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:44:02+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:44:02+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:44:02+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:44:02+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:44:02+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:44:02+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:44:02+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:44:02+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:44:02+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:44:02+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:44:02+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:44:02+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:44:02+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:44:03+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:44:03+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:44:03+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:44:03+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:44:03+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:44:03+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:44:03+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:44:03+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:44:03+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:44:03+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:50:03+08:00 ] 192.168.35.127 //shop2/index.php/Admin/Types/types.html
+ERR: Think\Model:getTypes方法不存在！
+
+[ 2017-11-22T08:50:38+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:50:38+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:50:38+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:50:38+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:50:39+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:50:40+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:57:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:57:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:57:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:57:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:57:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:57:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:57:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:57:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:57:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:57:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:57:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:57:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:57:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:57:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:57:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:57:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:57:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:57:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:57:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:57:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T08:57:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:57:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:57:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:57:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:57:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:57:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:57:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:57:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T08:57:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:57:57+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T08:57:57+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:02:00+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: syntax error, unexpected 'elseif' (T_ELSEIF)
+
+[ 2017-11-22T09:02:28+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: syntax error, unexpected 'elseif' (T_ELSEIF)
+
+[ 2017-11-22T09:02:39+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/Sort_ads.html
+ERR: 非法操作:Sort_ads
+
+[ 2017-11-22T09:03:06+08:00 ] 192.168.35.127 /shop2/index.php/Admin/Types/doGoodsTypesAdd.html
+ERR: 非法数据对象！
+
+[ 2017-11-22T09:11:12+08:00 ] 192.168.35.209 //shop2/index.php/Admin/Types/types.html
+ERR: syntax error, unexpected '}'
+
+[ 2017-11-22T09:11:13+08:00 ] 192.168.35.209 //shop2/index.php/Admin/Types/types.html
+ERR: syntax error, unexpected '}'
+
+[ 2017-11-22T09:12:46+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:46+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:46+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:46+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:46+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:46+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:46+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:46+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:46+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:46+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:46+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:46+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:46+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:46+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:46+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:46+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:47+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:47+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:47+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:47+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:47+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:47+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:47+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:47+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:47+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:47+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:47+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:47+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:47+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:47+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:47+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:50+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:50+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:50+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:50+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:50+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:50+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:51+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:55+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:12:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:12:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:12:56+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:13:09+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:13:09+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:13:09+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:13:09+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:09+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:09+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:09+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:09+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:13:09+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:09+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:09+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:09+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:13:09+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:09+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:13:09+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:13:09+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:13:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:13:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:13:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:13:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:13:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:13:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:13:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:13:18+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:13:18+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:13:18+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:18+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:13:18+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:13:18+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:18+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:18+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:18+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:18+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:18+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:18+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:13:18+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:18+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:13:18+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:13:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:13:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:13:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:13:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:13:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:13:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:13:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:13:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:13:19+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:15:41+08:00 ] 192.168.35.127 /shop2/index.php/Admin/Types/doGoodsTypesEdit.html
+ERR: 1146:Table 'shop2.think_types' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_types`
+
+[ 2017-11-22T09:17:01+08:00 ] 192.168.35.127 /shop2/index.php/Admin/Types/doGoodsTypesEdit.html
+ERR: 1146:Table 'shop2.think_types' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_types`
+
+[ 2017-11-22T09:22:14+08:00 ] 192.168.35.87 /shop2/index.php/Admin//shop2/index.php/Admin/Types/types.html
+ERR: 无法加载控制器:Shop2
+
+[ 2017-11-22T09:26:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:04+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:05+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:10+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:11+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:11+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:11+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:11+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:11+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:11+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:11+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:11+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:11+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:11+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:11+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:11+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:11+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:11+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:12+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:13+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:13+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:13+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:13+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:13+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:13+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:13+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:13+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:13+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:13+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:13+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:13+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:13+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:13+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:13+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:14+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:15+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:15+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:15+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:15+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:15+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:15+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:15+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:15+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:15+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:15+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:15+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:15+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/bootstrap.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/js/typeahead-bs2.min.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/layer/layer.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/assets/laydate/laydate.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/My97DatePicker/WdatePicker.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/icheck/jquery.icheck.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/zTree/js/jquery.ztree.all-3.5.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/Validform/5.3.2/Validform.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/webuploader/0.1.5/webuploader.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.config.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/ueditor.all.min.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/Widget/ueditor/1.4.3/lang/zh-cn/zh-cn.js
+ERR: 非法操作:Widget
+
+[ 2017-11-22T09:26:16+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:17+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:26:17+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/js/H-ui.admin.js
+ERR: 非法操作:js
+
+[ 2017-11-22T09:55:24+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+
+[ 2017-11-22T09:56:12+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: 1146:Table 'shop2.user_detail' doesn't exist
+ [ SQL语句 ] : SELECT user.id,`phone`,`addtime`,`status`,`role`,user_detail.name,`score`,`sex`,`email` FROM `think_user` INNER JOIN user_detail on user.id=user_detail.uid  ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-22T09:56:14+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: 1146:Table 'shop2.user_detail' doesn't exist
+ [ SQL语句 ] : SELECT user.id,`phone`,`addtime`,`status`,`role`,user_detail.name,`score`,`sex`,`email` FROM `think_user` INNER JOIN user_detail on user.id=user_detail.uid  ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-22T09:56:59+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: 1054:Unknown column 'user.id' in 'field list'
+ [ SQL语句 ] : SELECT user.id,`phone`,`addtime`,`status`,`role`,user_detail.name,`score`,`sex`,`email` FROM `think_user` INNER JOIN think_user_detail on user.id=user_detail.uid  ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-22T09:59:20+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: 1054:Unknown column 'user_detail.name' in 'field list'
+ [ SQL语句 ] : SELECT think_user.id,`phone`,`addtime`,`status`,`role`,user_detail.name,`score`,`sex`,`email` FROM `think_user` INNER JOIN think_user_detail on user.id=user_detail.uid  ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-22T09:59:21+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: 1054:Unknown column 'user_detail.name' in 'field list'
+ [ SQL语句 ] : SELECT think_user.id,`phone`,`addtime`,`status`,`role`,user_detail.name,`score`,`sex`,`email` FROM `think_user` INNER JOIN think_user_detail on user.id=user_detail.uid  ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-22T09:59:22+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: 1054:Unknown column 'user_detail.name' in 'field list'
+ [ SQL语句 ] : SELECT think_user.id,`phone`,`addtime`,`status`,`role`,user_detail.name,`score`,`sex`,`email` FROM `think_user` INNER JOIN think_user_detail on user.id=user_detail.uid  ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-22T09:59:22+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: 1054:Unknown column 'user_detail.name' in 'field list'
+ [ SQL语句 ] : SELECT think_user.id,`phone`,`addtime`,`status`,`role`,user_detail.name,`score`,`sex`,`email` FROM `think_user` INNER JOIN think_user_detail on user.id=user_detail.uid  ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-22T09:59:34+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: 1054:Unknown column 'user.id' in 'on clause'
+ [ SQL语句 ] : SELECT think_user.id,`phone`,`addtime`,`status`,`role`,think_user_detail.name,`score`,`sex`,`email` FROM `think_user` INNER JOIN think_user_detail on user.id=user_detail.uid  ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-22T10:23:35+08:00 ] 192.168.35.127 /shop2/index.php/Admin/Types/goodsTypesDel/id/25.html
+ERR: Think\Model:error方法不存在！
+
+[ 2017-11-22T10:26:49+08:00 ] 192.168.35.127 /shop2/index.php/Admin/Types/goodsTypesDel/id/25.html
+ERR: Think\Controller:getTypesByPid方法不存在！
+
+[ 2017-11-22T10:36:20+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html?a=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+
+[ 2017-11-22T10:36:26+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html?a=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+
+[ 2017-11-22T10:36:31+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html?a=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+
+[ 2017-11-22T10:36:33+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html?a=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+
+[ 2017-11-22T10:36:34+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html?a=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+
+[ 2017-11-22T10:37:06+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html?a=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-11-22T10:38:12+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html?a=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+
+[ 2017-11-22T10:47:53+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: 1054:Unknown column '__USER__.id' in 'field list'
+ [ SQL语句 ] : SELECT __USER__.id,`phone`,`addtime`,`status`,`role`,__USER_DETAIL__.name,`score`,`sex`,`email` FROM `think_user` INNER JOIN think_user_detail on think_user.id=think_user_detail.uid  ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-22T10:48:32+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+
+[ 2017-11-22T10:49:25+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+ERR: Think\Model:SaveStatus方法不存在！
+
+[ 2017-11-22T10:49:28+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: syntax error, unexpected ''.id,phone,addtime,status,role' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+
+[ 2017-11-22T10:50:03+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-11-22T10:50:41+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: 1054:Unknown column '__USER__.id' in 'field list'
+ [ SQL语句 ] : SELECT __USER__.id,`phone`,`addtime`,`status`,`role`,__USER_DETAIL__.name,`score`,`sex`,`email` FROM `think_user` INNER JOIN think_user_detail on think_user.id=think_user_detail.uid  ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-22T10:53:12+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-11-22T10:53:44+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2017-11-22T10:54:08+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2017-11-22T10:54:28+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2017-11-22T10:54:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-11-22T10:57:37+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2017-11-22T10:58:12+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2017-11-22T11:01:51+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'osc LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT think_user.id,`phone`,`addtime`,`status`,`role`,think_user_detail.name,`score`,`sex`,`email` FROM `think_user` INNER JOIN think_user_detail on think_user.id=think_user_detail.uid  ORDER BY id osc LIMIT 0,5  
+
+[ 2017-11-22T11:04:24+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0007s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=9 ) [ RunTime:0.0739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2017-11-22T11:09:11+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=8 ) [ RunTime:0.2925s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 113 行.
+
+[ 2017-11-22T11:10:22+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Index/Sort_ads.html
+ERR: 非法操作:Sort_ads
+
+[ 2017-11-22T11:10:43+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001836s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=6 ) [ RunTime:0.0633s ]
+
+[ 2017-11-22T11:13:00+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=4 ) [ RunTime:0.2516s ]
+
+[ 2017-11-22T11:13:12+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=1 ) [ RunTime:0.2317s ]
+
+[ 2017-11-22T11:13:15+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=2 ) [ RunTime:0.1841s ]
+
+[ 2017-11-22T11:17:59+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.0993s ]
+
+[ 2017-11-22T11:18:08+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0007s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=8 ) [ RunTime:0.0663s ]
+
+[ 2017-11-22T11:18:13+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003302s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0008s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=7 ) [ RunTime:0.1309s ]
+
+[ 2017-11-22T11:47:09+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=9 ) [ RunTime:0.0103s ]
+
+[ 2017-11-22T11:47:29+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0003s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.1165s ]
+
+[ 2017-11-22T11:49:25+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=9 ) [ RunTime:0.0761s ]
+
+[ 2017-11-22T11:49:28+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0007s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.0560s ]
+
+[ 2017-11-22T11:49:29+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0003s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.0975s ]
+
+[ 2017-11-22T11:49:32+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.0002s ]
+
+[ 2017-11-22T11:49:41+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.0323s ]
+
+[ 2017-11-22T11:49:44+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0003s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=5 ) [ RunTime:0.0626s ]
+
+[ 2017-11-22T11:49:47+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=5 ) [ RunTime:0.0002s ]
+
+[ 2017-11-22T11:49:49+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0009s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=5 ) [ RunTime:0.0005s ]
+
+[ 2017-11-22T11:54:17+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=7 ) [ RunTime:0.0854s ]
+
+[ 2017-11-22T11:54:27+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.0530s ]
+
+[ 2017-11-22T11:54:37+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0009s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.0004s ]
+
+[ 2017-11-22T11:55:11+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0007s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=8 ) [ RunTime:0.0773s ]
+
+[ 2017-11-22T11:55:59+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.0003s ]
+
+[ 2017-11-22T11:56:05+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=7 ) [ RunTime:0.0002s ]
+
+[ 2017-11-22T11:56:26+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=9 ) [ RunTime:0.1545s ]
+
+[ 2017-11-22T11:56:35+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009090s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=5 ) [ RunTime:0.0578s ]
+
+[ 2017-11-22T11:59:27+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0003s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.0984s ]
+
+[ 2017-11-22T11:59:41+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=8 ) [ RunTime:0.0440s ]
+
+[ 2017-11-22T11:59:53+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.0622s ]
+
+[ 2017-11-22T12:00:28+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015461s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.0005s ]
+
+[ 2017-11-22T12:01:20+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0013s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=8 ) [ RunTime:0.0464s ]
+
+[ 2017-11-22T12:02:02+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=5 ) [ RunTime:0.0406s ]
+
+[ 2017-11-22T12:04:25+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008814s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=9 ) [ RunTime:0.0422s ]
+
+[ 2017-11-22T12:04:28+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003666s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0010s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=5 ) [ RunTime:0.0006s ]
+
+[ 2017-11-22T12:04:32+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0012s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=5 ) [ RunTime:0.0014s ]
+
+[ 2017-11-22T12:04:59+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/[object%20HTMLDivElement]
+ERR: 非法操作:[object HTMLDivElement]
+
+[ 2017-11-22T12:06:59+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0241s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.0209s ]
+
+[ 2017-11-22T12:07:44+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=8 ) [ RunTime:0.0458s ]
+
+[ 2017-11-22T12:08:04+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/[object%20HTMLDivElement]
+ERR: 非法操作:[object HTMLDivElement]
+
+[ 2017-11-22T12:08:29+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/[object%20HTMLDivElement]
+ERR: 非法操作:[object HTMLDivElement]
+
+[ 2017-11-22T13:39:47+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=8 ) [ RunTime:0.0380s ]
+
+[ 2017-11-22T13:39:53+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=9 ) [ RunTime:0.0888s ]
+
+[ 2017-11-22T13:59:08+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.0638s ]
+
+[ 2017-11-22T13:59:11+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.0528s ]
+
+[ 2017-11-22T13:59:14+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.0002s ]
+
+[ 2017-11-22T14:03:10+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=9 ) [ RunTime:0.0492s ]
+
+[ 2017-11-22T14:03:13+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011732s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0007s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.0692s ]
+
+[ 2017-11-22T14:03:16+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0003s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=5 ) [ RunTime:0.0982s ]
+
+[ 2017-11-22T14:03:18+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0007s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.3009s ]
+
+[ 2017-11-22T14:03:28+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=5 ) [ RunTime:0.0662s ]
+
+[ 2017-11-22T14:03:38+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.0607s ]
+
+[ 2017-11-22T14:03:45+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0003s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=8 ) [ RunTime:0.0427s ]
+
+[ 2017-11-22T14:03:51+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=5 ) [ RunTime:0.0427s ]
+
+[ 2017-11-22T14:04:03+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.0708s ]
+
+[ 2017-11-22T14:04:13+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0011s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=5 ) [ RunTime:0.1287s ]
+
+[ 2017-11-22T14:04:21+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.0417s ]
+
+[ 2017-11-22T14:06:07+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=9 ) [ RunTime:0.0895s ]
+
+[ 2017-11-22T14:06:11+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.0893s ]
+
+[ 2017-11-22T14:06:16+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0003s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.0002s ]
+
+[ 2017-11-22T14:06:19+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002177s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0007s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.0003s ]
+
+[ 2017-11-22T14:06:26+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.0004s ]
+
+[ 2017-11-22T14:06:29+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=8 ) [ RunTime:0.0499s ]
+
+[ 2017-11-22T14:06:35+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0007s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=8 ) [ RunTime:0.0366s ]
+
+[ 2017-11-22T14:07:12+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=8 ) [ RunTime:0.0459s ]
+
+[ 2017-11-22T14:07:16+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=8 ) [ RunTime:0.0455s ]
+
+[ 2017-11-22T14:10:12+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=9 ) [ RunTime:0.0262s ]
+
+[ 2017-11-22T14:10:24+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002400s ]
+
+[ 2017-11-22T14:11:02+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2017-11-22T14:11:08+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003495s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.1189s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=8 ) [ RunTime:0.2723s ]
+
+[ 2017-11-22T14:11:10+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2017-11-22T14:11:59+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=5 ) [ RunTime:0.0448s ]
+
+[ 2017-11-22T14:12:10+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2017-11-22T14:14:39+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0003s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.3103s ]
+
+[ 2017-11-22T14:15:18+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=7 ) [ RunTime:0.1002s ]
+
+[ 2017-11-22T14:15:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=9 ) [ RunTime:0.0928s ]
+
+[ 2017-11-22T14:16:00+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0003s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.0731s ]
+
+[ 2017-11-22T14:16:39+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0010s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=9 ) [ RunTime:0.0419s ]
+
+[ 2017-11-22T14:16:44+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0266s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.0272s ]
+
+[ 2017-11-22T14:16:51+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=9 ) [ RunTime:0.1427s ]
+
+[ 2017-11-22T14:16:55+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.0776s ]
+
+[ 2017-11-22T14:16:57+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=9 ) [ RunTime:0.0639s ]
+
+[ 2017-11-22T14:16:58+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0007s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.0431s ]
+
+[ 2017-11-22T14:17:00+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=9 ) [ RunTime:0.0609s ]
+
+[ 2017-11-22T14:17:02+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=8 ) [ RunTime:0.0496s ]
+
+[ 2017-11-22T14:17:04+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=8 ) [ RunTime:0.3802s ]
+
+[ 2017-11-22T14:17:08+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002867s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=8 ) [ RunTime:0.1080s ]
+
+[ 2017-11-22T14:17:10+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002026s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=8 ) [ RunTime:0.0527s ]
+
+[ 2017-11-22T14:18:44+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.3738s ]
+
+[ 2017-11-22T14:19:12+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0003s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=9 ) [ RunTime:0.0607s ]
+
+[ 2017-11-22T14:19:16+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=8 ) [ RunTime:0.0551s ]
+
+[ 2017-11-22T14:19:25+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0014s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.0445s ]
+
+[ 2017-11-22T14:19:27+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=9 ) [ RunTime:0.0954s ]
+
+[ 2017-11-22T14:42:23+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 9 [ RunTime:0.0775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-11-22T14:42:32+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 7 [ RunTime:0.1100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2017-11-22T14:42:38+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 6 [ RunTime:0.0107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-11-22T14:45:33+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.0815s ]
+
+[ 2017-11-22T14:45:51+08:00 ] 192.168.35.197 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0003s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 5 [ RunTime:0.0360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-11-22T14:48:01+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T14:48:01+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T14:48:01+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/funnel.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T14:48:01+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/pie.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T14:48:50+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 5 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: status /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 232 行.
+
+[ 2017-11-22T14:48:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0007s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 4 [ RunTime:0.0446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2017-11-22T14:48:59+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 5 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: status /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 232 行.
+
+[ 2017-11-22T14:50:02+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=11 ) [ RunTime:0.0456s ]
+
+[ 2017-11-22T14:52:43+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Rbac/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2017-11-22T14:53:13+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Rbac/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2017-11-22T14:53:20+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Rbac/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2017-11-22T14:55:24+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Rbac/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2017-11-22T14:56:45+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Rbac/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2017-11-22T15:08:50+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/rules.html
+ERR: syntax error, unexpected 'name' (T_STRING), expecting variable (T_VARIABLE)
+
+[ 2017-11-22T15:10:24+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/rules.html
+ERR: syntax error, unexpected ',', expecting variable (T_VARIABLE)
+
+[ 2017-11-22T15:10:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/rules.html
+ERR: syntax error, unexpected ',', expecting variable (T_VARIABLE)
+
+[ 2017-11-22T15:10:45+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/rules.html
+ERR: syntax error, unexpected ',', expecting variable (T_VARIABLE)
+
+[ 2017-11-22T15:44:09+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/rules.html
+ERR: syntax error, unexpected 'name' (T_STRING), expecting variable (T_VARIABLE)
+
+[ 2017-11-22T15:44:10+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/rules.html
+ERR: syntax error, unexpected 'name' (T_STRING), expecting variable (T_VARIABLE)
+
+[ 2017-11-22T15:44:10+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/rules.html
+ERR: syntax error, unexpected 'name' (T_STRING), expecting variable (T_VARIABLE)
+
+[ 2017-11-22T15:44:10+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/rules.html
+ERR: syntax error, unexpected 'name' (T_STRING), expecting variable (T_VARIABLE)
+
+[ 2017-11-22T15:44:11+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/rules.html
+ERR: syntax error, unexpected 'name' (T_STRING), expecting variable (T_VARIABLE)
+
+[ 2017-11-22T15:44:11+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/rules.html
+ERR: syntax error, unexpected 'name' (T_STRING), expecting variable (T_VARIABLE)
+
+[ 2017-11-22T15:44:11+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/rules.html
+ERR: syntax error, unexpected 'name' (T_STRING), expecting variable (T_VARIABLE)
+
+[ 2017-11-22T15:44:11+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/rules.html
+ERR: syntax error, unexpected 'name' (T_STRING), expecting variable (T_VARIABLE)
+
+[ 2017-11-22T15:44:11+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/rules.html
+ERR: syntax error, unexpected 'name' (T_STRING), expecting variable (T_VARIABLE)
+
+[ 2017-11-22T15:44:30+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/checkUserExist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+ERR: 非法操作:checkUserExist
+
+[ 2017-11-22T15:44:30+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/php/2.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+ERR: 非法操作:php
+
+[ 2017-11-22T15:45:27+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/checkUserExist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+ERR: 非法操作:checkUserExist
+
+[ 2017-11-22T15:45:27+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/php/2.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+ERR: 非法操作:php
+
+[ 2017-11-22T15:46:50+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/php/2.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+ERR: 非法操作:php
+
+[ 2017-11-22T15:46:50+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/checkUserExist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+ERR: 非法操作:checkUserExist
+
+[ 2017-11-22T15:46:53+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/checkUserExist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+ERR: 非法操作:checkUserExist
+
+[ 2017-11-22T15:46:53+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/php/2.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+ERR: 非法操作:php
+
+[ 2017-11-22T15:47:10+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/checkUserExist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+ERR: 非法操作:checkUserExist
+
+[ 2017-11-22T15:50:51+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/php/2.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+ERR: 非法操作:php
+
+[ 2017-11-22T19:35:11+08:00 ] 192.168.35.209 /shop2/Admin/Indxex/inde
+ERR: 无法加载控制器:Indxex
+
+[ 2017-11-22T19:57:16+08:00 ] 192.168.35.87 /shop2/Admin/index/Sort_ads.html
+ERR: 非法操作:Sort_ads
+
+[ 2017-11-22T20:01:22+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0017s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=18 ) [ RunTime:0.5814s ]
+
+[ 2017-11-22T20:01:25+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0003s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=18 ) [ RunTime:0.0764s ]
+
+[ 2017-11-22T20:11:52+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/brand.html
+ERR: syntax error, unexpected 'it' (T_STRING)
+
+[ 2017-11-22T20:14:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=1 ) [ RunTime:0.0919s ]
+
+[ 2017-11-22T20:14:56+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002515s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=1 ) [ RunTime:0.0386s ]
+
+[ 2017-11-22T20:21:48+08:00 ] 192.168.35.209 /shop2/Admin//shop2/index.php/Admin/Types/types.html
+ERR: 无法加载控制器:Shop2
+
+[ 2017-11-22T20:21:55+08:00 ] 192.168.35.209 /shop2/Admin//shop2/index.php/Admin/Types/types.html
+ERR: 无法加载控制器:Shop2
+
+[ 2017-11-22T20:22:16+08:00 ] 192.168.35.209 /shop2/Admin//shop2/index.php/Admin/Types/types.html
+ERR: 无法加载控制器:Shop2
+
+[ 2017-11-22T20:22:16+08:00 ] 192.168.35.209 /shop2/Admin//shop2/index.php/Admin/Types/types.html
+ERR: 无法加载控制器:Shop2
+
+[ 2017-11-22T20:28:14+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/php/2.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006429s ]
+ERR: 非法操作:php
+
+[ 2017-11-22T20:28:17+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/php/2.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+ERR: 非法操作:php
+
+[ 2017-11-22T20:30:23+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/php/2.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+ERR: 非法操作:php
+
+[ 2017-11-22T20:30:40+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/php/2.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+ERR: 非法操作:php
+
+[ 2017-11-22T20:31:31+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/php/2.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+ERR: 非法操作:php
+
+[ 2017-11-22T20:37:32+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T20:37:32+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/funnel.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T20:37:32+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/pie.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T20:51:02+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/index.html
+ERR: syntax error, unexpected 'dump' (T_STRING)
+
+[ 2017-11-22T20:51:11+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2017-11-22T20:53:57+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2017-11-22T21:01:43+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/editUser/id/1.html
+ERR: Think\Model:getUserById方法不存在！
+
+[ 2017-11-22T21:01:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2017-11-22T21:01:47+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/assets/css/bootstrap.min.css
+ERR: 非法操作:assets
+
+[ 2017-11-22T21:29:48+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/index.html
+ERR: syntax error, unexpected '('
+
+[ 2017-11-22T21:29:55+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/list.html
+ERR: syntax error, unexpected '('
+
+[ 2017-11-22T21:30:24+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/list.html
+ERR: syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ')'
+
+[ 2017-11-22T21:30:28+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/rules.html
+ERR: syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ')'
+
+[ 2017-11-22T21:30:29+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/list.html
+ERR: syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ')'
+
+[ 2017-11-22T21:30:39+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/rules.html
+ERR: syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ')'
+
+[ 2017-11-22T21:30:39+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/rules.html
+ERR: syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ')'
+
+[ 2017-11-22T21:30:39+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/rules.html
+ERR: syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ')'
+
+[ 2017-11-22T21:31:12+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/list.html
+ERR: syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ')'
+
+[ 2017-11-22T21:31:13+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/index.html
+ERR: syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ')'
+
+[ 2017-11-22T21:31:55+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/list.html
+ERR: Class 'Admin\Controller\Auth' not found
+
+[ 2017-11-22T21:32:13+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/list.html
+ERR: Class 'Admin\Controller\Auth' not found
+
+[ 2017-11-22T21:32:14+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/list.html
+ERR: Class 'Admin\Controller\Auth' not found
+
+[ 2017-11-22T21:32:14+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/list.html
+ERR: Class 'Admin\Controller\Auth' not found
+
+[ 2017-11-22T21:32:27+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/list.html
+ERR: Class 'Admin\Controller\Think\Auth' not found
+
+[ 2017-11-22T21:33:04+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/list.html
+ERR: syntax error, unexpected 'class' (T_CLASS)
+
+[ 2017-11-22T21:33:05+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Rbac/list.html
+ERR: syntax error, unexpected 'class' (T_CLASS)
+
+[ 2017-11-22T21:58:54+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=4 ) [ RunTime:0.1046s ]
+
+[ 2017-11-22T21:59:05+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0009s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=4 ) [ RunTime:0.1038s ]
+
+[ 2017-11-22T21:59:08+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=3 ) [ RunTime:0.0421s ]
+
+[ 2017-11-22T22:08:02+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=4 ) [ RunTime:0.0441s ]
+
+[ 2017-11-22T22:08:05+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=4 ) [ RunTime:0.0456s ]
+
+[ 2017-11-22T22:08:11+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0007s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=3 ) [ RunTime:0.0622s ]
+
+[ 2017-11-22T22:09:05+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0010s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=5 ) [ RunTime:0.0090s ]
+
+[ 2017-11-22T22:09:22+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=1 ) [ RunTime:0.2613s ]
+
+[ 2017-11-22T22:09:33+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0011s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 5 [ RunTime:0.0864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2017-11-22T22:11:45+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 4 [ RunTime:0.0405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2017-11-22T22:11:50+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0010s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=3 ) [ RunTime:0.3577s ]
+
+[ 2017-11-22T22:12:01+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0008s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 3 [ RunTime:0.1739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-11-22T22:21:37+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0007s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=1 ) [ RunTime:0.0642s ]
+
+[ 2017-11-22T22:24:21+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0007s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=2 ) [ RunTime:0.0345s ]
+
+[ 2017-11-22T22:24:34+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0008s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=2 ) [ RunTime:0.0571s ]
+
+[ 2017-11-22T22:32:43+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 1 [ RunTime:0.0514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-11-22T22:33:31+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0008s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 2 [ RunTime:0.0036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2017-11-22T22:35:15+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0007s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=9 ) [ RunTime:0.0426s ]
+
+[ 2017-11-22T22:35:17+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=9 ) [ RunTime:0.0369s ]
+
+[ 2017-11-22T22:35:29+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0007s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 9 [ RunTime:0.0345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2017-11-22T22:35:36+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0660s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 7 [ RunTime:0.3834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-11-22T22:39:08+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 8 [ RunTime:0.0456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-11-22T22:39:22+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 6 [ RunTime:0.0343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-11-22T22:41:40+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusDatas.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002649s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='1' WHERE ( id=12 ) [ RunTime:0.2335s ]
+
+[ 2017-11-22T22:41:42+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=12 ) [ RunTime:0.0417s ]
+
+[ 2017-11-22T22:41:47+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0012s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 12 [ RunTime:0.0044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2017-11-22T22:41:56+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=11 ) [ RunTime:0.0454s ]
+
+[ 2017-11-22T22:42:00+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0008s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 11 [ RunTime:0.0456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2017-11-22T22:42:10+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/handlerStatusData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0007s ]
+SQL: UPDATE `think_goods_brand` SET `status`='2' WHERE ( id=10 ) [ RunTime:0.0112s ]
+
+[ 2017-11-22T22:42:16+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0007s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 10 [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2017-11-22T22:50:48+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0392s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 13 [ RunTime:0.0032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-11-22T22:51:34+08:00 ] 192.168.35.87 /shop2/Admin//shop2/index.php/Admin/Types/types.html
+ERR: 无法加载控制器:Shop2
+
+[ 2017-11-22T22:55:04+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/%7B:U('Goods/handlerStatusData')%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+ERR: 非法操作:{:U('Goods
+
+[ 2017-11-22T22:55:05+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/%7B:U('Goods/handlerStatusData')%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+ERR: 非法操作:{:U('Goods
+
+[ 2017-11-22T22:55:06+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/%7B:U('Goods/handlerStatusData')%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+ERR: 非法操作:{:U('Goods
+
+[ 2017-11-22T22:55:06+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/%7B:U('Goods/handlerStatusData')%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+ERR: 非法操作:{:U('Goods
+
+[ 2017-11-22T22:55:07+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/%7B:U('Goods/handlerStatusData')%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+ERR: 非法操作:{:U('Goods
+
+[ 2017-11-22T22:55:07+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/%7B:U('Goods/handlerStatusData')%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+ERR: 非法操作:{:U('Goods
+
+[ 2017-11-22T22:55:07+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/%7B:U('Goods/handlerStatusData')%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+ERR: 非法操作:{:U('Goods
+
+[ 2017-11-22T22:55:07+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/%7B:U('Goods/handlerStatusData')%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+ERR: 非法操作:{:U('Goods
+
+[ 2017-11-22T22:55:07+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/%7B:U('Goods/handlerStatusData')%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+ERR: 非法操作:{:U('Goods
+
+[ 2017-11-22T22:55:14+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/%7B:U('Goods/delBrandData')%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+ERR: 非法操作:{:U('Goods
+
+[ 2017-11-22T22:55:15+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/%7B:U('Goods/delBrandData')%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+ERR: 非法操作:{:U('Goods
+
+[ 2017-11-22T22:58:20+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/%7B:U('Goods/handlerStatusData')%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+ERR: 非法操作:{:U('Goods
+
+[ 2017-11-22T23:23:12+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/doEditUser.html
+ERR: syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+
+[ 2017-11-22T23:24:37+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/doEditUser.html
+ERR: 1146:Table 'shop2.think_user_datail' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user_datail`
+
+[ 2017-11-22T23:31:52+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T23:31:52+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/js/lrtk.js
+ERR: 非法操作:js
+
+[ 2017-11-22T23:31:52+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/pie.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T23:31:52+08:00 ] 192.168.35.197 /shop2/index.php/Admin/User/assets/dist/chart/funnel.js
+ERR: 非法操作:assets
+
+[ 2017-11-22T23:35:45+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 15 [ RunTime:0.1073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2017-11-22T23:35:50+08:00 ] 192.168.35.87 /shop2/index.php/Admin/Goods/delBrandData.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: DELETE FROM `think_goods_brand` WHERE `id` = 14 [ RunTime:0.0515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001153s ]
+

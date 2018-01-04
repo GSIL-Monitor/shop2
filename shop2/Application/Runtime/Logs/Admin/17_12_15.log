@@ -1,0 +1,1246 @@
+[ 2017-12-15T03:04:08+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1   [ RunTime:0.0278s ]
+SQL: SELECT `id`,`tid`,`bid`,`name`,`price`,`pic`,`buynum`,`clicknum`,`status`,`sorce`,`addtime` FROM `think_goods` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2017-12-15T03:48:28+08:00 ] 192.168.35.229 /shop2/index.php/Admin/Goods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`tid`,`bid`,`name`,`price`,`pic`,`buynum`,`clicknum`,`status`,`sorce`,`addtime` FROM `think_goods` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001853s ]
+
+[ 2017-12-15T04:04:19+08:00 ] 192.168.35.209 /shop2/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000105s ]
+
+[ 2017-12-15T04:04:22+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2017-12-15T04:04:24+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Public/makeCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2017-12-15T04:04:28+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Public/handlerLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.2625s ]
+SQL: SELECT * FROM `think_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.1654s ]
+SQL: SHOW COLUMNS FROM `think_login_data` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `think_login_data` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0167s ]
+SQL: UPDATE `think_login_data` SET `logintime`='2017-12-15 04:04:28' WHERE `name` = 'admin' AND `uid` = 1 [ RunTime:0.0640s ]
+SQL: UPDATE `think_login_data` SET `number`=number+1 WHERE `name` = 'admin' AND `uid` = 1 [ RunTime:0.0806s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-12-15T04:04:28+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Public/handlerLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_login_data` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_login_data` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_login_data` SET `logintime`='2017-12-15 04:04:28' WHERE `name` = 'admin' AND `uid` = 1 [ RunTime:0.1019s ]
+SQL: UPDATE `think_login_data` SET `number`=number+1 WHERE `name` = 'admin' AND `uid` = 1 [ RunTime:0.0576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-12-15T04:05:41+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Public/handlerLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_login_data` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_login_data` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `think_login_data` SET `logintime`='2017-12-15 04:05:41' WHERE `name` = 'admin' AND `uid` = 1 [ RunTime:0.0530s ]
+SQL: UPDATE `think_login_data` SET `number`=number+1 WHERE `name` = 'admin' AND `uid` = 1 [ RunTime:0.0380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-12-15T04:05:42+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2017-12-15T04:05:44+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-12-15T04:05:48+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`tid`,`bid`,`name`,`price`,`pic`,`buynum`,`clicknum`,`status`,`sorce`,`addtime` FROM `think_goods` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2017-12-15T04:06:01+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/addgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`logo`,`addtime` FROM `think_goods_brand` WHERE ( status = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE ( pid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 15 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 16 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 3  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 42 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 43 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 44 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 45 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 61 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 4  [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 39 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 40 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 41 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 5  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 37 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 38 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 33 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 34 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 35 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 7  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 26 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 29 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 23 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 24 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 52 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 53 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 54 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 55 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 57  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 58 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 59 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2017-12-15T04:08:58+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+
+[ 2017-12-15T04:12:07+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2017-12-15T04:12:07+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2017-12-15T04:12:16+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`tid`,`bid`,`name`,`price`,`pic`,`buynum`,`clicknum`,`status`,`sorce`,`addtime` FROM `think_goods` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:3.772003s ]
+INFO: [ view_parse ] --END-- [ RunTime:3.772040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+
+[ 2017-12-15T04:12:16+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`tid`,`bid`,`name`,`price`,`pic`,`buynum`,`clicknum`,`status`,`sorce`,`addtime` FROM `think_goods` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000466s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-12-15T04:12:18+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/addgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`logo`,`addtime` FROM `think_goods_brand` WHERE ( status = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE ( pid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 15 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 42 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 44 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 45 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 61 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 4  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 40 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 41 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 36 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 37 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 38 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 33 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 34 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 35 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 7  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 26 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 29 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 23 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 24 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 52 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 53 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 54 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 55 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 57  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 58 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 59 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001431s ]
+
+[ 2017-12-15T04:17:13+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`tid`,`bid`,`name`,`price`,`pic`,`buynum`,`clicknum`,`status`,`sorce`,`addtime` FROM `think_goods` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2017-12-15T04:17:14+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/addgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`logo`,`addtime` FROM `think_goods_brand` WHERE ( status = 1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE ( pid=0 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 15 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 16 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 3  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 42 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 44 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 45 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 61 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 4  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 40 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 41 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 36 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 37 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 38 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 6  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 33 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 34 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 35 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 7  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 26 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 29 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 23 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 24 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 52 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 53 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 54 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 55 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 57  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 58 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 59 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-12-15T04:17:49+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: code /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 55 行.
+SQL: INSERT INTO `think_goods` (`name`,`tid`,`bid`,`price`,`pic`,`status`,`sorce`) VALUES ('【3】2017新款百搭彩条撞色套头修身长袖毛针织打底衫','1','0','123.00','2017-12-15/5a32dc6ce21c6.jpg','1','12') [ RunTime:0.0842s ]
+SQL: SHOW COLUMNS FROM `think_goods_photo` [ RunTime:0.0087s ]
+SQL: INSERT INTO `think_goods_photo` (`gid`,`photo`) VALUES ('9','2017-12-15/5a32dc6ce21c6.jpg') [ RunTime:0.0590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2017-12-15T04:17:50+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`tid`,`bid`,`name`,`price`,`pic`,`buynum`,`clicknum`,`status`,`sorce`,`addtime` FROM `think_goods` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-12-15T04:17:55+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`tid`,`bid`,`name`,`price`,`pic`,`buynum`,`clicknum`,`status`,`sorce`,`addtime` FROM `think_goods` ORDER BY id desc LIMIT 5,5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001646s ]
+
+[ 2017-12-15T04:17:57+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`tid`,`bid`,`name`,`price`,`pic`,`buynum`,`clicknum`,`status`,`sorce`,`addtime` FROM `think_goods` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-12-15T04:18:12+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/showTest/id/7/status/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/4a3a2026f0d0655b248a29458edf35c0.php 第 15 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/4a3a2026f0d0655b248a29458edf35c0.php 第 15 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/4a3a2026f0d0655b248a29458edf35c0.php 第 16 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/4a3a2026f0d0655b248a29458edf35c0.php 第 16 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/4a3a2026f0d0655b248a29458edf35c0.php 第 17 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/4a3a2026f0d0655b248a29458edf35c0.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-12-15T04:18:16+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`tid`,`bid`,`name`,`price`,`pic`,`buynum`,`clicknum`,`status`,`sorce`,`addtime` FROM `think_goods` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2017-12-15T04:23:10+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/addgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0293s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`logo`,`addtime` FROM `think_goods_brand` WHERE ( status = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE ( pid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 15 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 16 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 3  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 42 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 43 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 44 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 45 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 61 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 4  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 40 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 41 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 5  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 36 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 37 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 38 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 33 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 34 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 35 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 7  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 26 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 27 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 29 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 23 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 9  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 52 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 53 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 10  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 54 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 55 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 57  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 58 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 59 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-12-15T04:23:39+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: code /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: tname /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 65 行.
+SQL: INSERT INTO `think_goods` (`name`,`tid`,`bid`,`price`,`pic`,`status`,`sorce`) VALUES ('【】2017新款百搭彩条撞色套头修身长袖毛针织打底衫','13','0','132.00','2017-12-15/5a32ddcb25d7d.jpg','1','13') [ RunTime:0.0646s ]
+SQL: SHOW COLUMNS FROM `think_goods_photo` [ RunTime:0.0147s ]
+SQL: INSERT INTO `think_goods_photo` (`gid`,`photo`) VALUES ('10','2017-12-15/5a32ddcb25d7d.jpg') [ RunTime:0.0125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2017-12-15T04:23:40+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0242s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`tid`,`bid`,`name`,`price`,`pic`,`buynum`,`clicknum`,`status`,`sorce`,`addtime` FROM `think_goods` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-12-15T04:28:59+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/addgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0356s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`logo`,`addtime` FROM `think_goods_brand` WHERE ( status = 1 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE ( pid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 2  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 15 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 16 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 42 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 43 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 44 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 45 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 61 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 4  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 39 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 40 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 41 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 36 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 37 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 38 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 33 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 34 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 35 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 7  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 26 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 28 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 29 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 23 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 24 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 52 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 53 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 10  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 54 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 55 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 57  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 58 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 59 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2017-12-15T04:29:42+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/handlerAddGoodsData.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0411s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: code /usr/local/apache2/htdocs/shop2/Application/Admin/Controller/GoodsController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `think_goods_brand` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `think_goods` (`name`,`tid`,`bid`,`price`,`pic`,`status`,`sorce`) VALUES ('【YISHION以纯】2017新款百搭彩条撞色套头修身长袖毛针织打底衫','13','2','133.00','2017-12-15/5a32df35ec9cd.jpg','1','13') [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `think_goods_photo` [ RunTime:0.0254s ]
+SQL: INSERT INTO `think_goods_photo` (`gid`,`photo`) VALUES ('11','2017-12-15/5a32df35ec9cd.jpg') [ RunTime:0.0275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2017-12-15T04:29:42+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`tid`,`bid`,`name`,`price`,`pic`,`buynum`,`clicknum`,`status`,`sorce`,`addtime` FROM `think_goods` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 86 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 101 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/1344881b7d668a331ab84e65b3f418a9.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2017-12-15T04:30:01+08:00 ] 192.168.35.209 /shop2/index.php/Admin/Goods/editgoods/id/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `think_goods` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE ( pid=0 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `think_goods_brand` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`logo`,`addtime` FROM `think_goods_brand` WHERE ( status = 1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 2  [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 14 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 15 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 16 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 42 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 43 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 44 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 45 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 61 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 4  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 39 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 40 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 41 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 36 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 37 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 38 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 33 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 34 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 35 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 7  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 26 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 27 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 28 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 29 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 23 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 24 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 25 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 52 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 53 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 54 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 55 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id`,`pid`,`name` FROM `think_goods_types` WHERE `pid` = 57  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 58 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+SQL: SELECT `id` FROM `think_goods_types` WHERE `pid` = 59 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: value /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 83 行.
+NOTIC: [8] Use of undefined constant bid - assumed 'bid' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 116 行.
+NOTIC: [8] Use of undefined constant bid - assumed 'bid' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 116 行.
+NOTIC: [8] Use of undefined constant bid - assumed 'bid' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 116 行.
+NOTIC: [8] Use of undefined constant bid - assumed 'bid' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 116 行.
+NOTIC: [8] Use of undefined constant bid - assumed 'bid' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 116 行.
+NOTIC: [8] Use of undefined constant bid - assumed 'bid' /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Admin/a9cba85297290ca87690c7ba6cd37306.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+

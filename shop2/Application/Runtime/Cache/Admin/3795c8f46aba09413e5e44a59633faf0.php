@@ -1,0 +1,93 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="/shop2/Public/assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="/shop2/Public/css/style.css"/>       
+        <link href="/shop2/Public/assets/css/codemirror.css" rel="stylesheet">
+        <link rel="stylesheet" href="/shop2/Public/assets/css/ace.min.css" />
+        <link rel="stylesheet" href="/shop2/Public/assets/css/font-awesome.min.css" />
+        <!--[if IE 7]>
+          <link rel="stylesheet" href="/shop2/Public/assets/css/font-awesome-ie7.min.css" />
+        <![endif]-->
+        <!--[if lte IE 8]>
+          <link rel="stylesheet" href="/shop2/Public/assets/css/ace-ie.min.css" />
+        <![endif]-->
+            <script src="/shop2/Public/assets/js/jquery.min.js"></script>
+
+        <!-- <![endif]-->
+
+        <!--[if IE]>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<![endif]-->
+
+        <!--[if !IE]> -->
+
+        <script type="text/javascript">
+            window.jQuery || document.write("<script src='assets/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+        </script>
+
+        <!-- <![endif]-->
+
+        <!--[if IE]>
+<script type="text/javascript">
+ window.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+</script>
+<![endif]-->
+
+        <script type="text/javascript">
+            if("ontouchend" in document) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+        </script>
+        <script src="/shop2/Public/assets/js/bootstrap.min.js"></script>
+        <script src="/shop2/Public/assets/js/typeahead-bs2.min.js"></script>
+        <!-- page specific plugin scripts -->
+        <script src="/shop2/Public/assets/js/jquery.dataTables.min.js"></script>
+        <script src="/shop2/Public/assets/js/jquery.dataTables.bootstrap.js"></script>
+        <script type="text/javascript" src="/shop2/Public/js/H-ui.js"></script> 
+        <script type="text/javascript" src="/shop2/Public/js/H-ui.admin.js"></script> 
+        <script src="/shop2/Public/assets/layer/layer.js" type="text/javascript" ></script>
+        <script src="/shop2/Public/assets/laydate/laydate.js" type="text/javascript"></script>
+        <style>
+            .myselfcss{
+                position:absolute;
+                top:200px;
+                left:450px;
+            }
+        </style>
+<title>用户列表</title>
+</head>
+<body>
+     <div class="border clearfix">
+       <span class="l_f">
+        <a href="javascript:ovid()" id="member_add" class="btn btn-warning">修改用户等级折扣</a>
+       </span>
+     </div>
+<div class="add_menber" id="add_menber_style" style="display:block">
+    <form action="<?php echo U('User/doEditDiscount');?>" method="post">
+        <ul class=" page-content">
+        <li>
+            <label class="label_name">用户等级：</label>
+            <select class="select" name="role" size="1" id="role_type">
+                <option <?=$disCountData['role'] == 1?'selected':''?> value="1">普通用户</option>
+                <option <?=$disCountData['role'] == 2?'selected':''?> value="2">VIP</option>
+                <option <?=$disCountData['role'] == 3?'selected':''?> value="3">钻石用户</option>
+            </select>
+        </li>
+         <!-- <li><label class="label_name">用户等级：</label><span class="add_name"><input value="<?php echo ($disCountData["role"]); ?>" name="account" type="text"  class="text_add"/></span><div class="prompt r_f"></div></li> -->
+         <li><label class="label_name">折扣：</label><span class="add_name"><input value="<?php echo ($disCountData["discount"]); ?>" name="discount" type="text"  class="text_add"/></span><div class="prompt r_f"></div></li>
+        </ul>
+
+ </div>
+    <div class="myselfcss">
+     <label>
+        <a href=""><input type="submit"  class="btn btn-search" value="提交"/></a>
+        <a href="<?php echo U('User/index');?>"  class="btn btn-danger">取消</a>
+    </label>
+    </div>
+    </form>
+  <!-- <button class="btn_search" type="button">提</button>
+  <button class="btn_search" type="button">取消</button> -->
+
+    
+</body>
+</html>

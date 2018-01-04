@@ -1,0 +1,235 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="/shop2/Public/assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="/shop2/Public/css/style.css"/>       
+        <link href="/shop2/Public/assets/css/codemirror.css" rel="stylesheet">
+        <link rel="stylesheet" href="/shop2/Public/assets/css/ace.min.css" />
+        <link rel="stylesheet" href="/shop2/Public/Widget/zTree/css/zTreeStyle/zTreeStyle.css" type="text/css">
+        <link rel="stylesheet" href="/shop2/Public/assets/css/font-awesome.min.css" />
+        
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+        <!--[if lte IE 8]>
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		<![endif]-->
+			<script src="/shop2/Public/assets/js/jquery.min.js"></script>
+		<!-- <![endif]-->
+		<!--[if IE]>
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <![endif]-->
+		<!--[if !IE]> -->
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='assets/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+		</script>
+		<!-- <![endif]-->
+		<!--[if IE]>
+<script type="text/javascript">
+ window.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+</script>
+<![endif]-->
+        <script src="/shop2/Public/assets/js/ace-elements.min.js"></script>
+		<script src="/shop2/Public/assets/js/ace.min.js"></script>
+        <script src="/shop2/Public/assets/js/bootstrap.min.js"></script>
+		<script src="/shop2/Public/assets/js/typeahead-bs2.min.js"></script>
+        <script type="text/javascript" src="/shop2/Public/Widget/zTree/js/jquery.ztree.all-3.5.min.js"></script> 
+        <script src="/shop2/Public/js/lrtk.js" type="text/javascript" ></script>
+         <script src="/shop2/Public/assets/layer/layer.js" type="text/javascript" ></script>
+        <script src="/shop2/Public/assets/laydate/laydate.js" type="text/javascript"></script>
+<title>分类管理</title>
+</head>
+
+<body>
+<div class=" clearfix">
+ <div id="category">
+    <div id="scrollsidebar" class="left_Treeview">
+    <div class="show_btn" id="rightArrow"><span></span></div>
+    <div class="widget-box side_content" >
+    <div class="side_title"><a title="隐藏" class="close_btn"><span></span></a></div>
+     <div class="side_list">
+      <div class="widget-header header-color-green2">
+          <h4 class="lighter smaller">商品类型列表</h4>
+      </div>
+
+      <div class="widget-body">
+          <div class="widget-main padding-8">
+              <div  id="treeDemo" class="ztree"></div>
+          </div>
+  	  </div>
+
+  	  
+  </div>
+  </div>  
+  </div>
+	
+	<select id="status">
+		
+		<option value="1">新添加</option>
+		<option value="2">在售中</option>
+		<option value="3">已下架</option>
+	</select>
+	<select id="status">
+		<option value="1">新添加</option>
+		<option value="2">在售中</option>
+		<option value="3">已下架</option>
+	</select>
+  	<a href="javascript:;" onclick="sorce_edit(20)">点击显示</a>
+<!---->
+ <!-- <iframe ID="testIframe" Name="testIframe" FRAMEBORDER=0 SCROLLING=AUTO  SRC="<?php echo U('types/goodsTypesAdd');?>" class="page_right_style"></iframe> -->
+	<div class="add_menber" id="add_menber_style" style="display:none">
+		<ul class=" page-content">
+	     <li><label class="label_name">积&nbsp;&nbsp; &nbsp;分：</label><span class="add_name"><input value="" name="积分" type="text"  class="text_add"/></span></li>
+     	</ul>
+	</div>
+ </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+	
+	var aa = $('#status').val();
+	console.log(aa);
+	$('#status').change(function (){
+		var option = $(this);
+		console.log(option.children('option:selected').val());
+		var value = option.children('option:selected').val();
+		layer.confirm('是否更改',{
+			btn:['确定','取消']
+		},function(index){
+
+			layer.msg('更改值是:'+value,{icon:1,time:1000});
+		},function(){
+			
+			layer.msg('没有更改:',{icon:1,time:1000});
+		});
+	});
+
+	
+
+
+
+
+	function sorce_edit(id){
+		$(".add_menber input[type$='text']").val(id);
+	  layer.open({
+        type: 1,
+        title: '修改积分',
+		maxmin: true, 
+		shadeClose:false, //点击遮罩关闭层
+        area : ['500px' , '200px'],
+        content:$('#add_menber_style'),
+		btn:['提交','取消'],
+		yes:function(index,layero){
+			
+			$.ajax({
+				type:'post',
+				url:"<?php echo U('Goods/changeGoodsSorce');?>",
+				data:'id=1',
+				success:function (msg){
+					console.log(msg);
+					if (msg.code == 1200) {
+						layer.alert('添加成功！',{
+	             		title: '提示框',				
+						icon:1,
+			  		});
+			   		layer.close(index);
+			   		}else{
+			   			layer.alert('添加失败,或数据没改变！',{
+	             		title: '提示框',				
+						icon:0,
+						});
+			   		}
+				},
+				dataType:'json'
+			});
+	
+		  	  		     				
+		}
+    });
+}
+
+
+</script>
+
+<script type="text/javascript"> 
+$(function() { 
+	$("#category").fix({
+		float : 'left',
+		//minStatue : true,
+		skin : 'green',	
+		durationTime :false
+	});
+});
+</script>
+<script type="text/javascript">
+//初始化宽度、高度  
+ $(".widget-box").height($(window).height()); 
+ $(".page_right_style").width($(window).width()-220);
+  //当文档窗口发生改变时 触发  
+    $(window).resize(function(){
+	$(".widget-box").height($(window).height());
+	 $(".page_right_style").width($(window).width()-220);
+	})
+ 
+/**************/
+var setting = {
+	view: {
+		dblClickExpand: false,
+		showLine: false,
+		selectedMulti: false
+	},
+	data: {
+		simpleData: {
+			enable:true,
+			idKey: "id",
+			pIdKey: "pId",
+			rootPId: ""
+		}
+	},
+	callback: {
+		beforeClick: function(treeId, treeNode) {
+			var zTree = $.fn.zTree.getZTreeObj("tree");
+			if (treeNode.isParent) {
+				zTree.expandNode(treeNode);
+				return false;
+			} else {
+				demoIframe.attr("src",treeNode.file + ".html");
+				return true;
+			}
+		}
+	}
+};
+
+var zNodes =[
+	
+	{ id:1, pId:0, name:"商城分类列表", open:true},
+	{ id:11, pId:1, name:"蔬菜水果"},
+	{ id:111, pId:11, name:"蔬菜"},
+	{ id:112, pId:11, name:"苹果"},
+	{ id:113, pId:11, name:"大蒜"},
+	{ id:114, pId:11, name:"白菜"},
+	{ id:115, pId:11, name:"青菜"},
+	{ id:12, pId:1, name:"手机数码"},
+	{ id:121, pId:12, name:"手机 "},
+	{ id:122, pId:12, name:"照相机 "},
+	{ id:13, pId:1, name:"电脑配件"},
+	{ id:131, pId:13, name:"手机 "},
+	{ id:122, pId:13, name:"照相机 "},
+	{ id:14, pId:1, name:"服装鞋帽"},
+	{ id:141, pId:14, name:"手机 "},
+	{ id:42, pId:14, name:"照相机 "},
+
+];
+		
+var code;
+		
+function showCode(str) {
+	if (!code) code = $("#code");
+	code.empty();
+	code.append("<li>"+str+"</li>");
+}
+		
+
+</script>
