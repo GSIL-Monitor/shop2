@@ -1,0 +1,89 @@
+<extend name="Layout/base2"/>
+    <title>
+        <block name="title">个人中心</block>
+    </title>
+   
+    <block name="css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/base.css?1607171729.25" />
+    <link rel="icon" href="__PUBLIC__/Home/pic/_o/75/6e/2f6871f198c0bd7615ffbf9a2f5f_49_48.c5.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/account/common.css?1607171729.25" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/account/datepicker.css?1607171729.25" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/account/setPersonal.css?1607171729.25" />
+    <script type="text/javascript" src="__PUBLIC__/Home/pc/jsmin/fml.js?1"></script>
+    </block>
+
+
+    <block name="content">
+
+     <div class="settings_box">
+            <strong class="settings_title">我的信息</strong>
+            <fieldset class="setPersonal">
+            <form id="setPersonForm" method="get" onsubmit="return false" action="{:U('Person/addUserDetail')}">
+                <input type="hidden" name="uid" value="{$user['uid']}">
+                <div class="form-list">
+                    <label class="account-label">注册邮箱</label>
+                    <input id="register_mail" name="register_mail" autocomplete="off" class="l_ipt input_disable" type="text" value="{$user['email']}" disabled="disabled" />
+                    <strong></strong> 
+                </div>    
+                <div class="form-list">
+                    <label class="account-label">手机号码</label>
+                    <input id="register_mail" name="phone" autocomplete="off" disabled="disabled" class="l_ipt" value="{$user['phone']}"type="text" />
+                    <strong></strong> 
+                </div>
+             
+                <div class="form-list">
+                    <label class="account-label">昵称</label>
+                    <input id="nickname" name="name" autocomplete="off" disabled="disabled" class="l_ipt" type="text" value="{$user['name']}" />
+                    <strong></strong>
+                </div>   
+                <div class="form-list">
+                    <label class="account-label">总积分</label>
+                    <input id="nickname" name="name" autocomplete="off" disabled="disabled" class="l_ipt" type="text" value="{$user['score']}" />
+                    <strong></strong>
+                </div>
+                <div class="gender" id="gender">
+                    <label class="account-label">性别</label>
+                    <input name="sex" id="female" type="radio" value="0" disabled="disabled" <?=$user['sex']=='0'?'checked':''?> class="regular-radio" />
+                    <label for="female" class="regular-radio-label"></label>
+                    <span>女</span>
+                    <input name="sex" id="male" type="radio" value="1" disabled="disabled" class="regular-radio" <?=$user['sex']=='1'?'checked':''?>/>
+                    <label class="regular-radio-label" for="male"></label>
+                    <span>男</span>  
+                    <input name="sex" id="unknown" type="radio" value="2" disabled="disabled" class="regular-radio"  <?=$user['sex']=='2'?'checked':''?>/>
+                    <label class="regular-radio-label" for="male"></label>
+                    <span>保密</span>
+                    <strong></strong> 
+                </div>
+        
+                <div class="form-list" id="birthday-list">   
+                    <label class="account-label">生日</label>
+                    <input id="birthday" readonly class="laydate-icon"  disabled="disabled" name="birth" autocomplete="off" class="l_ipt" type="text" value="{$user['birth']}" onfocus="HS_setDate(this)" />
+                    <strong></strong>
+                </div>
+           
+               <a href="{:U('Person/setPersonal')}" ><button type="button" class="ext_submit">修改资料</button></a>
+               
+                <span class="submitError"></span>
+            </form>
+            </fieldset>
+        </div>
+    </div>
+    </block>
+    
+
+
+  <block name="js">
+  <script type="text/javascript" src="__PUBLIC__/Home/pc/jsmin/jquery.js?1.12.4"></script>
+  <script type="text/javascript" src="__PUBLIC__/Home/__static/logger/0.1.8/logger.js"></script>
+  <script src="__PUBLIC__/Home/__newtown/im_web/assets/common/openim/index.js"></script>
+ 
+  <script>fml.use('page/pcenter/common/navbar');;
+    fml.use('page/account/common/calender');;
+    fml.use('page/account/setPersonal/setPersonal');;
+    fml.use('page/account/common/area');;
+    fml.use('page/account/common/job');;
+    fml.use('base');;
+    fml.iLoad();</script>
+
+
+</block>

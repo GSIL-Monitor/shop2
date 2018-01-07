@@ -1,0 +1,95 @@
+<!-- 头标签 -->
+
+<?php
+
+    if (@$logout) {
+      $url = '/shop2/Home/Login';
+    }else{
+      $url = '/shop2/Home/Person';
+    }
+?>
+<div id="com-topbar">
+  <div class="inner">
+    <ul>
+      <li class="drop" style="float:left">
+              <a href="{:U('Index/index')}" >
+                <em class="home"></em>美丽说首页</a>
+           
+      </li>
+      <li class="drop">
+        <a href="<?=$url?>" class="nick" target="_blank">
+        
+           <empty name="picc">    
+            <img class="face" src="__PUBLIC__/Home/new1/v1/bdefaultavatar//03.jpg" />
+            <else />
+            <img class="face" src="__PUBLIC__/Uploads/{$picc}">
+            </empty>
+          <if condition="(@$logout eq 1)">
+            请登录
+            <else/>
+         {$account}
+          
+          </if>
+          <em class="arrow"></em></a>
+        <ul class="down account">
+          <li>
+            <a href="<?=$url?>">账号与安全</a></li>
+          <li>
+            <a href="javascript:;" onclick="setLogout()" <?=@$logout?'style="display:none"':''?>>退出</a></li>
+        </ul>
+      </li>
+      <li class="drop">
+              <a href="{:U('Register/index')}" >
+                注册</a>
+           
+      </li>
+      <li class="drop">
+        <a href="{:U('Collect/index')}" target="_blank">
+          <em class="collect"></em>我的收藏</a>
+        <!-- <ul class="down">
+          <li>
+            <a href="mylike.html" target="_blank">收藏宝贝</a></li>
+          <li>
+            <a href="mylikestore.html" target="_blank">收藏店铺</a></li>
+        </ul> -->
+      </li>
+      <li class="drop cart-wrapper">
+        <a target="_blank" href="{:U('Cart/showMyCartView')}" >
+          <em class="cart"></em>我的购物车</a>
+        <div class="hidden">
+          <ul class="cart-goods"></ul>
+          <p class="cart-account">
+            <span>购物车里还有
+              <a class="num" href="{:U('Cart/showMyCartView')}" target="_blank"></a>件商品</span>
+            <a class="check-cart" href="{:U('Cart/showMyCartView')}" target="_blank">查看购物车</a></p>
+        </div>
+      </li>
+     
+    </ul>
+  </div>
+</div>
+<script type="text/javascript">
+  
+    function setLogout(){
+      console.log('行不行');
+      $.ajax({
+          type:'post',
+          url:"{:U('Login/logout')}",
+          data:'logout=1',
+          success:function(msg){
+            console.log(msg);
+              if (msg['code'] == 1200) {
+                  // location.reload([true]);
+                 window.location.href="{:U('Index/index')}";
+                  // console.log('注销没');
+              }
+          },
+          error:function(msg){
+              layer.confirm('访问服务器失败.');
+          },
+          dataType:'json'
+      });
+    }
+    
+
+</script>

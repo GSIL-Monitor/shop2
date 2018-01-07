@@ -1,0 +1,240 @@
+<extend name="Layout/base2"/>
+    <title>    
+        <block name="title">地址管理</block>
+    </title>
+    <block name="css">
+ 
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+    <link rel="icon" href="__PUBLIC__/Home/pic/_o/46/c2/7545d5f20d276e84af0f034b0287_92_94.cf.png" type="image/x-icon"/>
+
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/header.css$ead98e0e_1471519499.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/page-muorder-common.css$ead98e0e_1471519499.css" media="all" />
+    <!-- 下面这条样式最重要 -->
+     <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/base.css?1607171729.25" />
+  
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/account/common.css?1607171729.25" />
+  
+ 
+
+    </block>
+        <block name="js">
+    <script type="text/javascript" src="__PUBLIC__/Home/js/pkg-pc-base.js$ead98e0e_1471519499.js"></script>
+    </block>
+    
+      <block name="content">
+
+        <div id="address_wrap">
+    <div class="addr_right topay" isaddress="true"> <!-- <select id="provinceId"></select> <select id="cityId"></select> <select id="areaId"></select> --> 
+        <h2 class="addr_title">地址管理</h2> 
+        <div class="addr_edit" id="J_s_addr_edit"> 
+            <div class="addressbox_warp"> 
+                <div class="addressbox" id="J_sAddrWrap"></div> 
+                <div class="address_wrapper">
+                <form action="{:U('Person/addAddress')}" method="post">
+                    <input type="hidden" class="J_isdefault" name="uid" value="{$uid}"> 
+                    <div class="__addressPop"> 
+                        <dl class="address_pop"> 
+                            <dt>省市：</dt> 
+                            
+                            <dd class="pt_ie6hack" id="papa"> 
+                                <i class="needicon">*</i>
+                                <select name="pro" id="pro" class="textarea formsize_meiddle J_street J_form">
+                                    <option value="-1">--请选择--</option>
+                                </select> 
+                                <span class="prompt city_select"></span> 
+                            </dd> 
+                         
+                            <dt>街道地址：</dt> 
+                            <dd> <i class="needicon">*</i> 
+                                <textarea data-type="*" data-min="5" data-max="100" data-normal="请填写街道地址，最少5个字，最多不能超过100个字" data-errormsg="请填写街道地址，最少5个字，最多不能超过100个字" class="textarea formsize_large J_street J_form" name="streets" cols="30" rows="3"></textarea> <span class="prompt breakline">请填写街道地址，最少5个字，最多不能超过100个字</span> 
+                            </dd> 
+                            <dt>收货人姓名：</dt> 
+                            <dd> <i class="needicon">*</i> 
+                                <input type="text" data-type="*" data-errormsg="请填写收货人" data-normal="" class="text formsize_normal J_name J_form vm" name="name" value=""> <span class="prompt name_select"></span> 
+                            </dd> 
+                            <dt>手机：</dt> 
+                            <dd> <i class="needicon">*</i> 
+                                <input type="text" data-type="phone" data-errormsg="请填写正确的联系号码" data-normal="" class="text formsize_normal J_mobile J_form vm" name="phone" value=""> <span class="prompt mobile_select"></span> 
+                            </dd> 
+                            <dt></dt> 
+                            <dd class="pt10 oper_btn"> 
+                                 <input class="confirm_btn J_okbtn mr10"  type="submit" value="确认地址">     
+                                 <input  class="cancel_btn J_cancelbtn"  type="reset" value="取消">     
+                            </dd> 
+                        </dl>
+                    </div>
+                </form> <!-- <div class="addressbox addressfirst addresslist" action="/trade/address/addfororder"> </div> --> 
+                </div>
+            </div>  
+            <div class="addr_section " aid="552711234"> 
+                <ul class="clearfix"> 
+                <foreach name="datass"  item="vo">
+                    <div class="tt">
+                    <li class="name">{$vo['name']}</li>  
+                    <li class="addr"> {$vo['address']}</li> 
+                    <li class="mobile">{$vo['phone']}</li> 
+                    <li class="oper">
+                    <if condition="$vo['state'] eq 2"> 
+                    <a href="javascript:;" class="J_default"  onclick="editToMo(this,{$vo.id},{$uid})">设为默认</a>
+                    <else /> 
+                    <b><a style="text-decoration:none;color:orange">默认地址</a></b>
+                    </if>
+
+                    <a href="javascript:;" onclick="del(this, {$vo.id})"class="del nobd" aid="552711234">删除</a> </li> 
+                    <li class="enaddr"></li> 
+                    </div>
+                </foreach>
+                </ul>
+            </div>  
+        </div>
+    </div>
+</div>
+
+
+
+    </div>
+    </block>
+
+
+
+
+<!-- 中间区域 -->
+
+
+    <block name="js">
+<script type="text/javascript" src="__PUBLIC__/Home/js/page-myorder-list.js$ead98e0e_1471519499.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/js/woodpecker.0.3.0.js$a39334f1_1458802962.js"></script>
+   <script src="__PUBLIC__/Home/js/jquery-1.12.3.min.js"></script>
+ <script type="text/javascript">
+        $.post(
+            "{:U('Person/getAddressData')}",
+            function (msg) {
+                // console.log(msg);
+                
+                if (msg.code == 1200) {
+
+                    var optionStr = '';
+                    for (var i = 0; i<msg.data.length; i++) {
+                        optionStr += '<option value="'+ msg.data[i].id +'">'+ msg.data[i].name +'</option>';
+                    }
+
+                    // console.log(optionStr);
+
+                    $('select#pro').append( optionStr );
+
+                } else {
+
+                    alert('服务器繁忙！！...程序员修复中..');
+                }
+            },
+            'json'
+        );
+
+
+        var config = {
+
+            pro: 'city',//市区
+            city: 'area',//区
+            area: 'stree'//街道
+       
+        };
+
+
+        $('#papa').on('change', 'select', function () {
+
+            //拿到当前value
+            var id = $(this).val();
+
+            //获取到当前点击的select标签的name值
+            var currentName = $(this).attr('name');
+
+            //删除当前点击的select标签后面的所有的select标签
+            $(this).nextAll('select').remove();
+
+            $.get(
+              "{:U('Person/getAddressData')}",
+                {upid: id},
+                function (msg) {
+                    // console.log(msg);
+                    
+                    // console.log(msg);
+                    
+                    if (msg.code == 1200) {
+
+                        var optionStr = '<select name="'+ config[currentName] +'"class="textarea formsize_meiddle J_street J_form">';
+                        optionStr += '<option value="-1">--请选择市区--</option>';
+                        for (var i = 0; i<msg.data.length; i++) {
+                            optionStr += '<option value="'+ msg.data[i].id +'">'+ msg.data[i].name +'</option>';
+                        }
+
+                        optionStr += '</select>';
+                        // console.log(optionStr);
+
+                        $('#papa').append( optionStr );
+
+                    }/* else {
+
+
+                        alert('服务器繁忙！！...程序员修复中..');
+                    }*/
+
+                },
+                'json'
+            );
+        });
+
+    function editToMo(obj,id,uid){
+
+
+       $.ajax({
+            url: "{:U('Person/editAddressState')}",
+            type: "post",
+            data: "id="+id+"&uid="+uid,
+            success: function (msg) {
+
+                if (msg['code'] == 1200) {
+                
+                 
+                window.location.reload();
+                } else {
+
+                    alert('系统有误! 请尽快联系程序员!!');
+                }
+            },
+            dataType: "json"
+        });
+
+}
+
+function del(obj, id) {
+
+    
+        $.ajax({
+            url: "{:U('Person/delAddressData')}",
+            type: "post",
+            data: "id="+id,
+            success: function (msg) {
+
+                if (msg['code'] == 1200) {
+                    console.log(888);
+              
+                    $(obj).parents(".tt").remove();
+                    alert('已删除!');
+                } else {
+
+                    alert('系统有误! 请尽快联系程序员!!');
+                }
+            },
+            dataType: "json"
+        });
+ 
+}
+        </script>
+</block>
+
+
+</body>
+
+</html>

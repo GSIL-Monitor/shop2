@@ -1,0 +1,160 @@
+<extend name="Layout/base2"/>
+    <title>    
+        <block name="title">订单列表_美丽说</block>
+    </title>
+    <block name="css">
+   
+		<link href="__PUBLIC__/myjs/AmazeUI-2.4.2/assets/css/admin.css" rel="stylesheet" type="text/css">
+		<link href="__PUBLIC__/myjs/AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css">
+		<link href="__PUBLIC__/myjs/css/personal.css" rel="stylesheet" type="text/css">
+		<link href="__PUBLIC__/myjs/css/appstyle.css" rel="stylesheet" type="text/css">
+    </block>
+
+    <block name="js">
+   
+		
+		<script type="text/javascript" src="__PUBLIC__/myjs/js/jquery-1.7.2.min.js"></script>
+
+	</block>
+
+ <block name="content">   
+<div class="settings_box">
+     
+
+		<div class="user-comment">
+			<!--标题 -->
+			<div class="am-cf am-padding">
+				<div class="am-fl am-cf"><strong class="am-text-danger am-text-lg">发表评论</strong> / <small>Make&nbsp;Comments</small></div>
+			</div>
+			<hr/>
+
+		<?php 
+			$orderId = I('get.orderId');
+			$orData = D('orders')->field('uid, status')->where(['id' => $orderId])->find();
+			
+			$data = D('order_detail')->field('pic, name, color, size, price, gid')->where(['oid' => I('get.orderId')])->select();
+
+			for ($i=0; $i<count($data); $i++) { 
+		?>
+			<div class="comment-main">
+				<div class="comment-list">
+				<form class="link_form"></form>
+					<div class="item-pic">
+						<a href="#" class="J_MakePoint">
+							<img src="__PUBLIC__/Uploads/{$data[$i]['pic']}" class="itempic">
+						</a>
+					</div>
+
+					<div class="item-title">
+
+						<div class="item-name">
+							<a href="#">
+								<p class="item-basic-info">{$data[$i]['name']}</p>
+							</a>
+						</div>
+						<div class="item-info">
+							<div class="info-little">
+								<p>颜色：<i class="colorData" contuse="{$orData['uid']}">{$data[$i]['color']}</i></p>
+								<p>尺寸：<i class="sizeData" orderId="{$orderId}" goodsId="{$data[$i]['gid']}">{$data[$i]['size']}</i></p>
+							</div>
+							<div class="item-price">
+								价格：<strong>{$data[$i]['price']}元</strong>
+							</div>										
+						</div>
+					</div>
+					<div class="clear"></div>
+					<div class="item-comment">
+						<textarea name="text" placeholder="请写下对宝贝的感受吧，对他人帮助很大哦！"></textarea>
+					</div>
+					<div class="item-opinion">
+						<li><i name="check" spot="1" class="op1"></i>好评</li>
+						<li><i name="check" spot="2" class="op2"></i>中评</li>
+						<li><i name="check" spot="3" class="op3"></i>差评</li>
+					</div>
+				</div>
+				</form>
+										
+		<?php } ?>
+<script src="__PUBLIC__/js/jquery-1.11.0.min.js"></script>
+<script>
+	$(document).ready(function() {
+		
+		$(".comment-list .item-opinion li").click(function() {	
+			$(this).prevAll().children('i').removeClass("active");
+			$(this).nextAll().children('i').removeClass("active");
+			$(this).children('i').addClass("active");
+		});
+    })
+</script>
+				<div class="info-btn">
+
+					<if condition="$orData['status'] eq 4"> 
+					<div class="am-btn am-btn-danger submit_btn">发表评论</div>
+                    <else />
+					<div style="font-size:17px;font-weight:bold;font-family:微软雅黑;color:#f06">感谢评论~</div>
+                    </if>
+				</div>
+
+<script>
+
+	$('.submit_btn').click(function () {
+
+		var j = {};
+		var num = 0;
+		for (var i=0; i<$('.comment-list').length; i++) {
+
+			var text = $('.comment-list').eq(i).find('textarea').val();
+
+			if (text.length != 0) {
+
+				level = $('.comment-list').eq(i).find('li .active').attr('spot');
+
+				if (typeof(level) == 'undefined') {
+					level = 1;
+				}
+
+				j[num+'content'] = text;
+				j[num+'level'] = level;
+				j[num+'color'] = $('.comment-list').eq(i).find('.colorData').html();
+				j[num+'size'] = $('.comment-list').eq(i).find('.sizeData').html();
+				j[num+'gid'] = $('.comment-list').eq(i).find('.sizeData').attr('goodsId');
+				j[num+'uid'] = $('.comment-list').eq(i).find('.colorData').attr('contuse');
+				num++;
+			}
+		}
+
+		if (num == 0) {
+			return false;
+		}
+
+		j['oid'] = $('.sizeData').attr('orderId');
+		j['spot'] = 4;
+		j['arr_num'] = num;
+
+		$.ajax({
+			url: "{:U('Person/handlerCommentData')}",
+			data: j,
+			type: 'post',
+			success: function (msg) {
+				
+				if (msg.code == 1200) {
+
+					$('.info-btn').append('<div style="font-size:17px;font-weight:bold;font-family:微软雅黑;color:#f06">感谢评论~</div>');
+					$('.submit_btn').css('display', 'none');
+				} else {
+
+					// 正在联系程序员。。
+				}
+			},
+			dataType: 'json'
+		});
+	})
+</script>
+			</div>
+		</div>
+	</div>
+</block>
+
+  <block name="js"> 
+
+</block>

@@ -1,0 +1,235 @@
+<extend name="Layout/base"/>
+<title>    
+    <block name="title">{$datas['title']}</block>
+</title>
+<block name="css">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1" /> 	
+    <!-- <link rel="icon" href="__PUBLIC__/Home/7_204_52.c5.png" type="image/x-icon" /> -->
+			
+ 
+    <link rel="icon" href="__PUBLIC__/Home/pic/_o/75/6e/2f6871f198c0bd7615ffbf9a2f5f_49_48.c5.png" type="image/x-icon" />	
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/search/catalog.css?1607171726.25"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/search/filter.css?1607171726.25"/>	
+  </block>
+
+<block name="content">
+    <div class="wrap">    
+        <!-- 推荐 -->        
+        <div class="userContain" data-link="/search/catalog/10057049">  
+            <div class="choice">        
+                <a href="{:U('List/index')}">所有分类 >&nbsp;</a>             
+                <div class="userchoiceWrap">   
+
+                <foreach name="fenlei" item="v">
+                    <a href="{:U('List/index', ['id'=>$v['id'],'bqname'=>$v['name']])}">
+                    <p class="userchoice" id="biaoqian"  data-catepropnameid="2056" style="border: 1px solid rgb(221, 221, 221);" >
+                    <span>{$v['name']}</span>
+                    <span class="close del" data-catepropnameid="2056"></span>
+                    </p >
+                    </a>
+                    
+                </foreach>
+
+                </div>       
+                找到{$total}件相关结果
+            </div> 
+
+     
+
+          
+
+            <!-- 分类 -->    
+            <div class="styleWrap">  
+
+                <div class="styleInfo"> 
+                <empty name="typedatas">
+                <else />
+                    <div class="styleCatalog">              
+                        <div class="styleContainer">                                        
+                            <p class="styleTitle" data-catePropNameId="2048">分类：</p>                                       
+                            <p class="styleNameWrap">  
+                                <foreach name="typedatas"  item="vo">
+                                <a href="{:U('List/index', ['tid'=>$vo['id'],'bid'=>$bid,'color'=>$color,'keyword'=>$keyword])}"  class="styleName" data-isClick='0' data-catePropId="10000"><span class="choiceBox"></span>{$vo['name']}</a>
+                                </foreach>                                             
+                                                                         
+                            </p>  
+                            <a class="more">                        
+                                <span class="moreDesc">更多</span>
+                                <span class="moreArrow"></span>                 
+                            </a>                                                                
+                        </div>                              
+                    </div>  
+                </empty> 
+
+                <empty name="brandShow">
+                <else />
+                    <div class="styleCatalog"   style="padding:2px 0">              
+                        <div class="styleContainer" style="padding:2px 0">                                        
+                             <span class="styleTitle" data-catePropNameId="2050">品牌：</span> 
+                                                                  
+                             <span class="styleNameWrap" >                                               
+                                <foreach name="brandShow" item="vo">                                        
+                                                                   
+                                <a href="{:U('List/index', ['bid'=>$vo['id'],'tid'=>$id,'color'=>$color,'keyword'=>$keyword])}"  class="styleName"  ><img src="__PUBLIC__/Uploads/{$vo['logo']}" title="{$vo['name']}" width="76px"  height="37px" ></a>                
+                             
+                                                                                               
+                             
+                                </foreach>            
+                            </span>                                                                 
+                        </div>                 
+                    </div> 
+                </empty>     
+
+                <empty name="colors">
+                <else />
+                  <div class="styleCatalog">              
+                        <div class="styleContainer">                                        
+                            <p class="styleTitle" data-catePropNameId="2060">颜色：</p>                                        
+                            <p class="styleNameWrap" data-choice=''>  
+                         <foreach name="colors" item="vo">          
+                                <a href="{:U('List/index', ['bid'=>$bid,'tid'=>$id,'color'=>$vo['color'],'keyword'=>$keyword])}" class="styleName" data-isClick='0' ><span class="choiceBox"></span>{$vo['color']}</a>  
+
+                        </foreach>                                                
+                            </p>                    
+                                                          
+                        </div>                    
+                    </div>  
+                </empty> 
+
+                </div> 
+            </div>      
+        </div>              
+        <!-- 排序 --> 
+        <div class="orderWrap">    
+                    <!-- 流行 热销 上新 价格 -->        
+            <div class="orderInfo" data-checkedSort="pop">               
+                <a href="{:U('index',['order' => 'buynum desc','tid' => $id , 'bid'=>$bid ,'keyword'=>$keyword, 'num1'=>$num1,'num2'=>$num2])}"  class="fashion both " data-sort="sell">热销</a>                          
+                <!-- <a href="{:U('list',['order' => 'price','id' => $id])}" class="fashion">  <span>价格</span>&#x25b2;</a>      -->
+                <!-- <a href="{:U('list',['order' => 'price desc','id' => $id])}" class="fashion both"  ><span>价格&#x25bc;</span></a>   -->
+                  <div class="fashion price left ">   
+                 <span class="priceCon">价格</span>  
+
+                 <span class="priceArrow"></span>              
+                    <ul class="priceDesc">                  
+                        <li class="down" data-sort="price_desc"><a href="{:U('index',['order' => 'price desc','tid' => $id , 'bid'=>$bid ,'keyword'=>$keyword, 'num1'=>$num1,'num2'=>$num2])}">价格从高到低</a></li>                  
+                        <li class="up"  data-sort="price_asc"><a href="{:U('index',['order' => 'price','tid' => $id , 'bid'=>$bid ,'keyword'=>$keyword, 'num1'=>$num1,'num2'=>$num2])}">价格从低到高</a></li>                
+                    </ul>          
+                 </div>   
+            </div> 
+
+                    <!-- 价格部分 -->       
+            <div class="priceWrap"> 
+                <form action="{:U('List/index')}">     
+                <input class="minPrice" type="text" placeholder="￥" name="num1" value="{$num1}"> 
+                <input type="hidden" name="color" value="{$color}">              
+                <input type="hidden" name="bid" value="{$bid}">            
+                <input type="hidden" name="tid" value="{$id}">              
+                <span>~</span>              
+                <input class="maxPrice" type="text" placeholder="￥" name="num2" value="{$num2}">          
+                  
+                <button class="sure">确认</button> 
+                </form>        
+            </div>            
+        </div> 
+        <div class="product">
+            <empty name="list">
+            <div height="400px" style="line-height:400px;font-size:18px;text-align:center">抱歉，没搜索到与"{$keyword}"有关的商品</div>
+            <else />       
+            <ul class="clearfix product-ul" id="product-ul"> 
+
+            <foreach name="list" item="v">
+                <li class="product-list fl">                
+                    <div class="img-size">                                          
+                        <a class="img-link" class="lazy" target="_blank" href="{:U('Goods/showDetailView',['id' => $v['id']])}" style="background:url(__PUBLIC__/Uploads/{$v['pic']}) no-repeat center center;background-size:cover;"></a>                                    
+                    </div>             
+                    <div class="product-info clearfix">            
+                        <div class="price fl"><em class="price-u">¥</em><span class="price-n">{$v['price']}</span>
+                        </div>               
+                        <div class="fav fr">
+                            <em class="fav-i"></em>                                                                    
+                        </div>             
+                    </div>              
+                    <div>
+                        
+                    </div>                                 
+                                  
+                    <a class="text-link" href="{:U('Goods/showDetailView',['id' => $v['id']])}">{$v['name']} 
+                    <!-- 【{$v['brandname']}】{$v['name']} -->
+                    </a>              
+                </li>  
+
+            </foreach> 
+
+
+             </ul>
+             </empty>   
+        </div>  
+        <!-- 登录用户显示搜索结果数目 -->  
+
+    </div>
+        <!-- <div id="pagination" class="pagination"></div> -->
+        <!--翻页-->
+    <div class="pageNav">  
+                                
+       {$page_show}
+    </div>
+</block>
+
+<block name="js">
+    <script type="text/html" id="posterWall"> 
+
+    <div class="goodsWrap">  
+        <div class="goodsContainer">       
+            <a class="goodsImg" href="<?= data.link ?>" target="_blank" style="padding-bottom: <?= data.show.h / data.show.w * 100 ?>%;background:url('<?= data.show.img ?>') no-repeat center center;">            <!-- <img src="<?= data.show.img ?>" > -->      
+            </a>            
+            <? if(data.lefttop_taglist.length >0){ ?>               
+                <div class="brandIcon">           
+                    <img src="<?= data.lefttop_taglist[0].img ?>">          
+                </div>     
+            <?}?>    
+        </div>     
+        <div class="priceWrap">         
+            <div class="price">￥<?= data.price ?></div>         
+            <div class="shoucang"><span class="shoucangIcon"></span>        
+                <? if(data.cfav==null){ ?>              0       
+                    <?}else{?>         
+                         <?= data.cfav ?>        
+                <?}?>       
+            </div>  
+        </div>  
+        <a class="goodsTitle" href="<?= data.link ?>"><?= data.title ?></a> 
+    </div>
+    </script>
+    </div>
+
+    <script type="text/javascript" src="__PUBLIC__/Home/pc/jsmin/jquery.js?1.12.4" ></script>
+    <script type="text/javascript" src="__PUBLIC__/Home/__static/logger/0.1.8/logger.js"></script>
+                 <!--   <script type="text/javascript" src="__PUBLIC__/Home/js/jquery-1.12.3.min.js"></script> -->
+    <script src="__PUBLIC__/Home/__newtown/im_web/assets/common/openim/index.js"></script>
+    <script src="__PUBLIC__/Home/pc/~page/search/catalog+base?1607171726.25"></script>
+
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.lazyload.min.js"></script>
+    <script type="text/javascript">
+        $('#biaoqian').mouseover(function() {
+            // alert(222);
+            $('#biaoqian').css("border","1px solid blue");
+        })
+
+        $('#biaoqian').mouseout(function() {
+            $('#biaoqian').css("border","1px solid rgb(221, 221, 221)");
+        })
+   
+        $(function() { 
+            $(".lazy").lazyload({ 
+                placeholder:"__PUBLIC__/Home/timg.gif",
+                effect : "fadeIn" ,
+                threshold:200,
+                failurelimit:10
+
+            }); 
+        }); 
+
+
+    </script>
+         
+ </block>

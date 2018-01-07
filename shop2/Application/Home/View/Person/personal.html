@@ -1,0 +1,105 @@
+<extend name="Layout/base2"/>
+    <title>    
+        <block name="title">个人信息_美丽说</block>
+    </title>
+    <block name="css">
+  
+  <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/base.css?1607171729.25" />
+    <link rel="icon" href="__PUBLIC__/Home/pic/_o/75/6e/2f6871f198c0bd7615ffbf9a2f5f_49_48.c5.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/account/common.css?1607171729.25" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/account/datepicker.css?1607171729.25" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/account/setPersonal.css?1607171729.25" />
+    <script type="text/javascript" src="__PUBLIC__/Home/pc/jsmin/fml.js?1"></script>
+    </block>
+   
+
+
+ <block name="content">
+
+
+
+    
+    <div class="settings_box">
+            <strong class="settings_title">我的信息</strong>
+            <fieldset class="setPersonal">
+            <form id="setPersonForm" method="post"  action="{:U('Person/setPersonal')}">
+                <input type="hidden" name="uid" value="{$uid}">
+          
+                <div class="form-list">
+                    <label class="account-label">手机号码</label>
+                    <input id="register_mail" name="phone" autocomplete="off" value="{$user['phone']}" class="l_ipt" type="text" />
+                    <strong></strong> 
+                </div>
+             
+                <div class="form-list">
+                    <label class="account-label">昵称</label>
+                    <input id="nickname" name="name" autocomplete="off" class="l_ipt" type="text" value="{$user['name']}" />
+                    <strong></strong>
+                </div>
+                <div class="gender" id="gender">
+                    <label class="account-label">性别</label>
+                    <label><input name="sex"  type="radio" value="0"  <?=$user['sex']=='0'?'checked':''?>/>
+                    
+                    <span>女</span></label>
+                    <label><input name="sex"  type="radio" value="1"  <?=$user['sex']=='1'?'checked':''?>/>
+                    
+                    <span>男</span></label>  
+                    <label><input name="sex" type="radio" value="2"  <?=$user['sex']=='2'?'checked':''?>/>
+                    
+                    <span>保密</span></label>
+                    <strong></strong>
+                </div>
+        
+                <div class="form-list" id="birthday-list">
+                    <label class="account-label">生日</label>
+                    <input id="birthday" readonly class="laydate-icon" name="birth" autocomplete="off" class="l_ipt" type="text" value="{$user['birth']}" onfocus="HS_setDate(this)" />
+                    <strong></strong>
+                </div>
+           
+               
+                <input type="submit" value="确 认"  class="ext_submit" id="submit"/>
+                <span class="submitError"></span>
+            </form>
+            </fieldset>
+        </div>
+
+
+
+</div>
+</block>
+
+
+
+  <block name="js"> 
+        
+    <script type="text/javascript">
+        $(function(){  
+          var dataformInit = $("#setPersonForm").serializeArray();   
+          var jsonTextInit = JSON.stringify({ dataform: dataformInit });  
+          $("#submit").click(function(){  
+                 var dataform = $("#setPersonForm").serializeArray();  
+                 var jsonText = JSON.stringify({ dataform: dataform });  
+                 if(jsonTextInit==jsonText)  
+                 {   
+                         alert("您并未作出任何修改");  
+                         return false;  
+                 }  
+      
+          })  
+      
+    }) 
+    </script>
+ <script type="text/javascript" src="__PUBLIC__/Home/pc/jsmin/jquery.js?1.12.4"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/__static/logger/0.1.8/logger.js"></script>
+<script src="__PUBLIC__/Home/__newtown/im_web/assets/common/openim/index.js"></script>
+
+     <script>fml.use('page/pcenter/common/navbar');;
+    fml.use('page/account/common/calender');;
+    fml.use('page/account/setPersonal/setPersonal');;
+    fml.use('page/account/common/area');;
+    fml.use('page/account/common/job');;
+    fml.use('base');;
+    fml.iLoad();</script>
+
+
+</block>

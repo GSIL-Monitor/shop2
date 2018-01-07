@@ -1,0 +1,93 @@
+<extend name="Layout/base2"/>
+    <title>    
+        <block name="title">订单列表_美丽说</block>
+    </title>
+    <block name="css">
+  
+
+<meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1" />                
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/base.css?1607171726.25" />   
+<link rel="icon" href="__PUBLIC__/Home/pic/_o/75/6e/2f6871f198c0bd7615ffbf9a2f5f_49_48.c5.png" type="image/x-icon"/>    
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/account/common.css?1607171726.25"/><link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/account/setAvatar.css?1607171726.25"/>     
+<script type="text/javascript" src="__PUBLIC__/Home/pc/jsmin/fml.js?1" ></script>   
+
+
+
+
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml"/>
+    <link rel="icon" href="__PUBLIC__/Home/p1/160614/idid_ifrtgzddgm3dmnjshezdambqhayde_49x48.png" type="image/x-icon"/>
+
+    <script> curl = {apiName: 'require'}; var MOGU = {}; var MoGu = {};</script>
+
+
+
+    <link href="__PUBLIC__/Home/css/index.css-63e7a9a6.css" rel="stylesheet" type="text/css"/>
+
+
+
+    <link href="__PUBLIC__/Home/css/index.css-0c69c351.css" rel="stylesheet" type="text/css"/>
+    </block>
+      <block name="js">
+    <script type="text/javascript" src="__PUBLIC__/Home/js/pkg-pc-base.js-beb518b8.js"></script>
+
+
+
+
+
+
+</block>
+
+ <block name="content">
+
+
+
+    <div class="settings_box"> 
+        <strong class="settings_title">个人头像</strong> 
+        <fieldset> 
+            <div class="setAvatar"> 
+                <form id="setAvatar" method="post" action="{:U('Person/setAvatar')}"  enctype="multipart/form-data"> 
+                    <input type="hidden" name="uid" value="{$uid}">
+                    <div> 
+                        <div>  
+                        
+                            <input type="file" name="file"/> 
+                        </div> 
+               
+                    </div> 
+                    <p>建议使用正方形的图片，支持JPG、GIF、JPEG、PNG格式，8M以内</p>
+                    <empty name="pic"> 
+                    <img src="__PUBLIC__/Home/img/03.jpg" class="original" />
+                    <else />
+                    <img src="__PUBLIC__/Uploads/{$pic}" class="original"/>
+                    </empty>
+                    <div class="clear_both"></div> 
+                <input type="submit" name="save_thumbnail"  value="确 认" id="set_submit" class="ext_submit"/> 
+                <span class="submit_error"></span> 
+                </form> 
+            </div> 
+        </fieldset> 
+    </div>
+
+
+</div>
+</block>
+
+
+
+
+  <block name="js">
+  <script type="text/javascript" src="__PUBLIC__/Home/pc/jsmin/jquery.js?1.12.4"></script>
+  <script type="text/javascript" src="__PUBLIC__/Home/__static/logger/0.1.8/logger.js"></script>
+  <script src="__PUBLIC__/Home/__newtown/im_web/assets/common/openim/index.js"></script>
+ 
+  <script>fml.use('page/pcenter/common/navbar');;
+    fml.use('page/account/common/calender');;
+    fml.use('page/account/setPersonal/setPersonal');;
+    fml.use('page/account/common/area');;
+    fml.use('page/account/common/job');;
+    fml.use('base');;
+    fml.iLoad();</script>
+
+
+</block>
+

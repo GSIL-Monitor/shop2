@@ -1,0 +1,163 @@
+<extend name="Layout/base2"/>
+    <title>    
+        <block name="title">我的积分</block>
+    </title>
+
+    <block name="css">   
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0">
+
+
+
+			<link href="__PUBLIC__/Home/css/admin.css" rel="stylesheet" type="text/css">
+				<link href="__PUBLIC__/Home/css/amazeui.css" rel="stylesheet" type="text/css">
+			
+			<link href="__PUBLIC__/Home/css/personal.css" rel="stylesheet" type="text/css">
+			<link href="__PUBLIC__/Home/css/point.css" rel="stylesheet" type="text/css">
+
+
+  
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/account/common.css?1607171729.25" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/account/datepicker.css?1607171729.25" />
+
+    <script type="text/javascript" src="__PUBLIC__/Home/pc/jsmin/fml.js?1"></script>
+
+
+   
+  
+	</block>
+    <block name="js">   
+
+		<script src="__PUBLIC__/Home/js/jquery.min.js"></script>
+		<script src="__PUBLIC__/Home/js/amazeui.js"></script>
+	</block>
+
+		
+
+    <block name="content">
+
+
+	
+
+				<div class="main-wrap">
+					<div class="points">
+						<!--标题 -->
+						<div class="am-cf am-padding">
+							<div class="am-fl am-cf"><strong class="am-text-danger am-text-lg">我的积分</strong> / <small>My&nbsp;Point</small></div>
+						</div>
+						<hr/>
+						<div class="pointsTitle">
+						   <div class="usable">可用积分</div>
+						   <div class="pointshop"><a href="#"><i><img src="__PUBLIC__/Home/img/u5.png" /></i>&nbsp;&nbsp;{$score}&nbsp;&nbsp;</a></div>
+						   <div class="signIn" id="haha" btn="{$uid}"><i><img src="__PUBLIC__/Home/day-to.png" width="40px" height="40px"></i><em>+5</em>每日签到</div>
+						</div>
+						<div class="pointlist am-tabs" data-am-tabs>
+							<ul class="am-avg-sm-3 am-tabs-nav am-nav am-nav-tabs">
+								<li class="am-active"><a href="#tab1">全部</a></li>
+								<li><a href="#tab2">获得</a></li>
+								<li><a href="#tab3">支出</a></li>
+							</ul>
+							<div class="am-tabs-bd">
+								<div class="am-tab-panel am-fade am-in am-active" id="tab1">
+									<table>
+										<b></b>
+										<thead>
+											<tr>												
+												<th class="th1">积分详情</th>
+												<th class="th2">积分变动</th>
+												<th class="th3">日期</th>
+											</tr>
+										</thead>										
+										<tbody>
+										<foreach name="dat" item="v">
+											<tr>
+												<td class="pointType">{$v['desc']}</td>
+												<td class="pointNum">{$v['score']}</td>
+												<td class="pointTime">{$v['addtime']}</td>
+											</tr>
+										</foreach>
+										</tbody>
+									</table>
+								</div>
+								<div class="am-tab-panel am-fade" id="tab2">
+									<table>
+										<b></b>
+										<thead>
+											<tr>												
+												<th class="th1">积分详情</th>
+												<th class="th2">获取积分</th>
+												<th class="th3">日期</th>
+											</tr>
+										</thead>
+										<tbody>
+											<foreach name="da" item="v">
+											<tr>
+												<td class="pointType">{$v['desc']}</td>
+												<td class="pointNum">{$v['score']}</td>
+												<td class="pointTime">{$v['addtime']}</td>
+											</tr>
+										</foreach>
+										
+										</tbody>
+									</table>
+								</div>
+								<div class="am-tab-panel am-fade" id="tab3">
+									<table>
+										<b></b>
+										<thead>
+											<tr>												
+												<th class="th1">积分详情</th>
+												<th class="th2">消耗积分</th>
+												<th class="th3">日期</th>
+											</tr>
+										</thead>
+										<tbody>
+											<foreach name="pp" item="v">
+											<tr>
+												<td class="pointType">{$v['desc']}</td>
+												<td class="pointNum">{$v['score']}</td>
+												<td class="pointTime">{$v['addtime']}</td>
+											</tr>
+										</foreach>
+										</tbody>
+									</table>
+								</div>
+
+							</div>
+
+						</div>
+			
+				</div>
+				<!--底部-->
+				
+			</div>
+
+    </div>
+    <script type="text/javascript" src="__PUBLIC__/Home/js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript">
+
+     $('#haha').click(function(){
+        var that = $(this);
+        var cate = that.attr('btn');
+
+        $.post(
+            "{:U('Person/signIn')}",
+            {cate: cate},
+            function (msg) {
+                if (msg.code == 1200) {
+                	location.reload();
+                
+                  
+                } else if(msg.code == 1404) {  
+                	alert('您今天已签到');                
+                
+                } else {
+                	alert('签到失败');
+                    console.log(msg.data);
+                }
+            },
+            'json'
+        );
+
+    })
+     </script>
+    </block>

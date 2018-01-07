@@ -1,0 +1,19 @@
+[ 2018-01-05T04:22:46+08:00 ] 192.168.35.87 /shop2/index.php/Home/cart/showMyCartView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.128784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026149s ]
+NOTIC: [8] Undefined variable: list /usr/local/apache2/htdocs/shop2/Application/Home/Server/CartServer.class.php 第 354 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.286106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.286222s ]
+NOTIC: [8] Undefined index: user:data /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/aa4e2135886e4a09f22d0d9742f9f92f.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.286294s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.286395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+

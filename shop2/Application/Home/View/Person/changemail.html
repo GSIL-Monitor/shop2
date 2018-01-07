@@ -1,0 +1,187 @@
+<extend name="Layout/base2"/>
+    <title>    
+        <block name="title">订单列表_美丽说</block>
+    </title>
+    <block name="css">
+  <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/base.css?1607171728.25" />     
+<link rel="icon" href="__PUBLIC__/Home/pic/_o/75/6e/2f6871f198c0bd7615ffbf9a2f5f_49_48.c5.png" type="image/x-icon"/>    
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/account/common.css?1607171728.25"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/account/process.css?1607171728.25"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/account/changeMobile.css?1607171728.25"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/account/accountDialog.css?1607171728.25"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/pc/css/page/account/authpic.css?1607171728.25"/>       
+<script type="text/javascript" src="__PUBLIC__/Home/pc/jsmin/fml.js?1" ></script>    
+
+    </block>
+      <block name="js">
+    <script type="text/javascript" src="__PUBLIC__/Home/js/pkg-pc-base.js-beb518b8.js"></script>
+
+
+
+    <script type="text/javascript">
+
+        var MOGU_DEV= 0;
+
+        if(window.require) {
+            require.config({
+                domain: 0
+            });
+        }
+
+        MOGUPROFILE = {};
+
+        //性能打点数据检测
+        window.__trace__headendt = +new Date;
+        (function(){
+            window.__trace__domready = null;
+            window.__trace__ladingendt = null;
+            if(document.readyState){
+                function setDomOperation(){
+                    if(document.readyState == 'interactive'){
+                        window.__trace__domready = +new Date();
+                    }
+                    else if(document.readyState == 'complete'){
+                        window.__trace__ladingendt = +new Date();
+                    }
+                }
+                setDomOperation();
+                document.onreadystatechange = setDomOperation;
+            }
+        })();
+    </script>
+
+
+<script type="text/javascript">
+    /**
+     ** for layout 960
+     **/
+    (function(){
+        var wWidth = $(window).width(); if(wWidth < 1212){ $('body').addClass('media_screen_960'); } else { $('body').addClass('media_screen_1200'); }
+        //initTime for log 判断对象是否存在
+        window.MoGu && $.isFunction(MoGu.set) && MoGu.set('initTime', (new Date()).getTime());
+
+        var ua = navigator.userAgent;
+        // 判断是否是ipad
+        var is_plat_ipad = ua.match(/(iPad).*OS\s([\d_]+)/);
+        if(is_plat_ipad) {
+            $('body').addClass('media_ipad');
+        }
+        // 判断是否是ipadApp
+        var is_plat_ipadApp = ua.indexOf('MeilishuoHD') >= 0 || location.href.indexOf('_atype=ipad') >= 0;
+        if(is_plat_ipadApp) {
+            $('body').addClass('media_ipad_app');
+            // 隐藏头尾
+            $('body').append('<style type="text/css">.header_2015,.header_nav,.foot .foot_wrap{display: none;}.foot{height: 0;background: none;}.back2top_wrap{height:0;width:0;overflow:hidden;opacity:0;}</style>');
+            // 移除购物车，返回顶部
+            setTimeout(function(){
+                $('.back2top_wrap').remove();
+            },1000)
+        }
+    })();
+</script>
+</block>
+
+ <block name="content">
+
+
+
+    
+<div class="settings_box"> 
+    <strong class="settings_title">邮箱绑定</strong> 
+
+   
+    <fieldset class="bindMobile"> 
+        <!-- <form id="bindMobileForm" method="post" onsubmit="return false" action="http://www.meilishuo.com/account/changeMobile?token=19ad89e2973c4143ac1d74f527fe9a4a&amp;step=2&amp;ptp=1.vef4a.0.0.uFnL2hF"> 
+            <div class="form-list"> 
+                <label class="account-label" id="protel" for="mobile">新手机号</label> 
+                <input class="lipt l_ipt" autocomplete="off" id="mobile" name="mobile" type="text"> 
+                <input class="s_button active_button" type="button" name="s_code2" id="s_code2" value="发送验证码"> 
+            </div> 图形验证码，可能需要 
+            <div class="form-list" id="acptchaForm"> 
+                <div class="authpic" id="authpic" data-captkay="j5drfreraoqs"> 
+                    <div class="auth_box"> 
+                        <p class="notice_title">请填写验证码 再进行验证！</p> 
+                        <div class="pic_auth"> 
+                            <ul class="pic_list"> 
+                                <li data-click="0"><img style="left:-0px" src="./绑定_美丽说_files/j5drfreraoqs"></li> 
+                                <li data-click="0"><img style="left:-68px" src="./绑定_美丽说_files/j5drfreraoqs"></li> 
+                                
+                            </ul> 
+                            <a class="change_pic" id="change_pic" href="javascript:;"> 换一组 </a> 
+                        </div> 
+                    </div>
+                </div> 
+            </div> 
+            <div class="form-list none" id="yanzhengma"> 
+                <label for="code" class="account-label">验证码</label>
+                <input class="lipt l_ipt" autocomplete="off" id="code" name="code" type="text" value=""> 
+                <strong></strong> 
+            </div> 
+            <div class="sendErrorMsg color-pink">请不要填写和当前一样的手机号</div> 
+            <div class="submitBox none">  
+        
+                <input id="change_bind" data-token="19ad89e2973c4143ac1d74f527fe9a4a" name="change_bind" class="ext_submit" type="submit" value="下一步"> <span class="bindErrorMessage color-pink"></span> 
+            </div> 
+        </form>  
+         -->
+
+<form id="bindMobileForm" method="post" onsubmit="return false" action="">  
+    <div class="form-list"> 
+        <label class="account-label" id="protel" for="mobile">原手机号</label> 
+        <input class="lipt l_ipt bgc-f7" autocomplete="off" value="188****3162" disabled id="mobile" name="mobile" type="text" /> 
+        <input class="s_button active_button" type="button" name="s_code" id="s_code" style="" value="发送验证码" /> 
+        
+    </div> <!-- 图形验证码，可能需要 --> 
+
+    <div  class="form-list" id="yanzhengma"> 
+        <label class="account-label" for="code" >验证码</label> 
+        <input id="code" name="code" type="text" value="" /> 
+        <strong></strong> 
+    </div> 
+    <div > 
+        <a href="{:U('Person/newMail')}"><button id="send_next" name="s_bind" class="ext_submit" type="button" value="下一步"/>下一步</button></a>
+            <span class="bindErrorMessage color-pink"></span> 
+    </div> 
+</form> 
+
+
+</filedset> 
+<div class="bie-info"> 
+    <p> 说明： </p> <p> 1.修改绑定邮箱后，原邮箱将不能用于登录。您可以使用更换后的邮箱进行登录。 </p> <p> 2.若因手机号丢失无法进行验证，请联系美丽说客服。 </p> 
+</div> 
+</div>
+
+
+
+
+
+
+
+
+
+<script type="text/html" id="process"> 
+<ul class="process"> <? $.map(this.steps, function(step, index){ ?> <li class="<?= step.done?'active':'' ?>" style="width:<?= this.line_length?>px"><?= step.msg?></li> <? }); ?> </ul>
+</script>
+
+
+
+
+<!-- 弹窗 --><script type="text/html" id="accountDialog"> <div class="popup" id="popup"> <div class="box"> <p class="title"> <?= this.title ?> <a href="javascript:;" class="bg-icons"></a> </p> <p class="tips"><?= this.message ?></p> <div class="btn-box"> <? this.buttons.forEach(function(item){ ?> <a href="javascript:;" data-action="<?= item.action ?>" class="btn-pink btn"><?= item.text ?></a> <? }); ?> </div> </div> <i></i> </div></script>
+
+
+
+</div>
+</block>
+
+
+
+  <block name="js"> 
+<script type="text/javascript" src="__PUBLIC__/Home/pc/jsmin/jquery.js?1.12.4" ></script>
+<script type="text/javascript" src="__PUBLIC__/Home/__static/logger/0.1.8/logger.js"></script>
+<script src="__PUBLIC__/Home/__newtown/im_web/assets/common/openim/index.js"></script>
+<script src="__PUBLIC__/Home/pc/~page/pcenter/common/navbar+page/account/common/captcha+page/account/changeMobile/step1+base?1607171728.25"></script><script>fml.use('page/pcenter/common/navbar');;
+fml.use('page/account/common/captcha');;
+fml.use('page/account/changeMobile/step1');;
+fml.use('base');;fml.iLoad();</script>
+
+</block>

@@ -1,0 +1,201 @@
+<extend name="Layout/base2"/>
+    <title>    
+        <block name="title">订单列表_美丽说</block>
+    </title>
+    <block name="css">
+    <script type="text/javascript">
+             window.__trace__headstart = +new Date;
+                window.__server__startTime = 1513608913207; 
+                window.__token = "diEdw1ImGWYBG3YF9S7BIMTJ5%2FdfCvYqq9xAR%2BRorgtEoX0P1uF9CzBK%2Bla0lb9N";
+    </script>
+
+
+
+    <meta http-equiv="Cache-Control" content="no-transform " />
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+
+
+
+
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml"/>
+    <link rel="icon" href="__PUBLIC__/Home/p1/160614/idid_ifrtgzddgm3dmnjshezdambqhayde_49x48.png" type="image/x-icon"/>
+
+    <script> curl = {apiName: 'require'}; var MOGU = {}; var MoGu = {};</script>
+
+
+
+    <link href="__PUBLIC__/Home/css/index.css-63e7a9a6.css" rel="stylesheet" type="text/css"/>
+
+
+
+    <link href="__PUBLIC__/Home/css/index.css-0c69c351.css" rel="stylesheet" type="text/css"/>
+    </block>
+      <block name="js">
+    <script type="text/javascript" src="__PUBLIC__/Home/js/pkg-pc-base.js-beb518b8.js"></script>
+
+
+
+    <script type="text/javascript">
+
+        var MOGU_DEV= 0;
+
+        if(window.require) {
+            require.config({
+                domain: 0
+            });
+        }
+
+        MOGUPROFILE = {};
+
+        //性能打点数据检测
+        window.__trace__headendt = +new Date;
+        (function(){
+            window.__trace__domready = null;
+            window.__trace__ladingendt = null;
+            if(document.readyState){
+                function setDomOperation(){
+                    if(document.readyState == 'interactive'){
+                        window.__trace__domready = +new Date();
+                    }
+                    else if(document.readyState == 'complete'){
+                        window.__trace__ladingendt = +new Date();
+                    }
+                }
+                setDomOperation();
+                document.onreadystatechange = setDomOperation;
+            }
+        })();
+    </script>
+
+
+<script type="text/javascript">
+    /**
+     ** for layout 960
+     **/
+    (function(){
+        var wWidth = $(window).width(); if(wWidth < 1212){ $('body').addClass('media_screen_960'); } else { $('body').addClass('media_screen_1200'); }
+        //initTime for log 判断对象是否存在
+        window.MoGu && $.isFunction(MoGu.set) && MoGu.set('initTime', (new Date()).getTime());
+
+        var ua = navigator.userAgent;
+        // 判断是否是ipad
+        var is_plat_ipad = ua.match(/(iPad).*OS\s([\d_]+)/);
+        if(is_plat_ipad) {
+            $('body').addClass('media_ipad');
+        }
+        // 判断是否是ipadApp
+        var is_plat_ipadApp = ua.indexOf('MeilishuoHD') >= 0 || location.href.indexOf('_atype=ipad') >= 0;
+        if(is_plat_ipadApp) {
+            $('body').addClass('media_ipad_app');
+            // 隐藏头尾
+            $('body').append('<style type="text/css">.header_2015,.header_nav,.foot .foot_wrap{display: none;}.foot{height: 0;background: none;}.back2top_wrap{height:0;width:0;overflow:hidden;opacity:0;}</style>');
+            // 移除购物车，返回顶部
+            setTimeout(function(){
+                $('.back2top_wrap').remove();
+            },1000)
+        }
+    })();
+</script>
+</block>
+
+ <block name="content">
+  
+
+
+    
+        <div class="settings_box">
+            <div class="order-title">
+                <ul class="order-title-column clearfix">
+                    <li class="goods">商品</li>
+                    <li class="price">单价(元)</li>
+                    <li class="quantity">数量</li>
+                    <li class="aftersale">售后</li>
+                    <li class="total">实付款(元)</li>
+                    <li class="status">交易状态</li>
+                    <li class="other">操作</li>
+                </ul>
+        </div>
+   <div id="orderWrap"><!-- 有订单 --><!-- 回收站 -->
+        <div class="order-list">  <!--订单class 未支付 order-section unpaid //未确认 order-section unconfirmed 完成 order-section finished --> 
+            <div class="order-section " data-payid="73708977941518"> 
+                <table class="order-table"> 
+                 <tbody>  <!-- shop头部 --> 
+                     <tr class="order-table-header"> 
+                        <td colspan="7"> 
+                            <div class="order-info fl">  <!-- 编号：已付款->shopOrderId 未付款->payOrderId --> 
+                                <span class="no"> 订单编号： <span class="order_num"> 73708977951518 </span> 
+                                </span> 
+                                <span class="deal-time"> 成交时间：2017-12-18 22:54:09 </span>  
+                                <a class="shop-name" target="_blank" href="http://s.meilishuo.com/14lqe"> 店铺：
+                                    <span>这个女孩不懂事</span> 
+                                </a>  
+                            </div>  
+                            <a href="javascript:;" class="mlstalk_widget_btn" data-shopid="14lqe"> 联系商家 </a>  
+                        </td> 
+                    </tr> <!-- shop头部end --> <!-- shop内容 -->  
+                    <tr class="order-table-item last"> 
+                        <td class="goods"> 
+                            <a class="pic" href="http://item.meilishuo.com/detail/1jydn8u" title="查看宝贝详情" hidefocus="true" target="_blank"> 
+                                <img src="__PUBLIC__/Home/img/68188906_ie4tandcg5qtmnrxhezdambqgqyde_640x960.jpg" alt="查看宝贝详情" width="70"> 
+                            </a> 
+                            <div class="desc"> 
+                                <p> <a href="http://item.meilishuo.com/detail/1jydn8u" target="_blank">【五对装】韩版休闲秋冬男士浅口船袜子袜男四季防臭隐形短袜</a> <!--订单快照-->  <!-- <a class="snapshot" href="http://www.meilishuo.com/mls/trade/order/snap?orderId=11g96vgqk5w" target="_blank">[交易快照]</a> -->  
+                                </p>    
+                                <p>尺码：P2044 男士短袜（组合一 五对装）</p>     
+                                <ul class="ui-tags-list clearfix">  
+                                    <li class="ui-tags-item"> 
+                                    <img class="ui-tag-pic" src="__PUBLIC__/Home/img/idid_ifrtqmrqmzswenrrgyzdambqhayde_18x18.png" alt=""> 
+                                        <div class="ui-tag-text ui-hide"> 
+                                            <a class="ui-tag-link" href="javascript:void(0)">72小时发货</a> 
+                                            <span class="ui-icon-arrow"></span> 
+                                        </div> 
+                                    </li>  
+                                </ul>  
+                            </div> 
+                         </td> 
+                        <td class="price">  
+                            <p class="price-old">17.00</p>  
+                            <p>11.90</p> 
+                        </td> 
+                        <td class="quantity">1</td> 
+                         <td class="aftersale">   <!-- 申请退货退款等操作 -->  
+                            <a class="order-link" target="_blank" data-orderid="" href="http://www.meilishuo.com/refund/request?orderId=73708977961518">退款</a> <!-- <a class="order-link" target="_blank" data-orderid="" href="http://refund.meilishuo.com/mls/trade/refund/request?orderId=73708977961518">退款</a> --> <!-- 申请详情 class="order-link refund"-->    
+                        </td> <!-- 多个商品的时候 后三列中每列只显示同个内容 --> 
+                        <td class="total" rowspan="1">   
+                            <p class="total-price" data="22">￥11.90</p>   
+                            <p>(全国包邮)</p>    
+                        </td> 
+                        <td class="status" rowspan="1">  
+                             <p class=""> 待发货 </p>   
+                            <a href="http://buyer.meilishuo.com/mls/order/detail4buyer?orderId=73708977951518" class="order-link go-detail-link" target="_blank">订单详情</a>  <!-- 查看物流 --> <!--  --> 
+                         </td> 
+                        <td class="other" rowspan="1"> <!-- 回收站 -->  <!-- 已付款后显示 -->  
+                            <ul>   <!-- 删除！订单 -->  
+                                <li><a class="order-link order-remind" href="javascript:;" data-shopid="73708977951518">提醒商家发货</a></li> 
+                                <li><span class="order-remind-tip">+1 已提醒商家</span></li> <!-- 确认收货 -->    
+                            </ul>  
+                        </td> 
+                    </tr>  <!-- shop内容end --> <!-- 预售 -->  <!-- 预售end -->  <!-- 未付款时显示 -->  <!-- 未付款时显示end --> 
+                </tbody> 
+            </table> 
+        </div>
+     </div>
+     <!-- 翻页 -->
+     <div id="paginator-list"></div>
+</div>
+        </div>
+
+
+</div>
+</block>
+
+
+
+  <block name="js"> 
+<script type="text/javascript" src="__PUBLIC__/Home/js/index.js-417ef0a2.js"></script>
+
+<script type="text/javascript" src="__PUBLIC__/Home/js/index.js-800cd574.js"></script>
+
+</block>

@@ -1,0 +1,1597 @@
+[ 2017-12-26T22:11:14+08:00 ] 192.168.35.197 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/shop.html?callback=jQuery211023958694558154914_1514297472017&_=1514297472018
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0011s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0028s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 125 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 140 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 142 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 148 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-12-26T22:11:14+08:00 ] 192.168.35.197 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/ajax/mgj.pc.detailinfo/v1?_ajax=1&itemId=1fxighu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005161s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0027s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 125 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 140 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 142 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 148 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2017-12-26T22:11:17+08:00 ] 192.168.35.197 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/2017-12-26+22%3A11%3A00.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.2723s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 125 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 140 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 142 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 148 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2017-12-26T22:11:18+08:00 ] 192.168.35.197 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/load
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0305s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0005s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 125 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 140 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 142 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 148 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2017-12-26T22:11:18+08:00 ] 192.168.35.197 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/js/livereload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0027s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 125 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 140 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 142 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 148 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-12-26T22:11:18+08:00 ] 192.168.35.197 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/shop.html?callback=jQuery21109665269302005279_1514297475764&_=1514297475765
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0003s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0315s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0003s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 125 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 140 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 142 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 148 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-12-26T22:11:18+08:00 ] 192.168.35.197 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/ajax/mgj.pc.detailinfo/v1?_ajax=1&itemId=1fxighu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0003s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0406s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0005s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 125 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 140 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 142 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 148 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-12-26T22:11:22+08:00 ] 192.168.35.197 /shop2/Home/Index/getHotGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0011s ]
+SQL: SELECT group_concat(id) id FROM `think_goods_types` WHERE `pid` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Home/Controller/IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `think_goods` WHERE `tid` IN ('11','12','13') AND `status` = 2 ORDER BY buynum desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0008s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 18 )  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 8 )  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 64 )  [ RunTime:0.0003s ]
+
+[ 2017-12-26T22:11:22+08:00 ] 192.168.35.197 /shop2/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003021s ]
+SQL: SHOW COLUMNS FROM `think_user_detail` [ RunTime:0.0005s ]
+SQL: SELECT `pic`,`uid`,`name` FROM `think_user_detail` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_photos` [ RunTime:0.0005s ]
+SQL: SELECT `pic`,`link` FROM `think_photos` WHERE `role` = 2 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `pic`,`link` FROM `think_photos` WHERE `role` = 1 AND `status` = 1 LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `think_goods_types` WHERE ( pid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `pid`,`id`,`name` FROM `think_goods_types` WHERE `pid` IN (1,2,3)  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`saletime` FROM `think_goods` WHERE ( status= 4 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 341 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 356 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+NOTIC: [8] Undefined variable: keyword /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 446 行.
+SQL: SHOW COLUMNS FROM `think_link` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `think_link` WHERE ( status=1 ) LIMIT 3   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2017-12-26T22:11:24+08:00 ] 192.168.35.197 /shop2/Home/Index/getHotGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0419s ]
+SQL: SELECT group_concat(id) id FROM `think_goods_types` WHERE `pid` = 1  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Home/Controller/IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `think_goods` WHERE `tid` IN ('11','12','13') AND `status` = 2 ORDER BY buynum desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0003s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 18 )  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 8 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 64 )  [ RunTime:0.0003s ]
+
+[ 2017-12-26T22:11:26+08:00 ] 192.168.35.197 /shop2/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `think_user_detail` [ RunTime:0.0004s ]
+SQL: SELECT `pic`,`uid`,`name` FROM `think_user_detail` WHERE ( uid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0004s ]
+SQL: SELECT `pid`,`id`,`name` FROM `think_goods_types` WHERE `pid` IN (1,2,3)  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`saletime` FROM `think_goods` WHERE ( status= 4 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 341 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 356 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+NOTIC: [8] Undefined variable: keyword /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 446 行.
+SQL: SHOW COLUMNS FROM `think_link` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_link` WHERE ( status=1 ) LIMIT 3   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-12-26T22:11:28+08:00 ] 192.168.35.197 /shop2/Home/Index/getSonType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name` FROM `think_goods_types` WHERE `pid` = 5  [ RunTime:0.0003s ]
+
+[ 2017-12-26T22:11:28+08:00 ] 192.168.35.197 /shop2/Home/Index/getSonType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`name` FROM `think_goods_types` WHERE `pid` = 6  [ RunTime:0.0006s ]
+
+[ 2017-12-26T22:11:28+08:00 ] 192.168.35.197 /shop2/Home/Index/getSonType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `think_goods_types` WHERE `pid` = 8  [ RunTime:0.0001s ]
+
+[ 2017-12-26T22:11:28+08:00 ] 192.168.35.197 /shop2/Home/Index/getSonType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `think_goods_types` WHERE `pid` = 10  [ RunTime:0.0001s ]
+
+[ 2017-12-26T22:11:29+08:00 ] 192.168.35.197 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/2017-12-26+22%3A11%3A00.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0356s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 125 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 140 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 142 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 148 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2017-12-26T22:11:30+08:00 ] 192.168.35.197 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/load
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0435s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0010s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001921s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001962s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 125 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 140 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 142 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 148 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-12-26T22:11:30+08:00 ] 192.168.35.197 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/js/livereload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0027s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0005s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 125 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 140 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 142 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 148 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-12-26T22:11:30+08:00 ] 192.168.35.197 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/shop.html?callback=jQuery211008653634427383672_1514297487666&_=1514297487667
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0270s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 125 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 140 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 142 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 148 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-12-26T22:11:30+08:00 ] 192.168.35.197 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/ajax/mgj.pc.detailinfo/v1?_ajax=1&itemId=1fxighu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0003s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0046s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 125 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 140 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 142 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 148 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-12-26T22:12:38+08:00 ] 192.168.35.209 /shop2/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `think_photos` [ RunTime:0.0004s ]
+SQL: SELECT `pic`,`link` FROM `think_photos` WHERE `role` = 2 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pic`,`link` FROM `think_photos` WHERE `role` = 1 AND `status` = 1 LIMIT 4   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `think_goods_types` WHERE ( pid=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `pid`,`id`,`name` FROM `think_goods_types` WHERE `pid` IN (1,2,3)  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`saletime` FROM `think_goods` WHERE ( status= 4 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: datai /usr/local/apache2/htdocs/shop2/Application/Home/Controller/IndexController.class.php 第 123 行.
+NOTIC: [8] Undefined variable: datai /usr/local/apache2/htdocs/shop2/Application/Home/Controller/IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Home/Controller/IndexController.class.php 第 125 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined variable: keyword /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 446 行.
+SQL: SHOW COLUMNS FROM `think_link` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_link` WHERE ( status=1 ) LIMIT 3   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-12-26T22:12:48+08:00 ] 192.168.35.209 /shop2/Home/Index/getSonType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `think_goods_types` WHERE `pid` = 8  [ RunTime:0.0002s ]
+
+[ 2017-12-26T22:12:49+08:00 ] 192.168.35.209 /shop2/Home/Index/getHotGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0008s ]
+SQL: SELECT group_concat(id) id FROM `think_goods_types` WHERE `pid` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Home/Controller/IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `think_goods` WHERE `tid` IN ('11','12','13') AND `status` = 2 ORDER BY buynum desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0005s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 18 )  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 8 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 64 )  [ RunTime:0.0003s ]
+
+[ 2017-12-26T22:12:50+08:00 ] 192.168.35.209 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/2017-12-26+22%3A13%3A00.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0111s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0005s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-12-26T22:12:54+08:00 ] 192.168.35.209 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/load
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.3903s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0003s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-12-26T22:12:54+08:00 ] 192.168.35.209 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/js/livereload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0031s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0005s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2017-12-26T22:12:54+08:00 ] 192.168.35.209 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/shop.html?callback=jQuery211034357736586864807_1514297570635&_=1514297570636
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0301s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-12-26T22:12:54+08:00 ] 192.168.35.209 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/ajax/mgj.pc.detailinfo/v1?_ajax=1&itemId=1fxighu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0523s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0003s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2017-12-26T22:13:04+08:00 ] 192.168.35.209 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/2017-12-26+22%3A13%3A00.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0009s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0269s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000621s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000669s ]
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-12-26T22:13:04+08:00 ] 192.168.35.209 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/load
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0024s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2017-12-26T22:13:05+08:00 ] 192.168.35.209 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/js/livereload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.3111s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0006s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000514s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000575s ]
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003501s ]
+
+[ 2017-12-26T22:13:05+08:00 ] 192.168.35.209 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/shop.html?callback=jQuery21104229577981538588_1514297582709&_=1514297582710
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0026s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0005s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2017-12-26T22:13:05+08:00 ] 192.168.35.209 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/ajax/mgj.pc.detailinfo/v1?_ajax=1&itemId=1fxighu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0517s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-12-26T22:13:09+08:00 ] 192.168.35.209 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/2017-12-26+22%3A13%3A00.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0054s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000433s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-12-26T22:13:09+08:00 ] 192.168.35.209 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/load
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0048s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2017-12-26T22:13:09+08:00 ] 192.168.35.209 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/js/livereload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003891s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0026s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0007s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000375s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2017-12-26T22:13:10+08:00 ] 192.168.35.209 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/shop.html?callback=jQuery211011454186233047259_1514297587316&_=1514297587317
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0003s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.7897s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-12-26T22:13:10+08:00 ] 192.168.35.209 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/ajax/mgj.pc.detailinfo/v1?_ajax=1&itemId=1fxighu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.1334s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2017-12-26T22:13:36+08:00 ] 192.168.35.209 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/2017-12-26+22%3A13%3A00.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0155s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0003s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2017-12-26T22:14:42+08:00 ] 192.168.35.209 /shop2/Home/Index/getHotGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0004s ]
+SQL: SELECT group_concat(id) id FROM `think_goods_types` WHERE `pid` = 3  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Home/Controller/IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `think_goods` WHERE `tid` IN ('17','18','19','20','61') AND `status` = 2 ORDER BY buynum desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 30 )  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 35 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 47 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 47 )  [ RunTime:0.0005s ]
+
+[ 2017-12-26T22:14:43+08:00 ] 192.168.35.209 /shop2/Home/Index/getHotGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0004s ]
+SQL: SELECT group_concat(id) id FROM `think_goods_types` WHERE `pid` = 2  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Home/Controller/IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `think_goods` WHERE `tid` IN ('14','15','16') AND `status` = 2 ORDER BY buynum desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0003s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 34 )  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 31 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 32 )  [ RunTime:0.0003s ]
+
+[ 2017-12-26T22:14:44+08:00 ] 192.168.35.209 /shop2/Home/Index/getHotGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0005s ]
+SQL: SELECT group_concat(id) id FROM `think_goods_types` WHERE `pid` = 1  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Home/Controller/IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `think_goods` WHERE `tid` IN ('11','12','13') AND `status` = 2 ORDER BY buynum desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0002s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 18 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 8 )  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 64 )  [ RunTime:0.0003s ]
+
+[ 2017-12-26T23:26:33+08:00 ] 192.168.35.197 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/2017-12-26+22%3A11%3A00.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0005s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0450s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0005s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0216s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 125 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 140 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 142 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 148 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.242052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.242129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002332s ]
+
+[ 2017-12-26T23:26:34+08:00 ] 192.168.35.197 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/load
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0036s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 125 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 140 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 142 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 148 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-12-26T23:26:34+08:00 ] 192.168.35.197 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/shop.html?callback=jQuery211013419954327467454_1514301992006&_=1514301992007
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.2690s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0007s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 125 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 140 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 142 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 148 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-12-26T23:26:35+08:00 ] 192.168.35.197 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/js/livereload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0004s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0026s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000923s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001024s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 125 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 140 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 142 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 148 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-12-26T23:26:35+08:00 ] 192.168.35.197 /shop2/Home/Goods/showwSalesDetailView/id/2/saletime/ajax/mgj.pc.detailinfo/v1?_ajax=1&itemId=1fxighu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0006s ]
+SQL: UPDATE `think_goods` SET `clicknum`=clicknum+1 WHERE ( id=2 ) [ RunTime:0.0032s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php on line 146 and defined /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /usr/local/apache2/htdocs/shop2/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0005s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id =2 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /usr/local/apache2/htdocs/shop2/Application/Home/Controller/GoodsController.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000432s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000489s ]
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 125 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 140 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 142 行.
+NOTIC: [8] Undefined variable: logout /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 148 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 207 行.
+NOTIC: [8] Undefined variable: ad /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/468925f6fa986453167b1dbb65effb4a.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2017-12-26T23:34:33+08:00 ] 192.168.35.209 /shop2/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `think_photos` [ RunTime:0.0004s ]
+SQL: SELECT `pic`,`link` FROM `think_photos` WHERE `role` = 2 AND `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `pic`,`link` FROM `think_photos` WHERE `role` = 1 AND `status` = 1 LIMIT 4   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name` FROM `think_goods_types` WHERE ( pid=0 )  [ RunTime:0.0009s ]
+SQL: SELECT `pid`,`id`,`name` FROM `think_goods_types` WHERE `pid` IN (1,2,3)  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_systems` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_systems` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`saletime` FROM `think_goods` WHERE ( status= 4 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: datai /usr/local/apache2/htdocs/shop2/Application/Home/Controller/IndexController.class.php 第 123 行.
+NOTIC: [8] Undefined variable: datai /usr/local/apache2/htdocs/shop2/Application/Home/Controller/IndexController.class.php 第 124 行.
+NOTIC: [8] Undefined variable: account /usr/local/apache2/htdocs/shop2/Application/Home/Controller/IndexController.class.php 第 125 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8] Undefined variable: keyword /usr/local/apache2/htdocs/shop2/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 446 行.
+SQL: SHOW COLUMNS FROM `think_link` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_link` WHERE ( status=1 ) LIMIT 3   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2017-12-26T23:34:35+08:00 ] 192.168.35.209 /shop2/Home/Index/getHotGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0007s ]
+SQL: SELECT group_concat(id) id FROM `think_goods_types` WHERE `pid` = 2  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Home/Controller/IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `think_goods` WHERE `tid` IN ('14','15','16') AND `status` = 2 ORDER BY buynum desc LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0005s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 34 )  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 31 )  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 32 )  [ RunTime:0.0007s ]
+
+[ 2017-12-26T23:34:36+08:00 ] 192.168.35.209 /shop2/Home/Index/getHotGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0003s ]
+SQL: SELECT group_concat(id) id FROM `think_goods_types` WHERE `pid` = 1  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Home/Controller/IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `think_goods` WHERE `tid` IN ('11','12','13') AND `status` = 2 ORDER BY buynum desc LIMIT 3   [ RunTime:0.0016s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0004s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 18 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 8 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 64 )  [ RunTime:0.0002s ]
+
+[ 2017-12-26T23:34:37+08:00 ] 192.168.35.209 /shop2/Home/Index/getHotGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `think_goods_types` [ RunTime:0.0009s ]
+SQL: SELECT group_concat(id) id FROM `think_goods_types` WHERE `pid` = 3  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/local/apache2/htdocs/shop2/Application/Home/Controller/IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `think_goods` WHERE `tid` IN ('17','18','19','20','61') AND `status` = 2 ORDER BY buynum desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_goods_color` [ RunTime:0.0007s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 30 )  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 35 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 35 )  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`price`,`pic`,`buynum` FROM `think_goods` WHERE `id` = 47 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT c.id,c.color,s.size,s.num,g.price FROM think_goods_color c INNER JOIN think_goods_size s on s.cid = c.id INNER JOIN think_goods g on g.id = c.gid  WHERE ( g.id = 47 )  [ RunTime:0.0016s ]
+

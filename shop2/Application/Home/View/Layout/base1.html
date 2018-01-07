@@ -1,0 +1,75 @@
+<div class="settings">
+    <div class="pcenter_navBar">
+        <div class="pcenter_userhead">
+            <div class="pcenter_userhead_content"> 
+                <div class="header_info">
+                    <div class="header_avatar">
+                        <a href="setAvatar.html#">
+                            <img style="width: 100%" src="http://s2.mogucdn.com/new1/v1/bdefaultavatar/03.jpg" alt="">
+                            <p>修改头像</p>
+                            <div class="header_info_mask"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="username">阿猫来了</div> 
+            </div>
+        </div>
+        <ul class="pcenter_navBar_ul"> 
+            <li>
+                <a class="menu_order disable-a">我的订单</a>
+                <ul>
+                    <li><a class="" href="{:U('Person/showOrderView')}">全部订单</a></li>
+                    <li><a class="" href="{:U('Person/noPay')}">待付款</a></li>
+                    <li><a class="" href="{:U('Person/daiShouHuo')}" target="_blank">待收货</a></li>
+                    <li><a class="" href="order_received.html#" target="_blank">待评价</a></li>
+                    <li><a class="" href="order_DELETED.html#" target="_blank">退款退货</a></li>
+                    <li><a class="" href="order_DELETED.html#" target="_blank">订单回收站</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="disable-a ">优惠特权</a>
+                <ul>
+                    <li><a class="menu_coupon_plat" href="{:U('Person/showScoreView')}">积分管理</a></li>
+                    <!-- <li><a class="menu_coupon_shop" href="coupon.html#?pages=1&coupon_type=2&status=0">店铺优惠券</a></li> -->
+                    <li><a class="menu_vip"  target="_blank">会员特权</a></li>
+                </ul>
+            </li>
+            <li>
+              <a class="menu_order menu_footprint" href="footprint.html">我的足迹
+                <em class="little-triangle"></em>
+                <em class="little-triangle-hover"></em>
+              </a>
+            </li>
+            <li>
+              <a class="menu_order" href="{:U('Person/address')}">地址管理
+                <em class="little-triangle"></em>
+                <em class="little-triangle-hover"></em>
+              </a>
+            </li>
+            <li>
+              <a class="disable-a">账号管理</a>
+              <ul>
+                <li>
+                  <a class="menu_setPersonal" href="{:U('Person/setPersonal')}">我的信息</a></li>
+                <li>
+                  <a class="menu_setAvatar" href="{:U('Person/setAvatar')}">个人头像</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="disable-a">安全中心</a>
+              <ul>
+                <li>
+                  <a class="menu_setPassword" href="{:U('Person/setPassword')}">用户密码</a></li>
+                <li>
+                  <a class="menu_payPassword">支付密码</a></li>
+                <li>
+                  <a class="menu_bindmail" href="{:U('Person/changeMail')}">邮箱绑定</a></li>
+                <li>
+                  <a class="menu_loginEqm" >登录设备</a></li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+<!--     <block name="cont">
+    </block>
+</div> -->

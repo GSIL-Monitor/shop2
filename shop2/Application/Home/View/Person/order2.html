@@ -1,0 +1,203 @@
+<extend name="Layout/base2"/>
+    <title>    
+        <block name="title">订单列表_美丽说</block>
+    </title>
+    <block name="css">
+    <meta http-equiv="Cache-Control" content="no-transform " />
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml"/>
+    <link rel="icon" href="__PUBLIC__/Home/p1/160614/idid_ifrtgzddgm3dmnjshezdambqhayde_49x48.png" type="image/x-icon"/>
+    <link href="__PUBLIC__/Home/css/index.css-63e7a9a6.css" rel="stylesheet" type="text/css"/>
+    <link href="__PUBLIC__/Home/css/index.css-6b668861.css" rel="stylesheet" type="text/css"/>
+    </block>
+      <block name="js">
+    <script type="text/javascript" src="__PUBLIC__/Home/js/pkg-pc-base.js-beb518b8.js"></script>
+
+</block>
+
+ <block name="content">
+
+        <div class="settings_box">
+            <div class="order-title">
+                <ul class="order-title-column clearfix">
+                    <li class="goods">商品</li>
+                    <li class="price">单价(元)</li>
+                    <li class="quantity">数量</li>
+                    <li class="aftersale">售后</li>
+                    <li class="total">实付款(元)</li>
+                    <li class="status">交易状态</li>
+                    <li class="other">操作</li>
+                </ul>
+        </div>
+
+    <div id="orderWrap"><!-- 有订单 --><!-- 回收站 -->
+        <div class="order-list">  <!--订单class 未支付 order-section unpaid //未确认 order-section unconfirmed 完成 order-section finished --> 
+            <div class="order-section finished" data-payid="73640514121518"> 
+                <table class="order-table"> 
+                    <foreach name="orderInfo" item="vo">
+                    <tbody>  <!-- shop头部 --> 
+
+
+                        <tr class="order-table-header"> 
+                            <td colspan="7"> 
+                                <div class="order-info fl">
+                                    <span class="no"> 订单编号： 
+                                        <span class="order_num">{$vo.id}</span> 
+                                    </span> 
+                                    <span class="deal-time"> {$vo.addtime} </span>  
+                                    <a class="shop-name" target="_blank"> 店铺：
+                                         <span>时尚，前沿</span> 
+                                    </a>  
+                                </div>  
+                                <a href="javascript:;" class="mlstalk_widget_btn" data-shopid="14r7e"> 联系商家 </a> 
+                            </td> 
+                        </tr>
+
+                    <?php
+                        $role = M('user_discount')->where(['role' => $_SESSION['user:data']['role']])->getField('discount');
+                        $detail = M('order_detail')->where(['oid' => $vo['id']])->select();
+
+                        for ($i=0; $i<count($detail); $i++) {
+
+                            if ($i == 2) {
+                                continue;
+                            }
+                     ?>
+                        <tr class="order-table-item last"> 
+                            <td class="goods"> 
+                                <a class="pic" href="javascript:;" title="查看宝贝详情" hidefocus="true" target="_blank"> 
+                                    <img src="__PUBLIC__/Uploads/{$detail[$i]['pic']}" alt="查看宝贝详情" width="70"> 
+                                </a> 
+                                <div class="desc"> 
+                                    <p> <a href="javascript:;" target="_blank">{$detail[$i]['name']}</a></p>    
+                                    <p>颜色：{$detail[$i]['color']}</p>    
+                                    <p>尺码：{$detail[$i]['size']}</p>
+                                </div> 
+                            </td> 
+                            <td class="price">  
+
+                                <p>{$detail[$i]['price']}</p> 
+                            </td> 
+                            <td class="quantity">1</td> 
+                            <td class="aftersale"> </td>
+                            <td class="total" rowspan="1">   
+                                <p class="total-price" data="22">￥<?=number_format($detail[$i]['price']*$role, 2, '.', '')?></p>   
+                                <p>(全国包邮)</p>    
+                            </td> 
+                            <td class="status" rowspan="1">  
+                                <p> 
+
+                                <if condition="$vo['status'] eq 1"> 待支付
+                                <elseif condition="$vo['status'] eq 2"/> 代发货
+                                <elseif condition="$vo['status'] eq 3"/> 待收货
+                                <elseif condition="$vo['status'] eq 4"/> 待评价
+                                <elseif condition="$vo['status'] eq 5"/> 已过期
+                                <else />已完成</if>
+
+                                </p>   
+
+                                <if condition="$vo['status'] eq 3">
+                                    <div onclick="consignee(this, {$vo.id})" style="width:65px;height:25px;border-radius:4px;background-color:#f03;color:white;line-height:25px;margin-left:33px;cursor:pointer;margin-bottom:3px;" class="consignee">确认收货</div>
+                                <elseif condition="$vo['status'] eq 1"/> 
+                                    <div onclick="payment(this, {$vo.id})" style="width:65px;height:25px;border-radius:4px;background-color:#f03;color:white;line-height:25px;margin-left:33px;cursor:pointer;margin-bottom:3px;" class="consignee">去付款</div>
+                                <elseif condition="$vo['status'] eq 4"/> 
+                                    <a href="javascript:;" onclick="comments(this, {$vo.id})"><div style="width:65px;height:25px;border-radius:4px;background-color:#f03;color:white;line-height:25px;margin-left:33px;cursor:pointer;margin-bottom:3px;">去评价</div></a>
+                                </if>
+                                <a href="{:U('person/showOrderDetailView', ['id' => $vo['id']])}" class="order-link go-detail-link" target="_blank">订单详情</a>
+                            </td> 
+                            <td class="other" rowspan="1">
+                                <ul>
+                                    <li><a class="order-link order-remove" href="javascript:;" onclick="delOrderData(this, {$vo.id})">删除订单</a></li>  
+                                    <li></li>  
+                                </ul> 
+                            </td>  
+                        </tr>
+                    <?php } ?>
+                    </tbody> 
+                </foreach>
+
+<script src="__PUBLIC__/js/jquery-1.11.0.min.js"></script>
+<script>
+    
+    function comments(obj, id) {
+
+        $(location).attr('href', "{:U('person/showCommentsView')}?orderId="+id);
+    }
+
+    function payment(obj, id) {
+        $(location).attr('href', "{:U('Order/showDefrayView')}?orderId="+id);
+    }
+
+    function consignee(obj, id) {
+
+        $.ajax({
+            url: "{:U('person/handlerDelOrders')}",
+            data: "spot=3&id="+id,
+            type: 'post',
+            success: function (msg) {
+
+                var stat = Number($('#outer').html());
+                var status = Number($('#inner').html());
+
+                $('#outer').html(stat-1);
+                $('#inner').html(status+1);
+
+                $(obj).prev().html('待评价');
+                $(obj).after("<a href='{:U('')}'><div style='width:65px;height:25px;border-radius:4px;background-color:#f03;color:white;line-height:25px;margin-left:33px;cursor:pointer;margin-bottom:3px;'>去评价</div>").css('display', 'none');
+            },
+            dataType: 'json'
+        });
+    }
+
+    function delOrderData(obj, id) {
+
+        $.ajax({
+            url: "{:U('person/handlerDelOrders')}",
+            data: "spot=1&id="+id,
+            type: 'post',
+            success: function (msg) {
+
+                if (msg.code == 1200) {
+
+                    $(obj).parents("tbody").remove();
+                }
+            },
+            dataType: 'json'
+        });
+    }
+
+    window.onload = function() { 
+        for (var i=0; i<$('tbody').length; i++) {
+
+            if ($('tbody').eq(i).find('.status').length >1) {
+
+                $('tbody').eq(i).find('.status').eq(1).html('');
+                $('tbody').eq(i).find('.other').eq(1).html('');
+            }
+        }
+    }; 
+</script>
+</script>
+                </table> 
+            </div> 
+        </div>
+        <!-- 翻页 -->
+        <div id="paginator-list"></div>
+    </div>
+        </div>
+
+    <div class="pagination">
+    　　<ul>
+            <li>{$btn}</li>
+        </ul>
+    </div>
+
+</div>
+</block>
+
+<block name="js"> 
+
+</block>
+

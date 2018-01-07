@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- saved from url=(0033)http://www.meilishuo.com/pc404.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!--meta http-equiv="Refresh" content="5;url=/guang"-->
+<title>出错了 - 美丽说</title>
+<style type="text/css">
+	* {
+		padding: 0;
+		margin: 0;
+	}
+    #showError {
+        text-align: center;
+        padding-top: 100px;
+        cursor: pointer;
+    }
+    #note {
+    	color: #dedede;
+    	font-size: 18px;
+    	padding-top: 20px;
+    }
+    #errorImg {
+    	background:url('http://s16.mogucdn.com/p1/160819/idid_ifqwmmjvgm3daojxmezdambqgyyde_381x404.png');
+    	width: 180px;
+    	height: 203px;
+    	margin:auto;
+    	background-size:cover;
+    }
+	body{
+	    background-color:#ffffff;
+	}
+</style>
+
+<div id="showError" onclick="window.location.reload()">
+        <p id="errorImg"></p>
+        <p id="note">美丽说系统维护中，请稍后刷新重试</p>
+</div>
